@@ -1,0 +1,16 @@
+{
+  "updated_utc": "2026-11-16T04:51:49.118677+00:00",
+  "unit_and_integration_tests": {
+    "passed": 7,
+    "command": "PYTHONPATH=src HF_HOME=envs/huggingface envs/local/bin/python -m unittest discover -s tests -v"
+  },
+  "cpu_preflight": "results/preflight_cpu.json",
+  "full_model_cpu_preflight": "results/preflight_full_cpu.json",
+  "native_symmetry_diagnostic": "results/symmetry_native.json",
+  "real_data_smoke": "runs/smoke_cpu",
+  "source_and_data_sha256": "results/source_and_data_verification.txt",
+  "gpu_verified": false,
+  "remote_uploaded": false,
+  "slurm_jobs": [],
+  "formal_results": false
+}

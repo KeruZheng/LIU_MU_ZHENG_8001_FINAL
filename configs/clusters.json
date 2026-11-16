@@ -1,0 +1,32 @@
+{
+  "sicc": {
+    "host": "YOUR_USER@YOUR_CLUSTER_HOST",
+    "ssh_options": [
+      "-o",
+      "StrictHostKeyChecking=yes"
+    ],
+    "root": "/data/YOUR_GROUP/YOUR_USER/robotic",
+    "group": "YOUR_GROUP",
+    "partition": "a100_batch",
+    "account": "YOUR_ACCOUNT",
+    "qos": "normal",
+    "cpus": 8,
+    "memory": "40G",
+    "status": "example_requires_configuration"
+  },
+  "legacy": {
+    "host": "YOUR_USER@YOUR_CLUSTER_HOST",
+    "ssh_options": [
+      "-o",
+      "StrictHostKeyChecking=yes"
+    ],
+    "root": "/home/YOUR_USER/robotic",
+    "group": null,
+    "partition": "gbunchQ2",
+    "account": null,
+    "qos": null,
+    "cpus": 8,
+    "memory": "40G",
+    "status": "example_requires_configuration"
+  }
+}

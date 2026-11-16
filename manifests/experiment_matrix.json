@@ -1,0 +1,113 @@
+{
+  "formal_ready": false,
+  "runs": [
+    {
+      "method": "dp",
+      "demos": 50,
+      "seed": 0,
+      "status": "blocked_protocol_and_gpu_calibration"
+    },
+    {
+      "method": "dp_c4_aug",
+      "demos": 50,
+      "seed": 0,
+      "status": "blocked_protocol_and_gpu_calibration"
+    },
+    {
+      "method": "equidiff_c4_or_frameavg_pending",
+      "demos": 50,
+      "seed": 0,
+      "status": "blocked_protocol_and_gpu_calibration"
+    },
+    {
+      "method": "dp",
+      "demos": 50,
+      "seed": 1,
+      "status": "blocked_protocol_and_gpu_calibration"
+    },
+    {
+      "method": "dp_c4_aug",
+      "demos": 50,
+      "seed": 1,
+      "status": "blocked_protocol_and_gpu_calibration"
+    },
+    {
+      "method": "equidiff_c4_or_frameavg_pending",
+      "demos": 50,
+      "seed": 1,
+      "status": "blocked_protocol_and_gpu_calibration"
+    },
+    {
+      "method": "dp",
+      "demos": 50,
+      "seed": 2,
+      "status": "blocked_protocol_and_gpu_calibration"
+    },
+    {
+      "method": "dp_c4_aug",
+      "demos": 50,
+      "seed": 2,
+      "status": "blocked_protocol_and_gpu_calibration"
+    },
+    {
+      "method": "equidiff_c4_or_frameavg_pending",
+      "demos": 50,
+      "seed": 2,
+      "status": "blocked_protocol_and_gpu_calibration"
+    },
+    {
+      "method": "dp",
+      "demos": 200,
+      "seed": 0,
+      "status": "blocked_protocol_and_gpu_calibration"
+    },
+    {
+      "method": "dp_c4_aug",
+      "demos": 200,
+      "seed": 0,
+      "status": "blocked_protocol_and_gpu_calibration"
+    },
+    {
+      "method": "equidiff_c4_or_frameavg_pending",
+      "demos": 200,
+      "seed": 0,
+      "status": "blocked_protocol_and_gpu_calibration"
+    },
+    {
+      "method": "dp",
+      "demos": 200,
+      "seed": 1,
+      "status": "blocked_protocol_and_gpu_calibration"
+    },
+    {
+      "method": "dp_c4_aug",
+      "demos": 200,
+      "seed": 1,
+      "status": "blocked_protocol_and_gpu_calibration"
+    },
+    {
+      "method": "equidiff_c4_or_frameavg_pending",
+      "demos": 200,
+      "seed": 1,
+      "status": "blocked_protocol_and_gpu_calibration"
+    },
+    {
+      "method": "dp",
+      "demos": 200,
+      "seed": 2,
+      "status": "blocked_protocol_and_gpu_calibration"
+    },
+    {
+      "method": "dp_c4_aug",
+      "demos": 200,
+      "seed": 2,
+      "status": "blocked_protocol_and_gpu_calibration"
+    },
+    {
+      "method": "equidiff_c4_or_frameavg_pending",
+      "demos": 200,
+      "seed": 2,
+      "status": "blocked_protocol_and_gpu_calibration"
+    }
+  ]
+}

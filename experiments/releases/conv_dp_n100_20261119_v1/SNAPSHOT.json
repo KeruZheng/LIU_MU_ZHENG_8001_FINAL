@@ -1,0 +1,33 @@
+{
+  "release": "conv_dp_n100_20261119_v1",
+  "original_frozen_manifest_sha256": "ae185417486e3bf357da574338d36cd8a6095ebe899b3527b05a8cb376762d38",
+  "files": {
+    "src/pusht_study/__init__.py": "7af6bba97bee4f635da0b7148dc3a14e77604be2a54d8f90ceb2f17b9d6f1203",
+    "src/pusht_study/data.py": "2b6762d4014117153e62f4bf2e2957dac19e973378a0585a409b4dd218249337",
+    "src/pusht_study/env.py": "936c9a048cb7e903b6d59c36e43fbf1f1719d84f139abb9b43ce94ec0cc0a0c5",
+    "src/pusht_study/env_c4.py": "1fcdc3ecc7d828a37de61c7b115811a119f00eeef6e31bbc691296481e64064d",
+    "src/pusht_study/equidiff.py": "aa1d236907ff65a78a9506b9d5f87278c552419d33a418b9257c01dbb731ecdf",
+    "src/pusht_study/evaluate.py": "cb4e7d9570f2ced5eff0909cc93b2e9fbaf83b2d151c510ea514e13cca45b232",
+    "src/pusht_study/evaluate_c4.py": "0eb68890a0f7d7268a61aa1688f5550b556b48b764636aa1290ab34bc32d8a6a",
+    "src/pusht_study/geometry.py": "f54cc70c92833fea7ef271d5762e8f57c2ebe80762b6bffcc261d88f63ff76e6",
+    "src/pusht_study/models.py": "ae1ac423d71b9dbb23f39c07d931300fe750acd5507fc5d8602f9a0f7ef09b56",
+    "src/pusht_study/statistics.py": "849ed4d93410a99bab9dacd9c706beb5e351840a5531505e5fb3af8fcaed58ff",
+    "src/pusht_study/train.py": "d79c7971fd877130d5f2e6c7e4d6d987ffd1791a717eca47bd5302ab36ad8727",
+    "scripts/validate_c4.py": "c49f79bd1af32fd419c003a97b8ea98b64415fd4b27fe1a7ae03ece653b00f69",
+    "configs/dp_n100_s0_20000.json": "4d7366d2b820eb5d35698db2e3b7add5e769068575e899514c211b695b519d18",
+    "configs/dp_n100_s0_40000.json": "3a59dbbccc41ea85e2c63b83fa132c389b5ead5ad0d76433152bc68c824daa5d",
+    "configs/dp_n100_s0_60000.json": "60465e2370f08e2651f585862cb0ea1be17c08edf4997a450488dc565097817a",
+    "configs/dp_n100_s1_20000.json": "150f3e718a8dd24ed76be152a5c9068d17546f6478c206049ddc2c0897207ad5",
+    "configs/dp_n100_s1_40000.json": "7fc9029f9cdc2b0ecdae3ad85f80900a3fcbd50db9db816b6de665c76443e814",
+    "configs/dp_n100_s1_60000.json": "b438f189b39999f48a5a3b2e25876b5458f0d08c8c2b7623569d1e239a0ad4f5",
+    "configs/dp_n100_s2_20000.json": "3bd3775b4018b21d30242cd1ccb4c6bd7a2e3d21745a39f1e9e8c99a8f5ad922",
+    "configs/dp_n100_s2_40000.json": "35e06d9c7485ccb4a55f7c8bcb2db4e2459a9768ce50924d661811d939e1fd19",
+    "configs/dp_n100_s2_60000.json": "b96c54b33ebbecd792820e4dc7e04ccbba002801d03177ff3beb5c5e90a4012a",
+    "manifests/data.json": "a81f05cdfda082f3a4b159b56d25805002b4380bd28df51921abc2e7602eebe6",
+    "manifests/evaluation_seeds.json": "42c3731f7afbdbc4d2ee6af90f3957f9c4aac20669005d38e0b1504dfcd6aa55",
+    "manifests/lane.json": "ef6fd5b3858b4c030e0b2e7801a6be256a184ff5b56d831df5a3a525a1031ae0",
+    "manifests/split.json": "8a9eb34ea19831013b77e3a582b7601afe446ca369f9bb8d45ea492fb9ff811b",
+    "manifests/upstream.json": "49796844feca5be102b123cc272bb13a7f9436df383f7db23054fa14aa3721af"
+  },
+  "scope": "Exact scientific files; machine-specific queues, environments and logs omitted"
+}

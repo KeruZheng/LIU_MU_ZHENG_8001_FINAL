@@ -1,0 +1,17 @@
+{
+  "task": "rq2_exact_aug",
+  "releases": [
+    "c8_ablation_20261118_v1",
+    "c4_main_20261118_v1"
+  ],
+  "owned_releases": [
+    "c8_ablation_20261118_v1"
+  ],
+  "shared_releases": [
+    "c4_main_20261118_v1"
+  ],
+  "evidence_index": "results/run_index.json",
+  "shareable_report": "reports/latest.json",
+  "unimplemented": [],
+  "published_report": "reports/submission_20261119.json"
+}

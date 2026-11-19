@@ -33,7 +33,9 @@ def evaluate(checkpoint, output, device="cuda", episodes=2, max_steps=30, seed_s
         raise ValueError("episodes and max_steps must be positive")
     state = torch.load(checkpoint, map_location="cpu", weights_only=False)
     config = state["config"]
-    if config["rotated"]:
+    # A checkpoint trained with balanced base orientations can still be evaluated on
+    # the original canonical environment; native rotated evaluation is a separate protocol.
+    if config.get("rotated", False) and config.get("native_rotated_eval", False):
         raise ValueError("Native rotated evaluation is not yet validated")
     torch.set_num_threads(config.get("cpu_threads", 4))
     model = make_model(config).to(device).eval()

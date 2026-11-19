@@ -1,0 +1,14 @@
+{
+  "runs": [
+    "dp_n50_s0",
+    "dp_n50_s1",
+    "dp_n50_s2"
+  ],
+  "milestones": [
+    20000,
+    40000,
+    60000
+  ],
+  "initialization": "fresh; independent learning curve under one runtime; do not pool with primary matrix",
+  "validation": "25 fixed base seeds 900000..900024 x four orientations; no reserved test evaluation"
+}

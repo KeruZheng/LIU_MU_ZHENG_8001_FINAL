@@ -1,0 +1,101 @@
+{
+  "sha": "e40abb003b25071d4e5b01bfa9933dc16cd32c67",
+  "node_id": "C_kwDONAQfe9oAKGU0MGFiYjAwM2IyNTA3MWQ0ZTViMDFiZmE5OTMzZGMxNmNkMzJjNjc",
+  "commit": {
+    "author": {
+      "name": "Dian Wang",
+      "email": "wangdian1007@gmail.com",
+      "date": "2025-02-13T01:16:11Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2025-02-13T01:16:11Z"
+    },
+    "message": "Update README.md",
+    "tree": {
+      "sha": "8307b7b9f4eead0abd29e0add7199e7055781291",
+      "url": "https://api.github.com/repos/pointW/equidiff/git/trees/8307b7b9f4eead0abd29e0add7199e7055781291"
+    },
+    "url": "https://api.github.com/repos/pointW/equidiff/git/commits/e40abb003b25071d4e5b01bfa9933dc16cd32c67",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnrUfbCRC1aQ7uu5UhlAAAjp0QABrQ9XhUdj0jbl4tll0DpsS6\nGhievNtujy3jY6YOGLL35Jbt9Bz26Ij5vcSFloGr88ke5hYruBKN3XPPWxLhKTX6\njUBC64nnACGLtAVZNS4c3Ge6rU1JHdCQlgb37jlIZcKpxgDJyL01KgYRKYnYFlvU\nGZSTPOTfKcNSr4mf9FcO5qTYfhyj7u2VD5+IfpxMiohlh/4zDknVQ7/Q8EpjOK5f\nFjPTfFTrpprxHwhMEkX9/7o+U2yeg6GIHsDOSFv0+nmL6KtZepxofBSapwfOmTbn\nYevKC9Uh5woxO7esz3ntPljZHxq4cwHt53uLYrh6FguY7ZESj9Eg2xl3bOi062cc\nVK8mqxiYZunCKHF4AYmTYconBcHO12M3AqRPjdZdQMBTy18LeGsqHZxfFeFo7aqE\n1lrlsiSswzJsmIqslAV1Vp33mdsi6sPkEt8xWa0zA+iHTCdby2ypBdnWf+UdWGO9\n9VOHmV7PIixvEeLsXzMmc/1ePenYWhJKZYaI9oGgnaRQ5Kxo2CK0w8QMLN++8aJY\nE2VTvEFdDWZ9fqHDdQ4YHoetFEi6HdrllM+8xN3WYVHC4BJh8qTZRzjlUSQRN3rr\nDLY9N9AIHo5IFxfhvqPowqqESxq5MrvlBcmbelXYTpwZDT6zoCLUl1S6xUNoqjBd\ne/GqfvSVWe1PKNMq/fnS\n=8PI0\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 8307b7b9f4eead0abd29e0add7199e7055781291\nparent 520fb38337333f481bd11c9595d125c792a48a4e\nauthor Dian Wang <wangdian1007@gmail.com> 1739409371 -0500\ncommitter GitHub <noreply@github.com> 1739409371 -0500\n\nUpdate README.md",
+      "verified_at": "2025-02-13T01:21:13Z"
+    }
+  },
+  "url": "https://api.github.com/repos/pointW/equidiff/commits/e40abb003b25071d4e5b01bfa9933dc16cd32c67",
+  "html_url": "https://github.com/pointW/equidiff/commit/e40abb003b25071d4e5b01bfa9933dc16cd32c67",
+  "comments_url": "https://api.github.com/repos/pointW/equidiff/commits/e40abb003b25071d4e5b01bfa9933dc16cd32c67/comments",
+  "author": {
+    "login": "pointW",
+    "id": 11504608,
+    "node_id": "MDQ6VXNlcjExNTA0NjA4",
+    "avatar_url": "https://avatars.githubusercontent.com/u/11504608?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/pointW",
+    "html_url": "https://github.com/pointW",
+    "followers_url": "https://api.github.com/users/pointW/followers",
+    "following_url": "https://api.github.com/users/pointW/following{/other_user}",
+    "gists_url": "https://api.github.com/users/pointW/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/pointW/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/pointW/subscriptions",
+    "organizations_url": "https://api.github.com/users/pointW/orgs",
+    "repos_url": "https://api.github.com/users/pointW/repos",
+    "events_url": "https://api.github.com/users/pointW/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/pointW/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "520fb38337333f481bd11c9595d125c792a48a4e",
+      "url": "https://api.github.com/repos/pointW/equidiff/commits/520fb38337333f481bd11c9595d125c792a48a4e",
+      "html_url": "https://github.com/pointW/equidiff/commit/520fb38337333f481bd11c9595d125c792a48a4e"
+    }
+  ],
+  "stats": {
+    "total": 9,
+    "additions": 3,
+    "deletions": 6
+  },
+  "files": [
+    {
+      "sha": "f1bafffbc399b05c5a8f533880e3c66d940920f6",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 6,
+      "changes": 9,
+      "blob_url": "https://github.com/pointW/equidiff/blob/e40abb003b25071d4e5b01bfa9933dc16cd32c67/README.md",
+      "raw_url": "https://github.com/pointW/equidiff/raw/e40abb003b25071d4e5b01bfa9933dc16cd32c67/README.md",
+      "contents_url": "https://api.github.com/repos/pointW/equidiff/contents/README.md?ref=e40abb003b25071d4e5b01bfa9933dc16cd32c67",
+      "patch": "@@ -48,12 +48,9 @@ Conference on Robot Learning 2024 (Oral)\n \n ## Dataset\n ### Download Dataset\n-```bash\n-# Download all datasets\n-python equi_diffpo/scripts/download_datasets.py --tasks stack_d1 stack_three_d1 square_d2 threading_d2 coffee_d2 three_piece_assembly_d2 hammer_cleanup_d1 mug_cleanup_d1 kitchen_d1 nut_assembly_d0 pick_place_d0 coffee_preparation_d1\n-# Alternatively, download one (or several) datasets of interest, e.g.,\n-python equi_diffpo/scripts/download_datasets.py --tasks stack_d1\n-```\n+Download dataset from MimicGen's hugging face: https://huggingface.co/datasets/amandlek/mimicgen_datasets/tree/main/core  \n+Make sure the dataset is kept under `/path/to/equidiff/data/robomimic/datasets/[dataset]/[dataset].hdf5`\n+\n ### Generating Voxel and Point Cloud Observation\n \n ```bash"
+    }
+  ]
+}

@@ -1,0 +1,725 @@
+{
+  "time": "2026-11-19T15:02:24.478572+00:00",
+  "runs": [
+    {
+      "run_id": "rq3_state_20261118_v1/fixed_state_dp_n50_s0",
+      "study": "primary",
+      "state": "complete",
+      "device": "sicc",
+      "training_step": 20000,
+      "runtime_gpu": "NVIDIA GeForce RTX 2080 Ti",
+      "torch": "2.7.1+cu128",
+      "split": "test",
+      "evidence": "tasks/rq3_symmetry_breaking/results/rq3_state_20261118_v1/runs/fixed_state_dp_n50_s0",
+      "code_snapshot": "experiments/releases/rq3_state_20261118_v1",
+      "snapshot_sha256": "621bae5e43a1aa72dfb8af20f9bf0c8c7040bd758f4f668b1646a4dfb68a32fb",
+      "scores": {
+        "16000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.7744868306048492
+        },
+        "18000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.7636545862129636
+        },
+        "20000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.768156302780632
+        }
+      }
+    },
+    {
+      "run_id": "rq3_state_20261118_v1/fixed_state_dp_n50_s1",
+      "study": "primary",
+      "state": "complete",
+      "device": "sicc",
+      "training_step": 20000,
+      "runtime_gpu": "NVIDIA GeForce RTX 2080 Ti",
+      "torch": "2.7.1+cu128",
+      "split": "test",
+      "evidence": "tasks/rq3_symmetry_breaking/results/rq3_state_20261118_v1/runs/fixed_state_dp_n50_s1",
+      "code_snapshot": "experiments/releases/rq3_state_20261118_v1",
+      "snapshot_sha256": "621bae5e43a1aa72dfb8af20f9bf0c8c7040bd758f4f668b1646a4dfb68a32fb",
+      "scores": {
+        "16000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.8244432875130879
+        },
+        "18000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.814857728798118
+        },
+        "20000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.8145341924023213
+        }
+      }
+    },
+    {
+      "run_id": "rq3_state_20261118_v1/fixed_state_dp_n50_s2",
+      "study": "primary",
+      "state": "complete",
+      "device": "sicc",
+      "training_step": 20000,
+      "runtime_gpu": "NVIDIA GeForce RTX 2080 Ti",
+      "torch": "2.7.1+cu128",
+      "split": "test",
+      "evidence": "tasks/rq3_symmetry_breaking/results/rq3_state_20261118_v1/runs/fixed_state_dp_n50_s2",
+      "code_snapshot": "experiments/releases/rq3_state_20261118_v1",
+      "snapshot_sha256": "621bae5e43a1aa72dfb8af20f9bf0c8c7040bd758f4f668b1646a4dfb68a32fb",
+      "scores": {
+        "16000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.7601391440343015
+        },
+        "18000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.7826129640887407
+        },
+        "20000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.7794463227465346
+        }
+      }
+    },
+    {
+      "run_id": "rq3_state_20261118_v1/fixed_state_equidiff_gate_n50_s0",
+      "study": "primary",
+      "state": "complete",
+      "device": "sicc",
+      "training_step": 20000,
+      "runtime_gpu": "NVIDIA GeForce RTX 2080 Ti",
+      "torch": "2.7.1+cu128",
+      "split": "test",
+      "evidence": "tasks/rq3_symmetry_breaking/results/rq3_state_20261118_v1/runs/fixed_state_equidiff_gate_n50_s0",
+      "code_snapshot": "experiments/releases/rq3_state_20261118_v1",
+      "snapshot_sha256": "621bae5e43a1aa72dfb8af20f9bf0c8c7040bd758f4f668b1646a4dfb68a32fb",
+      "scores": {
+        "16000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.6391102194277454
+        },
+        "18000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.6130155926175136
+        },
+        "20000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.638439246911794
+        }
+      }
+    },
+    {
+      "run_id": "rq3_state_20261118_v1/fixed_state_equidiff_gate_n50_s1",
+      "study": "primary",
+      "state": "complete",
+      "device": "sicc",
+      "training_step": 20000,
+      "runtime_gpu": "NVIDIA GeForce RTX 2080 Ti",
+      "torch": "2.7.1+cu128",
+      "split": "test",
+      "evidence": "tasks/rq3_symmetry_breaking/results/rq3_state_20261118_v1/runs/fixed_state_equidiff_gate_n50_s1",
+      "code_snapshot": "experiments/releases/rq3_state_20261118_v1",
+      "snapshot_sha256": "621bae5e43a1aa72dfb8af20f9bf0c8c7040bd758f4f668b1646a4dfb68a32fb",
+      "scores": {
+        "16000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.6070673641757165
+        },
+        "18000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.6315058508307907
+        },
+        "20000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.6073076210187923
+        }
+      }
+    },
+    {
+      "run_id": "rq3_state_20261118_v1/fixed_state_equidiff_gate_n50_s2",
+      "study": "primary",
+      "state": "evaluating_or_awaiting_next_milestone",
+      "device": "sicc",
+      "training_step": 20000,
+      "runtime_gpu": "NVIDIA A100-SXM4-40GB",
+      "torch": "2.7.1+cu128",
+      "split": "test",
+      "evidence": "tasks/rq3_symmetry_breaking/results/rq3_state_20261118_v1/runs/fixed_state_equidiff_gate_n50_s2",
+      "code_snapshot": "experiments/releases/rq3_state_20261118_v1",
+      "snapshot_sha256": "621bae5e43a1aa72dfb8af20f9bf0c8c7040bd758f4f668b1646a4dfb68a32fb",
+      "scores": {
+        "16000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.620549310332411
+        },
+        "18000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.5693278588706683
+        },
+        "20000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        }
+      }
+    },
+    {
+      "run_id": "rq3_state_20261118_v1/fixed_state_equidiff_goal_n50_s0",
+      "study": "primary",
+      "state": "complete",
+      "device": "sicc",
+      "training_step": 20000,
+      "runtime_gpu": "NVIDIA GeForce RTX 2080 Ti",
+      "torch": "2.7.1+cu128",
+      "split": "test",
+      "evidence": "tasks/rq3_symmetry_breaking/results/rq3_state_20261118_v1/runs/fixed_state_equidiff_goal_n50_s0",
+      "code_snapshot": "experiments/releases/rq3_state_20261118_v1",
+      "snapshot_sha256": "621bae5e43a1aa72dfb8af20f9bf0c8c7040bd758f4f668b1646a4dfb68a32fb",
+      "scores": {
+        "16000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.6414849124318508
+        },
+        "18000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.6312961118235052
+        },
+        "20000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.6608142113990043
+        }
+      }
+    },
+    {
+      "run_id": "rq3_state_20261118_v1/fixed_state_equidiff_goal_n50_s1",
+      "study": "primary",
+      "state": "complete",
+      "device": "sicc",
+      "training_step": 20000,
+      "runtime_gpu": "NVIDIA GeForce RTX 2080 Ti",
+      "torch": "2.7.1+cu128",
+      "split": "test",
+      "evidence": "tasks/rq3_symmetry_breaking/results/rq3_state_20261118_v1/runs/fixed_state_equidiff_goal_n50_s1",
+      "code_snapshot": "experiments/releases/rq3_state_20261118_v1",
+      "snapshot_sha256": "621bae5e43a1aa72dfb8af20f9bf0c8c7040bd758f4f668b1646a4dfb68a32fb",
+      "scores": {
+        "16000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.552078378744762
+        },
+        "18000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.5977371637371778
+        },
+        "20000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.5897805270106405
+        }
+      }
+    },
+    {
+      "run_id": "rq3_state_20261118_v1/fixed_state_equidiff_goal_n50_s2",
+      "study": "primary",
+      "state": "complete",
+      "device": "sicc",
+      "training_step": 20000,
+      "runtime_gpu": "NVIDIA GeForce RTX 2080 Ti",
+      "torch": "2.7.1+cu128",
+      "split": "test",
+      "evidence": "tasks/rq3_symmetry_breaking/results/rq3_state_20261118_v1/runs/fixed_state_equidiff_goal_n50_s2",
+      "code_snapshot": "experiments/releases/rq3_state_20261118_v1",
+      "snapshot_sha256": "621bae5e43a1aa72dfb8af20f9bf0c8c7040bd758f4f668b1646a4dfb68a32fb",
+      "scores": {
+        "16000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.6265507207552886
+        },
+        "18000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.6427262750617772
+        },
+        "20000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.6225456005931652
+        }
+      }
+    },
+    {
+      "run_id": "rq3_state_20261118_v1/fixed_state_equidiff_n50_s0",
+      "study": "primary",
+      "state": "complete",
+      "device": "sicc",
+      "training_step": 20000,
+      "runtime_gpu": "NVIDIA GeForce RTX 2080 Ti",
+      "torch": "2.7.1+cu128",
+      "split": "test",
+      "evidence": "tasks/rq3_symmetry_breaking/results/rq3_state_20261118_v1/runs/fixed_state_equidiff_n50_s0",
+      "code_snapshot": "experiments/releases/rq3_state_20261118_v1",
+      "snapshot_sha256": "621bae5e43a1aa72dfb8af20f9bf0c8c7040bd758f4f668b1646a4dfb68a32fb",
+      "scores": {
+        "16000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.5428070181923833
+        },
+        "18000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.5038171924250406
+        },
+        "20000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.4997434217122987
+        }
+      }
+    },
+    {
+      "run_id": "rq3_state_20261118_v1/fixed_state_equidiff_n50_s1",
+      "study": "primary",
+      "state": "complete",
+      "device": "sicc",
+      "training_step": 20000,
+      "runtime_gpu": "NVIDIA GeForce RTX 2080 Ti",
+      "torch": "2.7.1+cu128",
+      "split": "test",
+      "evidence": "tasks/rq3_symmetry_breaking/results/rq3_state_20261118_v1/runs/fixed_state_equidiff_n50_s1",
+      "code_snapshot": "experiments/releases/rq3_state_20261118_v1",
+      "snapshot_sha256": "621bae5e43a1aa72dfb8af20f9bf0c8c7040bd758f4f668b1646a4dfb68a32fb",
+      "scores": {
+        "16000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.46662616096468407
+        },
+        "18000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.4927910212695717
+        },
+        "20000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.4609336175180269
+        }
+      }
+    },
+    {
+      "run_id": "rq3_state_20261118_v1/fixed_state_equidiff_n50_s2",
+      "study": "primary",
+      "state": "complete",
+      "device": "sicc",
+      "training_step": 20000,
+      "runtime_gpu": "NVIDIA GeForce RTX 2080 Ti",
+      "torch": "2.7.1+cu128",
+      "split": "test",
+      "evidence": "tasks/rq3_symmetry_breaking/results/rq3_state_20261118_v1/runs/fixed_state_equidiff_n50_s2",
+      "code_snapshot": "experiments/releases/rq3_state_20261118_v1",
+      "snapshot_sha256": "621bae5e43a1aa72dfb8af20f9bf0c8c7040bd758f4f668b1646a4dfb68a32fb",
+      "scores": {
+        "16000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.4610913034072491
+        },
+        "18000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.4773501999760964
+        },
+        "20000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.4941050472105725
+        }
+      }
+    },
+    {
+      "run_id": "rq3_state_20261118_v1/rotated_state_dp_n50_s0",
+      "study": "primary",
+      "state": "complete",
+      "device": "sicc",
+      "training_step": 20000,
+      "runtime_gpu": "NVIDIA GeForce RTX 2080 Ti",
+      "torch": "2.7.1+cu128",
+      "split": "test",
+      "evidence": "tasks/rq3_symmetry_breaking/results/rq3_state_20261118_v1/runs/rotated_state_dp_n50_s0",
+      "code_snapshot": "experiments/releases/rq3_state_20261118_v1",
+      "snapshot_sha256": "621bae5e43a1aa72dfb8af20f9bf0c8c7040bd758f4f668b1646a4dfb68a32fb",
+      "scores": {
+        "16000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.39243308903874946
+        },
+        "18000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.3906543101821899
+        },
+        "20000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.41434215184942275
+        }
+      }
+    },
+    {
+      "run_id": "rq3_state_20261118_v1/rotated_state_dp_n50_s1",
+      "study": "primary",
+      "state": "complete",
+      "device": "sicc",
+      "training_step": 20000,
+      "runtime_gpu": "NVIDIA GeForce RTX 2080 Ti",
+      "torch": "2.7.1+cu128",
+      "split": "test",
+      "evidence": "tasks/rq3_symmetry_breaking/results/rq3_state_20261118_v1/runs/rotated_state_dp_n50_s1",
+      "code_snapshot": "experiments/releases/rq3_state_20261118_v1",
+      "snapshot_sha256": "621bae5e43a1aa72dfb8af20f9bf0c8c7040bd758f4f668b1646a4dfb68a32fb",
+      "scores": {
+        "16000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.3818643079276838
+        },
+        "18000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.40588394949165957
+        },
+        "20000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.408854698693272
+        }
+      }
+    },
+    {
+      "run_id": "rq3_state_20261118_v1/rotated_state_dp_n50_s2",
+      "study": "primary",
+      "state": "not_started",
+      "device": "sicc",
+      "training_step": null,
+      "runtime_gpu": null,
+      "torch": null,
+      "split": "test",
+      "evidence": "tasks/rq3_symmetry_breaking/results/rq3_state_20261118_v1/runs/rotated_state_dp_n50_s2",
+      "code_snapshot": "experiments/releases/rq3_state_20261118_v1",
+      "snapshot_sha256": "621bae5e43a1aa72dfb8af20f9bf0c8c7040bd758f4f668b1646a4dfb68a32fb",
+      "scores": {
+        "16000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "18000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "20000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        }
+      }
+    },
+    {
+      "run_id": "rq3_state_20261118_v1/rotated_state_equidiff_gate_n50_s0",
+      "study": "primary",
+      "state": "complete",
+      "device": "sicc",
+      "training_step": 20000,
+      "runtime_gpu": "NVIDIA GeForce RTX 2080 Ti",
+      "torch": "2.7.1+cu128",
+      "split": "test",
+      "evidence": "tasks/rq3_symmetry_breaking/results/rq3_state_20261118_v1/runs/rotated_state_equidiff_gate_n50_s0",
+      "code_snapshot": "experiments/releases/rq3_state_20261118_v1",
+      "snapshot_sha256": "621bae5e43a1aa72dfb8af20f9bf0c8c7040bd758f4f668b1646a4dfb68a32fb",
+      "scores": {
+        "16000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.43766679654788837
+        },
+        "18000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.43420448952973245
+        },
+        "20000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.4333578106485973
+        }
+      }
+    },
+    {
+      "run_id": "rq3_state_20261118_v1/rotated_state_equidiff_gate_n50_s1",
+      "study": "primary",
+      "state": "complete",
+      "device": "sicc",
+      "training_step": 20000,
+      "runtime_gpu": "NVIDIA GeForce RTX 2080 Ti",
+      "torch": "2.7.1+cu128",
+      "split": "test",
+      "evidence": "tasks/rq3_symmetry_breaking/results/rq3_state_20261118_v1/runs/rotated_state_equidiff_gate_n50_s1",
+      "code_snapshot": "experiments/releases/rq3_state_20261118_v1",
+      "snapshot_sha256": "621bae5e43a1aa72dfb8af20f9bf0c8c7040bd758f4f668b1646a4dfb68a32fb",
+      "scores": {
+        "16000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.4796658056550687
+        },
+        "18000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.483028914482449
+        },
+        "20000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.4320028923626229
+        }
+      }
+    },
+    {
+      "run_id": "rq3_state_20261118_v1/rotated_state_equidiff_gate_n50_s2",
+      "study": "primary",
+      "state": "not_started",
+      "device": "sicc",
+      "training_step": null,
+      "runtime_gpu": null,
+      "torch": null,
+      "split": "test",
+      "evidence": "tasks/rq3_symmetry_breaking/results/rq3_state_20261118_v1/runs/rotated_state_equidiff_gate_n50_s2",
+      "code_snapshot": "experiments/releases/rq3_state_20261118_v1",
+      "snapshot_sha256": "621bae5e43a1aa72dfb8af20f9bf0c8c7040bd758f4f668b1646a4dfb68a32fb",
+      "scores": {
+        "16000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "18000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "20000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        }
+      }
+    },
+    {
+      "run_id": "rq3_state_20261118_v1/rotated_state_equidiff_goal_n50_s0",
+      "study": "primary",
+      "state": "complete",
+      "device": "sicc",
+      "training_step": 20000,
+      "runtime_gpu": "NVIDIA GeForce RTX 2080 Ti",
+      "torch": "2.7.1+cu128",
+      "split": "test",
+      "evidence": "tasks/rq3_symmetry_breaking/results/rq3_state_20261118_v1/runs/rotated_state_equidiff_goal_n50_s0",
+      "code_snapshot": "experiments/releases/rq3_state_20261118_v1",
+      "snapshot_sha256": "621bae5e43a1aa72dfb8af20f9bf0c8c7040bd758f4f668b1646a4dfb68a32fb",
+      "scores": {
+        "16000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.5596875194340591
+        },
+        "18000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.5682139041354989
+        },
+        "20000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.5193908735320367
+        }
+      }
+    },
+    {
+      "run_id": "rq3_state_20261118_v1/rotated_state_equidiff_goal_n50_s1",
+      "study": "primary",
+      "state": "complete",
+      "device": "sicc",
+      "training_step": 20000,
+      "runtime_gpu": "NVIDIA GeForce RTX 2080 Ti",
+      "torch": "2.7.1+cu128",
+      "split": "test",
+      "evidence": "tasks/rq3_symmetry_breaking/results/rq3_state_20261118_v1/runs/rotated_state_equidiff_goal_n50_s1",
+      "code_snapshot": "experiments/releases/rq3_state_20261118_v1",
+      "snapshot_sha256": "621bae5e43a1aa72dfb8af20f9bf0c8c7040bd758f4f668b1646a4dfb68a32fb",
+      "scores": {
+        "16000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.5504062764659413
+        },
+        "18000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.5669077299920717
+        },
+        "20000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.5636831364709336
+        }
+      }
+    },
+    {
+      "run_id": "rq3_state_20261118_v1/rotated_state_equidiff_goal_n50_s2",
+      "study": "primary",
+      "state": "not_started",
+      "device": "sicc",
+      "training_step": null,
+      "runtime_gpu": null,
+      "torch": null,
+      "split": "test",
+      "evidence": "tasks/rq3_symmetry_breaking/results/rq3_state_20261118_v1/runs/rotated_state_equidiff_goal_n50_s2",
+      "code_snapshot": "experiments/releases/rq3_state_20261118_v1",
+      "snapshot_sha256": "621bae5e43a1aa72dfb8af20f9bf0c8c7040bd758f4f668b1646a4dfb68a32fb",
+      "scores": {
+        "16000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "18000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "20000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        }
+      }
+    },
+    {
+      "run_id": "rq3_state_20261118_v1/rotated_state_equidiff_n50_s0",
+      "study": "primary",
+      "state": "complete",
+      "device": "sicc",
+      "training_step": 20000,
+      "runtime_gpu": "NVIDIA GeForce RTX 2080 Ti",
+      "torch": "2.7.1+cu128",
+      "split": "test",
+      "evidence": "tasks/rq3_symmetry_breaking/results/rq3_state_20261118_v1/runs/rotated_state_equidiff_n50_s0",
+      "code_snapshot": "experiments/releases/rq3_state_20261118_v1",
+      "snapshot_sha256": "621bae5e43a1aa72dfb8af20f9bf0c8c7040bd758f4f668b1646a4dfb68a32fb",
+      "scores": {
+        "16000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.5043956465717069
+        },
+        "18000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.5277391426925678
+        },
+        "20000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.5012243379583396
+        }
+      }
+    },
+    {
+      "run_id": "rq3_state_20261118_v1/rotated_state_equidiff_n50_s1",
+      "study": "primary",
+      "state": "complete",
+      "device": "sicc",
+      "training_step": 20000,
+      "runtime_gpu": "NVIDIA GeForce RTX 2080 Ti",
+      "torch": "2.7.1+cu128",
+      "split": "test",
+      "evidence": "tasks/rq3_symmetry_breaking/results/rq3_state_20261118_v1/runs/rotated_state_equidiff_n50_s1",
+      "code_snapshot": "experiments/releases/rq3_state_20261118_v1",
+      "snapshot_sha256": "621bae5e43a1aa72dfb8af20f9bf0c8c7040bd758f4f668b1646a4dfb68a32fb",
+      "scores": {
+        "16000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.45772002632931463
+        },
+        "18000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.44998948331129585
+        },
+        "20000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.48252087236376945
+        }
+      }
+    },
+    {
+      "run_id": "rq3_state_20261118_v1/rotated_state_equidiff_n50_s2",
+      "study": "primary",
+      "state": "not_started",
+      "device": "sicc",
+      "training_step": null,
+      "runtime_gpu": null,
+      "torch": null,
+      "split": "test",
+      "evidence": "tasks/rq3_symmetry_breaking/results/rq3_state_20261118_v1/runs/rotated_state_equidiff_n50_s2",
+      "code_snapshot": "experiments/releases/rq3_state_20261118_v1",
+      "snapshot_sha256": "621bae5e43a1aa72dfb8af20f9bf0c8c7040bd758f4f668b1646a4dfb68a32fb",
+      "scores": {
+        "16000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "18000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "20000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        }
+      }
+    }
+  ]
+}

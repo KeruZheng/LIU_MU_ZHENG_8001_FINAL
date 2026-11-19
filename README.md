@@ -1,5 +1,34 @@
 # Robotic: EquiDiff / Push-T study
 
+## Current Research Layout (2026-11-19)
+
+Start with [the task map](tasks/README.md). The current EquiDiff adaptation and
+frozen scientific code are now included in this repository under
+[`experiments/releases/`](experiments/releases/). The older top-level `src/`,
+`configs/`, and the historical instructions below are the original fallback
+implementation; they are preserved and are not the source of the active main runs.
+
+| Research task | Code/configuration entry | Results and provenance |
+|---|---|---|
+| RQ1: transfer and data efficiency | [rq1_transfer](tasks/rq1_transfer/README.md) | Main matrix and independent convergence curves |
+| RQ2: exact augmentation comparison | [rq2_exact_aug](tasks/rq2_exact_aug/README.md) | Shared main runs and C8 ablation |
+| RQ3: symmetry failure and fixes | [rq3_symmetry_breaking](tasks/rq3_symmetry_breaking/README.md) | Fixed/rotated-goal state matrix |
+
+The [fleet monitor](operations/fleet/README.md) tracks the local 5090 and both
+clusters. Its live local dashboard is
+[`operations/fleet/results/STATUS.md`](operations/fleet/results/STATUS.md).
+Task `reports/` contain lightweight shareable snapshots; task `results/` contain
+ignored raw evidence and provenance. Model files stay in their existing verified
+archive locations, referenced by the task evidence index. Active training paths
+are unchanged. See [reproduction preparation](experiments/README.md).
+
+The current scope is 66 primary runs plus 12 independent DP convergence runs.
+Submitting or preparing a run does not mean that it is running or completed.
+The proposal's 18 image RQ3 runs, full official DP recipe, Stack-D1 sanity check,
+and optional E4 are not completed by this layout change.
+
+## Historical Fallback Documentation
+
 Repository: <https://github.com/KeruZheng/LIU_MU_ZHENG_8001_FINAL>.
 
 This is the implementation workspace for the 2026-11-26 presentation. Official
@@ -33,6 +62,7 @@ git clone https://github.com/KeruZheng/LIU_MU_ZHENG_8001_FINAL.git
 cd LIU_MU_ZHENG_8001_FINAL
 python3 scripts/fetch_artifacts.py --data
 python3.10 -m venv envs/local
+envs/local/bin/python -m pip install pip==25.3 setuptools==75.8.2 wheel==0.45.1
 envs/local/bin/python -m pip install torch==2.7.1 torchvision==0.22.1 \
   --index-url https://download.pytorch.org/whl/cu128
 envs/local/bin/python -m pip install -r configs/requirements.txt
@@ -44,10 +74,12 @@ sha256sum --check manifests/code.sha256 manifests/data.sha256
 
 The fresh-clone recipe uses a fully isolated environment. PyTorch 2.7.1 is the
 proposed portable baseline, pending GPU verification; the development checks
-recorded so far used the installed workstation PyTorch version below. GPU,
-cluster connectivity and formal reproduction results are not yet verified
-from the agent execution environment. The workstation owner independently
-confirmed a healthy RTX 5090 driver on 2026-11-16.
+recorded so far used the installed workstation PyTorch version below. On
+2026-11-16, workstation CUDA, full pilot model GPU preflight, a 100-update
+DP-style pilot and two short simulator rollouts passed. Both cluster SSH
+connections work. SICC deployment and an isolated Python 3.10 / PyTorch 2.7.1
+environment passed A100 preflight job 27159, including all seven tests.
+Formal reproduction remains pending.
 
 Run from this directory. The local virtual environment inherits PyTorch from
 the existing `modelscope_5090` environment, with new dependencies installed only
@@ -124,12 +156,25 @@ python3 scripts/cluster.py preflight --cluster sicc
 
 These print commands without running them. `--execute` performs the selected
 action and records intents/results in `manifests/cluster_actions.jsonl`.
-After upload, build the remote environment with `scripts/setup_cluster_env.sh`.
+After upload, build the remote environment with `scripts/setup_cluster_env.sh`:
+
+```bash
+bash scripts/setup_cluster_env.sh /absolute/path/to/robotic
+```
+
+The setup uses Python 3.10. If it is absent from PATH, a project-local bootstrap
+venv installs pinned uv and downloads a private interpreter under `envs/python`.
+The final `envs/robotic` venv does not inherit system packages. Installation,
+download caches and temporary files stay inside the project; no shell startup
+files or other project environments are changed. Setup checks environment
+isolation and dependency consistency, and writes an environment manifest.
+
 Do not copy the workstation virtual environment or run model tests on login
 nodes. Source upload refuses to run while any `robotic_` job is active. Source
 and input versions must remain immutable while jobs run. Both cluster recipes
-need actual queue, quota and permission checks before use; no Slurm jobs have
-been submitted by this setup.
+need actual queue, quota and permission checks before use. SICC preflight job
+27159 completed successfully; cluster pilot training and formal jobs have not
+been submitted. Remaining group storage quota is still unverified.
 
 Progress snapshots: [task list](docs/notes/list.md),
 [cluster tasks](docs/notes/cluster.md), and [reproduction status](docs/notes/reproduction.md).

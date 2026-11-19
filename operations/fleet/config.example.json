@@ -1,0 +1,295 @@
+{
+  "codes": "/path/to/checkout/codes",
+  "tasks": [
+    "rq1_transfer",
+    "rq2_exact_aug",
+    "rq3_symmetry_breaking"
+  ],
+  "servers": [
+    {
+      "name": "legacy",
+      "root": "/path/to/your/robotic",
+      "ssh": [
+        "ssh",
+        "-o",
+        "BatchMode=yes",
+        "-o",
+        "ConnectTimeout=10",
+        "user@legacy-login"
+      ],
+      "extra_jobs": []
+    },
+    {
+      "name": "sicc",
+      "root": "/path/to/your/robotic",
+      "ssh": [
+        "ssh",
+        "-o",
+        "BatchMode=yes",
+        "-o",
+        "ConnectTimeout=10",
+        "user@sicc-login"
+      ],
+      "extra_jobs": []
+    }
+  ],
+  "lanes": [
+    {
+      "release": "c4_main_20261118_v1",
+      "owner": "rq1_transfer",
+      "device": "local5090",
+      "job_id": null,
+      "study": "primary",
+      "tasks": [
+        "rq1_transfer",
+        "rq2_exact_aug"
+      ],
+      "milestones": [
+        16000,
+        18000,
+        20000
+      ],
+      "split": "test",
+      "runs": [
+        "dp_c4_aug_n100_s0",
+        "dp_c4_aug_n100_s1",
+        "dp_c4_aug_n100_s2",
+        "dp_c4_aug_n200_s0",
+        "dp_c4_aug_n200_s1",
+        "dp_c4_aug_n200_s2",
+        "dp_c4_aug_n25_s0",
+        "dp_c4_aug_n25_s1",
+        "dp_c4_aug_n25_s2",
+        "dp_c4_aug_n50_s0",
+        "dp_c4_aug_n50_s1",
+        "dp_c4_aug_n50_s2",
+        "dp_n100_s0",
+        "dp_n100_s1",
+        "dp_n100_s2",
+        "dp_n200_s0",
+        "dp_n200_s1",
+        "dp_n200_s2",
+        "dp_n25_s0",
+        "dp_n25_s1",
+        "dp_n25_s2",
+        "dp_n50_s0",
+        "dp_n50_s1",
+        "dp_n50_s2",
+        "equidiff_c4_n100_s0",
+        "equidiff_c4_n100_s1",
+        "equidiff_c4_n100_s2",
+        "equidiff_c4_n200_s0",
+        "equidiff_c4_n200_s1",
+        "equidiff_c4_n200_s2",
+        "equidiff_c4_n25_s0",
+        "equidiff_c4_n25_s1",
+        "equidiff_c4_n25_s2",
+        "equidiff_c4_n50_s0",
+        "equidiff_c4_n50_s1",
+        "equidiff_c4_n50_s2"
+      ],
+      "root": "/path/to/active/releases/c4_main_20261118_v1",
+      "checkpoint_sources": [
+        "/path/to/local/verified/archive/c4_main_20261118_v1/runs"
+      ]
+    },
+    {
+      "release": "c8_ablation_20261118_v1",
+      "owner": "rq2_exact_aug",
+      "device": "sicc",
+      "job_id": "REPLACE_WITH_JOB_ID",
+      "study": "c8_ablation",
+      "tasks": [
+        "rq2_exact_aug"
+      ],
+      "milestones": [
+        16000,
+        18000,
+        20000
+      ],
+      "split": "test",
+      "runs": [
+        "equidiff_c8_n200_s0",
+        "equidiff_c8_n200_s1",
+        "equidiff_c8_n200_s2",
+        "equidiff_c8_n50_s0",
+        "equidiff_c8_n50_s1",
+        "equidiff_c8_n50_s2"
+      ],
+      "checkpoint_sources": [
+        "/path/to/local/verified/archive/c8_ablation_20261118_v1/runs"
+      ]
+    },
+    {
+      "release": "rq3_state_20261118_v1",
+      "owner": "rq3_symmetry_breaking",
+      "device": "sicc",
+      "job_id": "REPLACE_WITH_JOB_ID",
+      "study": "primary",
+      "tasks": [
+        "rq3_symmetry_breaking"
+      ],
+      "milestones": [
+        16000,
+        18000,
+        20000
+      ],
+      "split": "test",
+      "runs": [
+        "fixed_state_dp_n50_s0",
+        "fixed_state_dp_n50_s1",
+        "fixed_state_dp_n50_s2",
+        "fixed_state_equidiff_gate_n50_s0",
+        "fixed_state_equidiff_gate_n50_s1",
+        "fixed_state_equidiff_gate_n50_s2",
+        "fixed_state_equidiff_goal_n50_s0",
+        "fixed_state_equidiff_goal_n50_s1",
+        "fixed_state_equidiff_goal_n50_s2",
+        "fixed_state_equidiff_n50_s0",
+        "fixed_state_equidiff_n50_s1",
+        "fixed_state_equidiff_n50_s2",
+        "rotated_state_dp_n50_s0",
+        "rotated_state_dp_n50_s1",
+        "rotated_state_dp_n50_s2",
+        "rotated_state_equidiff_gate_n50_s0",
+        "rotated_state_equidiff_gate_n50_s1",
+        "rotated_state_equidiff_gate_n50_s2",
+        "rotated_state_equidiff_goal_n50_s0",
+        "rotated_state_equidiff_goal_n50_s1",
+        "rotated_state_equidiff_goal_n50_s2",
+        "rotated_state_equidiff_n50_s0",
+        "rotated_state_equidiff_n50_s1",
+        "rotated_state_equidiff_n50_s2"
+      ],
+      "checkpoint_sources": [
+        "/path/to/local/verified/archive/rq3_state_20261118_v1/runs"
+      ]
+    },
+    {
+      "release": "conv_dp_n25_20261119_v1",
+      "owner": "rq1_transfer",
+      "device": "legacy",
+      "job_id": "REPLACE_WITH_JOB_ID",
+      "study": "convergence",
+      "tasks": [
+        "rq1_transfer"
+      ],
+      "milestones": [
+        20000,
+        40000,
+        60000
+      ],
+      "split": "validation",
+      "runs": [
+        "dp_n25_s0",
+        "dp_n25_s1",
+        "dp_n25_s2"
+      ],
+      "checkpoint_sources": [
+        "/path/to/local/verified/archive/conv_dp_n25_20261119_v1/runs"
+      ]
+    },
+    {
+      "release": "conv_dp_n50_20261119_v1",
+      "owner": "rq1_transfer",
+      "device": "legacy",
+      "job_id": "REPLACE_WITH_JOB_ID",
+      "study": "convergence",
+      "tasks": [
+        "rq1_transfer"
+      ],
+      "milestones": [
+        20000,
+        40000,
+        60000
+      ],
+      "split": "validation",
+      "runs": [
+        "dp_n50_s0",
+        "dp_n50_s1",
+        "dp_n50_s2"
+      ],
+      "checkpoint_sources": [
+        "/path/to/local/verified/archive/conv_dp_n50_20261119_v1/runs"
+      ]
+    },
+    {
+      "release": "conv_dp_n100_20261119_v1",
+      "owner": "rq1_transfer",
+      "device": "legacy",
+      "job_id": "REPLACE_WITH_JOB_ID",
+      "study": "convergence",
+      "tasks": [
+        "rq1_transfer"
+      ],
+      "milestones": [
+        20000,
+        40000,
+        60000
+      ],
+      "split": "validation",
+      "runs": [
+        "dp_n100_s0",
+        "dp_n100_s1",
+        "dp_n100_s2"
+      ],
+      "checkpoint_sources": [
+        "/path/to/local/verified/archive/conv_dp_n100_20261119_v1/runs"
+      ]
+    },
+    {
+      "release": "conv_dp_n200_20261119_v1",
+      "owner": "rq1_transfer",
+      "device": "legacy",
+      "job_id": "REPLACE_WITH_JOB_ID",
+      "study": "convergence",
+      "tasks": [
+        "rq1_transfer"
+      ],
+      "milestones": [
+        20000,
+        40000,
+        60000
+      ],
+      "split": "validation",
+      "runs": [
+        "dp_n200_s0",
+        "dp_n200_s1",
+        "dp_n200_s2"
+      ],
+      "checkpoint_sources": [
+        "/path/to/local/verified/archive/conv_dp_n200_20261119_v1/runs"
+      ]
+    }
+  ],
+  "services": [
+    {
+      "name": "primary_monitor",
+      "pid_file": "/path/to/primary_monitor.pid",
+      "heartbeat": "/path/to/primary_monitor_status.json",
+      "command_contains": "watch_progress.py",
+      "max_age": 600
+    },
+    {
+      "name": "sicc_archive",
+      "pid_file": "/path/to/sicc_archive.pid",
+      "heartbeat": "/path/to/sicc_archive_status.json",
+      "command_contains": "storage_guard.py worker",
+      "max_age": 3600
+    },
+    {
+      "name": "legacy_archive",
+      "pid_file": "/path/to/legacy_archive.pid",
+      "heartbeat": "/path/to/legacy_archive_status.json",
+      "command_contains": "transfer_guard.py worker",
+      "max_age": 3600
+    },
+    {
+      "name": "fleet_watchdog",
+      "pid_file": "/path/to/fleet_watchdog.pid",
+      "heartbeat": "/path/to/fleet_watchdog_status.json",
+      "command_contains": "watchdog.py",
+      "max_age": 180
+    }
+  ]
+}

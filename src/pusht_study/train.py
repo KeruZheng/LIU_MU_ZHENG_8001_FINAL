@@ -33,10 +33,12 @@ def make_scheduler(config):
 
 
 def train(config, output, device="cuda", resume=False):
-    if config.get("formal", False):
-        raise ValueError("Formal runs are locked pending GPU calibration and protocol review")
-    if config.get("rotated", False):
-        raise ValueError("Rotated training is locked pending aligned data and native symmetry validation")
+    if config.get("formal", False) and not config.get("allow_formal", False):
+        raise ValueError("Formal runs are locked; set allow_formal after protocol review")
+    # `rotated` means each demo gets a fixed base orientation (balanced C4 training data).
+    # It is distinct from native rotated evaluation, which remains unimplemented.
+    if config.get("rotated", False) and not config.get("allow_rotated", False):
+        raise ValueError("Rotated training is locked; set allow_rotated after validating base-orientation data")
     if device.startswith("cuda") and not torch.cuda.is_available():
         raise RuntimeError("CUDA unavailable; no silent CPU fallback for GPU jobs")
     if config["steps"] <= 0 or config["batch_size"] <= 0:

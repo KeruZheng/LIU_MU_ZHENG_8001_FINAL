@@ -13,10 +13,14 @@ Presentation: **2026-11-26**. Updated: 2026-11-16.
 - [x] Pass seven tests, including exact resume consistency and coupled-noise sampling equivariance.
 - [x] Check both tiny and full pilot model forward/backward on CPU.
 - [x] Prepare cluster configuration examples, upload and Slurm preflight scripts.
+- [x] Verify workstation CUDA computation and SSH access to both clusters.
+- [x] Pass full pilot model GPU preflight, 100 DP-style updates and two short rollouts.
+- [x] Deploy SICC code/data and an isolated Python 3.10 / PyTorch 2.7.1 environment.
+- [x] Complete A100 preflight job 27159: full model CUDA check and all seven tests pass.
 
 ## Remaining
 
-- [ ] Restore GPU/cluster access from the execution session; host GPU health is confirmed.
+- [ ] Run cluster pilot cost calibration and verify remaining group storage quota.
 - [ ] Reproduce an official DP GPU pilot and measure learning/compute cost.
 - [ ] Port original EquiDiff to Push-T; the current FrameAvg backup is not that port.
 - [ ] Align native rendering and demonstrations with the corrected rotation center.
@@ -39,4 +43,4 @@ Presentation: **2026-11-26**. Updated: 2026-11-16.
 | Nov 25 | Final slides and rehearsal |
 | Nov 26 | Presentation |
 
-Schedule remains contingent on execution access and native symmetry validation.
+Schedule remains contingent on architecture porting and native symmetry validation.

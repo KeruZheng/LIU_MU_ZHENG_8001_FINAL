@@ -4,7 +4,12 @@ envs/
 data/
 runs/
 results/
+logs/
 upstream/
 *.egg-info/
 .pytest_cache/
 configs/clusters.local.json
+manifests/cluster_actions.jsonl
+operations/fleet/config.local.json
+operations/fleet/runtime/
+tasks/*/reports/latest.json

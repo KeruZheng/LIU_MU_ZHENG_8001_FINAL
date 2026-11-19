@@ -1,0 +1,22 @@
+# C8 Architecture Ablation v1
+
+Use 50 and 200 demonstrations, three training seeds, and the C8 version of the
+same EquiDiff adaptation. The regular representation order changes from four
+to eight; the scalar field counts and temporal U-Net widths stay fixed. Report
+parameter count and compute cost rather than claiming matched parameter count.
+All other data/optimizer/update/checkpoint rules follow the frozen C4 main study.
+
+Training data and test environment still have exact C4 symmetry. A 45-degree
+rotation is NOT an exact symmetry of the square walls or pixel lattice. Also,
+the existing DDPM component-wise clipping to [-1,1] commutes with C4, not C8.
+Therefore this is an architectural ablation evaluated on the validated C4 task,
+not a claim of exact C8 physical symmetry or an exactly C8-equivariant sampler.
+No 45-degree interpolated augmentation is added to the exact-C4 baseline.
+
+The exact C4 subgroup of the C8 denoiser must pass numerical and gradient tests.
+Full GPU calibration runs in Slurm before the six-run queue. The queue uses a
+new frozen release; the active C4 and RQ3 queues and environments are not changed.
+For speed and fairness all optimizer/update and precision settings match the C4
+main protocol. Cross-GPU/PyTorch-version results are explicitly labeled; do not
+interpret small C4/C8 gaps as isolated group-order effects without accounting
+for runtime and model-size differences.

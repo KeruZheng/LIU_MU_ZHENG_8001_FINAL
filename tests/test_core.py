@@ -54,6 +54,34 @@ class DatasetTests(unittest.TestCase):
                 expected = normalize_xy(float(row["episode"]))
                 np.testing.assert_allclose(row["action"].numpy(), expected)
 
+    def test_rotated_dataset_applies_fixed_base_orientation(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = zarr.open_group(temp, mode="w")
+            root.create_dataset("meta/episode_ends", data=np.array([20, 40, 60, 80]))
+            img = np.zeros((80, 8, 8, 3), dtype=np.uint8)
+            state = np.zeros((80, 5), dtype=np.float32)
+            action = np.zeros((80, 2), dtype=np.float32)
+            for episode in range(4):
+                sl = slice(episode * 20, (episode + 1) * 20)
+                img[sl, 1, 2, :] = episode + 1
+                state[sl, 0] = 100 + 20 * episode
+                state[sl, 1] = 200 + 10 * episode
+                action[sl, 0] = 300 + 5 * episode
+                action[sl, 1] = 150 - 5 * episode
+            root.create_dataset("data/img", data=img)
+            root.create_dataset("data/state", data=state)
+            root.create_dataset("data/action", data=action)
+            split = make_split(4, val_count=1)
+            canonical = PushTSequences(Path(temp), split, demos=3, rotated=False)
+            rotated = PushTSequences(Path(temp), split, demos=3, rotated=True)
+            index = next(i for i, (episode, *_rest) in enumerate(rotated.indices)
+                         if rotated.orientation[str(episode)] != 0)
+            k = rotated.orientation[str(rotated.indices[index][0])]
+            a, b = canonical[index], rotated[index]
+            torch.testing.assert_close(b["image"], rotate_image(a["image"], k))
+            torch.testing.assert_close(b["agent_pos"], rotate_xy(a["agent_pos"], k))
+            torch.testing.assert_close(b["action"], rotate_xy(a["action"], k))
+
 
 class ModelTests(unittest.TestCase):
     @classmethod

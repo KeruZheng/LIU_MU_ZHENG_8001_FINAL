@@ -1,0 +1,1265 @@
+{
+  "time": "2026-11-19T15:02:24.478572+00:00",
+  "runs": [
+    {
+      "run_id": "c4_main_20261118_v1/dp_c4_aug_n100_s0",
+      "study": "primary",
+      "state": "not_started",
+      "device": "local5090",
+      "training_step": null,
+      "runtime_gpu": null,
+      "torch": null,
+      "split": "test",
+      "evidence": "tasks/rq1_transfer/results/c4_main_20261118_v1/runs/dp_c4_aug_n100_s0",
+      "code_snapshot": "experiments/releases/c4_main_20261118_v1",
+      "snapshot_sha256": "fd1e849540d95dbcc0ada9dda4647d64d5340b307100c7d44c9800a41855bc92",
+      "scores": {
+        "16000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "18000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "20000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        }
+      }
+    },
+    {
+      "run_id": "c4_main_20261118_v1/dp_c4_aug_n100_s1",
+      "study": "primary",
+      "state": "not_started",
+      "device": "local5090",
+      "training_step": null,
+      "runtime_gpu": null,
+      "torch": null,
+      "split": "test",
+      "evidence": "tasks/rq1_transfer/results/c4_main_20261118_v1/runs/dp_c4_aug_n100_s1",
+      "code_snapshot": "experiments/releases/c4_main_20261118_v1",
+      "snapshot_sha256": "fd1e849540d95dbcc0ada9dda4647d64d5340b307100c7d44c9800a41855bc92",
+      "scores": {
+        "16000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "18000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "20000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        }
+      }
+    },
+    {
+      "run_id": "c4_main_20261118_v1/dp_c4_aug_n100_s2",
+      "study": "primary",
+      "state": "not_started",
+      "device": "local5090",
+      "training_step": null,
+      "runtime_gpu": null,
+      "torch": null,
+      "split": "test",
+      "evidence": "tasks/rq1_transfer/results/c4_main_20261118_v1/runs/dp_c4_aug_n100_s2",
+      "code_snapshot": "experiments/releases/c4_main_20261118_v1",
+      "snapshot_sha256": "fd1e849540d95dbcc0ada9dda4647d64d5340b307100c7d44c9800a41855bc92",
+      "scores": {
+        "16000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "18000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "20000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        }
+      }
+    },
+    {
+      "run_id": "c4_main_20261118_v1/dp_c4_aug_n200_s0",
+      "study": "primary",
+      "state": "complete",
+      "device": "local5090",
+      "training_step": 20000,
+      "runtime_gpu": "NVIDIA GeForce RTX 5090",
+      "torch": "2.12.0.dev20260407+cu128",
+      "split": "test",
+      "evidence": "tasks/rq1_transfer/results/c4_main_20261118_v1/runs/dp_c4_aug_n200_s0",
+      "code_snapshot": "experiments/releases/c4_main_20261118_v1",
+      "snapshot_sha256": "fd1e849540d95dbcc0ada9dda4647d64d5340b307100c7d44c9800a41855bc92",
+      "scores": {
+        "16000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.5585832571988295
+        },
+        "18000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.5901764698437375
+        },
+        "20000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.6090724408101784
+        }
+      }
+    },
+    {
+      "run_id": "c4_main_20261118_v1/dp_c4_aug_n200_s1",
+      "study": "primary",
+      "state": "not_started",
+      "device": "local5090",
+      "training_step": null,
+      "runtime_gpu": null,
+      "torch": null,
+      "split": "test",
+      "evidence": "tasks/rq1_transfer/results/c4_main_20261118_v1/runs/dp_c4_aug_n200_s1",
+      "code_snapshot": "experiments/releases/c4_main_20261118_v1",
+      "snapshot_sha256": "fd1e849540d95dbcc0ada9dda4647d64d5340b307100c7d44c9800a41855bc92",
+      "scores": {
+        "16000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "18000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "20000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        }
+      }
+    },
+    {
+      "run_id": "c4_main_20261118_v1/dp_c4_aug_n200_s2",
+      "study": "primary",
+      "state": "not_started",
+      "device": "local5090",
+      "training_step": null,
+      "runtime_gpu": null,
+      "torch": null,
+      "split": "test",
+      "evidence": "tasks/rq1_transfer/results/c4_main_20261118_v1/runs/dp_c4_aug_n200_s2",
+      "code_snapshot": "experiments/releases/c4_main_20261118_v1",
+      "snapshot_sha256": "fd1e849540d95dbcc0ada9dda4647d64d5340b307100c7d44c9800a41855bc92",
+      "scores": {
+        "16000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "18000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "20000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        }
+      }
+    },
+    {
+      "run_id": "c4_main_20261118_v1/dp_c4_aug_n25_s0",
+      "study": "primary",
+      "state": "not_started",
+      "device": "local5090",
+      "training_step": null,
+      "runtime_gpu": null,
+      "torch": null,
+      "split": "test",
+      "evidence": "tasks/rq1_transfer/results/c4_main_20261118_v1/runs/dp_c4_aug_n25_s0",
+      "code_snapshot": "experiments/releases/c4_main_20261118_v1",
+      "snapshot_sha256": "fd1e849540d95dbcc0ada9dda4647d64d5340b307100c7d44c9800a41855bc92",
+      "scores": {
+        "16000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "18000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "20000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        }
+      }
+    },
+    {
+      "run_id": "c4_main_20261118_v1/dp_c4_aug_n25_s1",
+      "study": "primary",
+      "state": "not_started",
+      "device": "local5090",
+      "training_step": null,
+      "runtime_gpu": null,
+      "torch": null,
+      "split": "test",
+      "evidence": "tasks/rq1_transfer/results/c4_main_20261118_v1/runs/dp_c4_aug_n25_s1",
+      "code_snapshot": "experiments/releases/c4_main_20261118_v1",
+      "snapshot_sha256": "fd1e849540d95dbcc0ada9dda4647d64d5340b307100c7d44c9800a41855bc92",
+      "scores": {
+        "16000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "18000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "20000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        }
+      }
+    },
+    {
+      "run_id": "c4_main_20261118_v1/dp_c4_aug_n25_s2",
+      "study": "primary",
+      "state": "not_started",
+      "device": "local5090",
+      "training_step": null,
+      "runtime_gpu": null,
+      "torch": null,
+      "split": "test",
+      "evidence": "tasks/rq1_transfer/results/c4_main_20261118_v1/runs/dp_c4_aug_n25_s2",
+      "code_snapshot": "experiments/releases/c4_main_20261118_v1",
+      "snapshot_sha256": "fd1e849540d95dbcc0ada9dda4647d64d5340b307100c7d44c9800a41855bc92",
+      "scores": {
+        "16000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "18000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "20000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        }
+      }
+    },
+    {
+      "run_id": "c4_main_20261118_v1/dp_c4_aug_n50_s0",
+      "study": "primary",
+      "state": "complete",
+      "device": "local5090",
+      "training_step": 20000,
+      "runtime_gpu": "NVIDIA GeForce RTX 5090",
+      "torch": "2.12.0.dev20260407+cu128",
+      "split": "test",
+      "evidence": "tasks/rq1_transfer/results/c4_main_20261118_v1/runs/dp_c4_aug_n50_s0",
+      "code_snapshot": "experiments/releases/c4_main_20261118_v1",
+      "snapshot_sha256": "fd1e849540d95dbcc0ada9dda4647d64d5340b307100c7d44c9800a41855bc92",
+      "scores": {
+        "16000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.5884347827385491
+        },
+        "18000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.5932753586559868
+        },
+        "20000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.589535656184881
+        }
+      }
+    },
+    {
+      "run_id": "c4_main_20261118_v1/dp_c4_aug_n50_s1",
+      "study": "primary",
+      "state": "complete",
+      "device": "local5090",
+      "training_step": 20000,
+      "runtime_gpu": "NVIDIA GeForce RTX 5090",
+      "torch": "2.12.0.dev20260407+cu128",
+      "split": "test",
+      "evidence": "tasks/rq1_transfer/results/c4_main_20261118_v1/runs/dp_c4_aug_n50_s1",
+      "code_snapshot": "experiments/releases/c4_main_20261118_v1",
+      "snapshot_sha256": "fd1e849540d95dbcc0ada9dda4647d64d5340b307100c7d44c9800a41855bc92",
+      "scores": {
+        "16000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.5711358993035205
+        },
+        "18000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.5725918597839192
+        },
+        "20000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.5819397575581327
+        }
+      }
+    },
+    {
+      "run_id": "c4_main_20261118_v1/dp_c4_aug_n50_s2",
+      "study": "primary",
+      "state": "complete",
+      "device": "local5090",
+      "training_step": 20000,
+      "runtime_gpu": "NVIDIA GeForce RTX 5090",
+      "torch": "2.12.0.dev20260407+cu128",
+      "split": "test",
+      "evidence": "tasks/rq1_transfer/results/c4_main_20261118_v1/runs/dp_c4_aug_n50_s2",
+      "code_snapshot": "experiments/releases/c4_main_20261118_v1",
+      "snapshot_sha256": "fd1e849540d95dbcc0ada9dda4647d64d5340b307100c7d44c9800a41855bc92",
+      "scores": {
+        "16000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.5630060458114627
+        },
+        "18000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.5808863456836462
+        },
+        "20000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.5673135819699651
+        }
+      }
+    },
+    {
+      "run_id": "c4_main_20261118_v1/dp_n100_s0",
+      "study": "primary",
+      "state": "not_started",
+      "device": "local5090",
+      "training_step": null,
+      "runtime_gpu": null,
+      "torch": null,
+      "split": "test",
+      "evidence": "tasks/rq1_transfer/results/c4_main_20261118_v1/runs/dp_n100_s0",
+      "code_snapshot": "experiments/releases/c4_main_20261118_v1",
+      "snapshot_sha256": "fd1e849540d95dbcc0ada9dda4647d64d5340b307100c7d44c9800a41855bc92",
+      "scores": {
+        "16000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "18000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "20000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        }
+      }
+    },
+    {
+      "run_id": "c4_main_20261118_v1/dp_n100_s1",
+      "study": "primary",
+      "state": "not_started",
+      "device": "local5090",
+      "training_step": null,
+      "runtime_gpu": null,
+      "torch": null,
+      "split": "test",
+      "evidence": "tasks/rq1_transfer/results/c4_main_20261118_v1/runs/dp_n100_s1",
+      "code_snapshot": "experiments/releases/c4_main_20261118_v1",
+      "snapshot_sha256": "fd1e849540d95dbcc0ada9dda4647d64d5340b307100c7d44c9800a41855bc92",
+      "scores": {
+        "16000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "18000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "20000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        }
+      }
+    },
+    {
+      "run_id": "c4_main_20261118_v1/dp_n100_s2",
+      "study": "primary",
+      "state": "not_started",
+      "device": "local5090",
+      "training_step": null,
+      "runtime_gpu": null,
+      "torch": null,
+      "split": "test",
+      "evidence": "tasks/rq1_transfer/results/c4_main_20261118_v1/runs/dp_n100_s2",
+      "code_snapshot": "experiments/releases/c4_main_20261118_v1",
+      "snapshot_sha256": "fd1e849540d95dbcc0ada9dda4647d64d5340b307100c7d44c9800a41855bc92",
+      "scores": {
+        "16000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "18000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "20000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        }
+      }
+    },
+    {
+      "run_id": "c4_main_20261118_v1/dp_n200_s0",
+      "study": "primary",
+      "state": "complete",
+      "device": "local5090",
+      "training_step": 20000,
+      "runtime_gpu": "NVIDIA GeForce RTX 5090",
+      "torch": "2.12.0.dev20260407+cu128",
+      "split": "test",
+      "evidence": "tasks/rq1_transfer/results/c4_main_20261118_v1/runs/dp_n200_s0",
+      "code_snapshot": "experiments/releases/c4_main_20261118_v1",
+      "snapshot_sha256": "fd1e849540d95dbcc0ada9dda4647d64d5340b307100c7d44c9800a41855bc92",
+      "scores": {
+        "16000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.5806657515576061
+        },
+        "18000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.580155425452938
+        },
+        "20000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.608185800245728
+        }
+      }
+    },
+    {
+      "run_id": "c4_main_20261118_v1/dp_n200_s1",
+      "study": "primary",
+      "state": "training",
+      "device": "local5090",
+      "training_step": 15317,
+      "runtime_gpu": "NVIDIA GeForce RTX 5090",
+      "torch": "2.12.0.dev20260407+cu128",
+      "split": "test",
+      "evidence": "tasks/rq1_transfer/results/c4_main_20261118_v1/runs/dp_n200_s1",
+      "code_snapshot": "experiments/releases/c4_main_20261118_v1",
+      "snapshot_sha256": "fd1e849540d95dbcc0ada9dda4647d64d5340b307100c7d44c9800a41855bc92",
+      "scores": {
+        "16000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "18000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "20000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        }
+      }
+    },
+    {
+      "run_id": "c4_main_20261118_v1/dp_n200_s2",
+      "study": "primary",
+      "state": "not_started",
+      "device": "local5090",
+      "training_step": null,
+      "runtime_gpu": null,
+      "torch": null,
+      "split": "test",
+      "evidence": "tasks/rq1_transfer/results/c4_main_20261118_v1/runs/dp_n200_s2",
+      "code_snapshot": "experiments/releases/c4_main_20261118_v1",
+      "snapshot_sha256": "fd1e849540d95dbcc0ada9dda4647d64d5340b307100c7d44c9800a41855bc92",
+      "scores": {
+        "16000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "18000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "20000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        }
+      }
+    },
+    {
+      "run_id": "c4_main_20261118_v1/dp_n25_s0",
+      "study": "primary",
+      "state": "not_started",
+      "device": "local5090",
+      "training_step": null,
+      "runtime_gpu": null,
+      "torch": null,
+      "split": "test",
+      "evidence": "tasks/rq1_transfer/results/c4_main_20261118_v1/runs/dp_n25_s0",
+      "code_snapshot": "experiments/releases/c4_main_20261118_v1",
+      "snapshot_sha256": "fd1e849540d95dbcc0ada9dda4647d64d5340b307100c7d44c9800a41855bc92",
+      "scores": {
+        "16000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "18000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "20000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        }
+      }
+    },
+    {
+      "run_id": "c4_main_20261118_v1/dp_n25_s1",
+      "study": "primary",
+      "state": "not_started",
+      "device": "local5090",
+      "training_step": null,
+      "runtime_gpu": null,
+      "torch": null,
+      "split": "test",
+      "evidence": "tasks/rq1_transfer/results/c4_main_20261118_v1/runs/dp_n25_s1",
+      "code_snapshot": "experiments/releases/c4_main_20261118_v1",
+      "snapshot_sha256": "fd1e849540d95dbcc0ada9dda4647d64d5340b307100c7d44c9800a41855bc92",
+      "scores": {
+        "16000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "18000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "20000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        }
+      }
+    },
+    {
+      "run_id": "c4_main_20261118_v1/dp_n25_s2",
+      "study": "primary",
+      "state": "not_started",
+      "device": "local5090",
+      "training_step": null,
+      "runtime_gpu": null,
+      "torch": null,
+      "split": "test",
+      "evidence": "tasks/rq1_transfer/results/c4_main_20261118_v1/runs/dp_n25_s2",
+      "code_snapshot": "experiments/releases/c4_main_20261118_v1",
+      "snapshot_sha256": "fd1e849540d95dbcc0ada9dda4647d64d5340b307100c7d44c9800a41855bc92",
+      "scores": {
+        "16000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "18000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "20000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        }
+      }
+    },
+    {
+      "run_id": "c4_main_20261118_v1/dp_n50_s0",
+      "study": "primary",
+      "state": "complete",
+      "device": "local5090",
+      "training_step": 20000,
+      "runtime_gpu": "NVIDIA GeForce RTX 5090",
+      "torch": "2.12.0.dev20260407+cu128",
+      "split": "test",
+      "evidence": "tasks/rq1_transfer/results/c4_main_20261118_v1/runs/dp_n50_s0",
+      "code_snapshot": "experiments/releases/c4_main_20261118_v1",
+      "snapshot_sha256": "fd1e849540d95dbcc0ada9dda4647d64d5340b307100c7d44c9800a41855bc92",
+      "scores": {
+        "16000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.31912781187946526
+        },
+        "18000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.3255509343271965
+        },
+        "20000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.33310672663136665
+        }
+      }
+    },
+    {
+      "run_id": "c4_main_20261118_v1/dp_n50_s1",
+      "study": "primary",
+      "state": "complete",
+      "device": "local5090",
+      "training_step": 20000,
+      "runtime_gpu": "NVIDIA GeForce RTX 5090",
+      "torch": "2.12.0.dev20260407+cu128",
+      "split": "test",
+      "evidence": "tasks/rq1_transfer/results/c4_main_20261118_v1/runs/dp_n50_s1",
+      "code_snapshot": "experiments/releases/c4_main_20261118_v1",
+      "snapshot_sha256": "fd1e849540d95dbcc0ada9dda4647d64d5340b307100c7d44c9800a41855bc92",
+      "scores": {
+        "16000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.3025864268278151
+        },
+        "18000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.2914686124257011
+        },
+        "20000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.28959603264345735
+        }
+      }
+    },
+    {
+      "run_id": "c4_main_20261118_v1/dp_n50_s2",
+      "study": "primary",
+      "state": "complete",
+      "device": "local5090",
+      "training_step": 20000,
+      "runtime_gpu": "NVIDIA GeForce RTX 5090",
+      "torch": "2.12.0.dev20260407+cu128",
+      "split": "test",
+      "evidence": "tasks/rq1_transfer/results/c4_main_20261118_v1/runs/dp_n50_s2",
+      "code_snapshot": "experiments/releases/c4_main_20261118_v1",
+      "snapshot_sha256": "fd1e849540d95dbcc0ada9dda4647d64d5340b307100c7d44c9800a41855bc92",
+      "scores": {
+        "16000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.2597103575256522
+        },
+        "18000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.23630554432706505
+        },
+        "20000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.2519951053299737
+        }
+      }
+    },
+    {
+      "run_id": "c4_main_20261118_v1/equidiff_c4_n100_s0",
+      "study": "primary",
+      "state": "not_started",
+      "device": "local5090",
+      "training_step": null,
+      "runtime_gpu": null,
+      "torch": null,
+      "split": "test",
+      "evidence": "tasks/rq1_transfer/results/c4_main_20261118_v1/runs/equidiff_c4_n100_s0",
+      "code_snapshot": "experiments/releases/c4_main_20261118_v1",
+      "snapshot_sha256": "fd1e849540d95dbcc0ada9dda4647d64d5340b307100c7d44c9800a41855bc92",
+      "scores": {
+        "16000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "18000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "20000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        }
+      }
+    },
+    {
+      "run_id": "c4_main_20261118_v1/equidiff_c4_n100_s1",
+      "study": "primary",
+      "state": "not_started",
+      "device": "local5090",
+      "training_step": null,
+      "runtime_gpu": null,
+      "torch": null,
+      "split": "test",
+      "evidence": "tasks/rq1_transfer/results/c4_main_20261118_v1/runs/equidiff_c4_n100_s1",
+      "code_snapshot": "experiments/releases/c4_main_20261118_v1",
+      "snapshot_sha256": "fd1e849540d95dbcc0ada9dda4647d64d5340b307100c7d44c9800a41855bc92",
+      "scores": {
+        "16000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "18000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "20000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        }
+      }
+    },
+    {
+      "run_id": "c4_main_20261118_v1/equidiff_c4_n100_s2",
+      "study": "primary",
+      "state": "not_started",
+      "device": "local5090",
+      "training_step": null,
+      "runtime_gpu": null,
+      "torch": null,
+      "split": "test",
+      "evidence": "tasks/rq1_transfer/results/c4_main_20261118_v1/runs/equidiff_c4_n100_s2",
+      "code_snapshot": "experiments/releases/c4_main_20261118_v1",
+      "snapshot_sha256": "fd1e849540d95dbcc0ada9dda4647d64d5340b307100c7d44c9800a41855bc92",
+      "scores": {
+        "16000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "18000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "20000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        }
+      }
+    },
+    {
+      "run_id": "c4_main_20261118_v1/equidiff_c4_n200_s0",
+      "study": "primary",
+      "state": "complete",
+      "device": "local5090",
+      "training_step": 20000,
+      "runtime_gpu": "NVIDIA GeForce RTX 5090",
+      "torch": "2.12.0.dev20260407+cu128",
+      "split": "test",
+      "evidence": "tasks/rq1_transfer/results/c4_main_20261118_v1/runs/equidiff_c4_n200_s0",
+      "code_snapshot": "experiments/releases/c4_main_20261118_v1",
+      "snapshot_sha256": "fd1e849540d95dbcc0ada9dda4647d64d5340b307100c7d44c9800a41855bc92",
+      "scores": {
+        "16000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.6792306804491614
+        },
+        "18000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.742724246568488
+        },
+        "20000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.7276252882192145
+        }
+      }
+    },
+    {
+      "run_id": "c4_main_20261118_v1/equidiff_c4_n200_s1",
+      "study": "primary",
+      "state": "complete",
+      "device": "local5090",
+      "training_step": 20000,
+      "runtime_gpu": "NVIDIA GeForce RTX 5090",
+      "torch": "2.12.0.dev20260407+cu128",
+      "split": "test",
+      "evidence": "tasks/rq1_transfer/results/c4_main_20261118_v1/runs/equidiff_c4_n200_s1",
+      "code_snapshot": "experiments/releases/c4_main_20261118_v1",
+      "snapshot_sha256": "fd1e849540d95dbcc0ada9dda4647d64d5340b307100c7d44c9800a41855bc92",
+      "scores": {
+        "16000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.6598749148293871
+        },
+        "18000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.6896005618963409
+        },
+        "20000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.6972447810913516
+        }
+      }
+    },
+    {
+      "run_id": "c4_main_20261118_v1/equidiff_c4_n200_s2",
+      "study": "primary",
+      "state": "not_started",
+      "device": "local5090",
+      "training_step": null,
+      "runtime_gpu": null,
+      "torch": null,
+      "split": "test",
+      "evidence": "tasks/rq1_transfer/results/c4_main_20261118_v1/runs/equidiff_c4_n200_s2",
+      "code_snapshot": "experiments/releases/c4_main_20261118_v1",
+      "snapshot_sha256": "fd1e849540d95dbcc0ada9dda4647d64d5340b307100c7d44c9800a41855bc92",
+      "scores": {
+        "16000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "18000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "20000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        }
+      }
+    },
+    {
+      "run_id": "c4_main_20261118_v1/equidiff_c4_n25_s0",
+      "study": "primary",
+      "state": "not_started",
+      "device": "local5090",
+      "training_step": null,
+      "runtime_gpu": null,
+      "torch": null,
+      "split": "test",
+      "evidence": "tasks/rq1_transfer/results/c4_main_20261118_v1/runs/equidiff_c4_n25_s0",
+      "code_snapshot": "experiments/releases/c4_main_20261118_v1",
+      "snapshot_sha256": "fd1e849540d95dbcc0ada9dda4647d64d5340b307100c7d44c9800a41855bc92",
+      "scores": {
+        "16000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "18000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "20000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        }
+      }
+    },
+    {
+      "run_id": "c4_main_20261118_v1/equidiff_c4_n25_s1",
+      "study": "primary",
+      "state": "not_started",
+      "device": "local5090",
+      "training_step": null,
+      "runtime_gpu": null,
+      "torch": null,
+      "split": "test",
+      "evidence": "tasks/rq1_transfer/results/c4_main_20261118_v1/runs/equidiff_c4_n25_s1",
+      "code_snapshot": "experiments/releases/c4_main_20261118_v1",
+      "snapshot_sha256": "fd1e849540d95dbcc0ada9dda4647d64d5340b307100c7d44c9800a41855bc92",
+      "scores": {
+        "16000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "18000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "20000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        }
+      }
+    },
+    {
+      "run_id": "c4_main_20261118_v1/equidiff_c4_n25_s2",
+      "study": "primary",
+      "state": "not_started",
+      "device": "local5090",
+      "training_step": null,
+      "runtime_gpu": null,
+      "torch": null,
+      "split": "test",
+      "evidence": "tasks/rq1_transfer/results/c4_main_20261118_v1/runs/equidiff_c4_n25_s2",
+      "code_snapshot": "experiments/releases/c4_main_20261118_v1",
+      "snapshot_sha256": "fd1e849540d95dbcc0ada9dda4647d64d5340b307100c7d44c9800a41855bc92",
+      "scores": {
+        "16000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "18000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "20000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        }
+      }
+    },
+    {
+      "run_id": "c4_main_20261118_v1/equidiff_c4_n50_s0",
+      "study": "primary",
+      "state": "complete",
+      "device": "local5090",
+      "training_step": 20000,
+      "runtime_gpu": "NVIDIA GeForce RTX 5090",
+      "torch": "2.12.0.dev20260407+cu128",
+      "split": "test",
+      "evidence": "tasks/rq1_transfer/results/c4_main_20261118_v1/runs/equidiff_c4_n50_s0",
+      "code_snapshot": "experiments/releases/c4_main_20261118_v1",
+      "snapshot_sha256": "fd1e849540d95dbcc0ada9dda4647d64d5340b307100c7d44c9800a41855bc92",
+      "scores": {
+        "16000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.3349728667572326
+        },
+        "18000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.3089229035470962
+        },
+        "20000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.34569195263417646
+        }
+      }
+    },
+    {
+      "run_id": "c4_main_20261118_v1/equidiff_c4_n50_s1",
+      "study": "primary",
+      "state": "complete",
+      "device": "local5090",
+      "training_step": 20000,
+      "runtime_gpu": "NVIDIA GeForce RTX 5090",
+      "torch": "2.12.0.dev20260407+cu128",
+      "split": "test",
+      "evidence": "tasks/rq1_transfer/results/c4_main_20261118_v1/runs/equidiff_c4_n50_s1",
+      "code_snapshot": "experiments/releases/c4_main_20261118_v1",
+      "snapshot_sha256": "fd1e849540d95dbcc0ada9dda4647d64d5340b307100c7d44c9800a41855bc92",
+      "scores": {
+        "16000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.34694210199603603
+        },
+        "18000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.36779448149802346
+        },
+        "20000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.3782868697082222
+        }
+      }
+    },
+    {
+      "run_id": "c4_main_20261118_v1/equidiff_c4_n50_s2",
+      "study": "primary",
+      "state": "complete",
+      "device": "local5090",
+      "training_step": 20000,
+      "runtime_gpu": "NVIDIA GeForce RTX 5090",
+      "torch": "2.12.0.dev20260407+cu128",
+      "split": "test",
+      "evidence": "tasks/rq1_transfer/results/c4_main_20261118_v1/runs/equidiff_c4_n50_s2",
+      "code_snapshot": "experiments/releases/c4_main_20261118_v1",
+      "snapshot_sha256": "fd1e849540d95dbcc0ada9dda4647d64d5340b307100c7d44c9800a41855bc92",
+      "scores": {
+        "16000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.313598843862727
+        },
+        "18000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.3451127394710478
+        },
+        "20000": {
+          "state": "complete",
+          "episodes": 100,
+          "mean_max_coverage": 0.37694055670592014
+        }
+      }
+    },
+    {
+      "run_id": "c8_ablation_20261118_v1/equidiff_c8_n200_s0",
+      "study": "c8_ablation",
+      "state": "not_started",
+      "device": "sicc",
+      "training_step": null,
+      "runtime_gpu": null,
+      "torch": null,
+      "split": "test",
+      "evidence": "tasks/rq2_exact_aug/results/c8_ablation_20261118_v1/runs/equidiff_c8_n200_s0",
+      "code_snapshot": "experiments/releases/c8_ablation_20261118_v1",
+      "snapshot_sha256": "24f9c424204082a78e47c394f513086283ab8f82630011dc4fb603a257871f1c",
+      "scores": {
+        "16000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "18000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "20000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        }
+      }
+    },
+    {
+      "run_id": "c8_ablation_20261118_v1/equidiff_c8_n200_s1",
+      "study": "c8_ablation",
+      "state": "not_started",
+      "device": "sicc",
+      "training_step": null,
+      "runtime_gpu": null,
+      "torch": null,
+      "split": "test",
+      "evidence": "tasks/rq2_exact_aug/results/c8_ablation_20261118_v1/runs/equidiff_c8_n200_s1",
+      "code_snapshot": "experiments/releases/c8_ablation_20261118_v1",
+      "snapshot_sha256": "24f9c424204082a78e47c394f513086283ab8f82630011dc4fb603a257871f1c",
+      "scores": {
+        "16000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "18000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "20000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        }
+      }
+    },
+    {
+      "run_id": "c8_ablation_20261118_v1/equidiff_c8_n200_s2",
+      "study": "c8_ablation",
+      "state": "not_started",
+      "device": "sicc",
+      "training_step": null,
+      "runtime_gpu": null,
+      "torch": null,
+      "split": "test",
+      "evidence": "tasks/rq2_exact_aug/results/c8_ablation_20261118_v1/runs/equidiff_c8_n200_s2",
+      "code_snapshot": "experiments/releases/c8_ablation_20261118_v1",
+      "snapshot_sha256": "24f9c424204082a78e47c394f513086283ab8f82630011dc4fb603a257871f1c",
+      "scores": {
+        "16000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "18000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "20000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        }
+      }
+    },
+    {
+      "run_id": "c8_ablation_20261118_v1/equidiff_c8_n50_s0",
+      "study": "c8_ablation",
+      "state": "training",
+      "device": "sicc",
+      "training_step": 2986,
+      "runtime_gpu": "NVIDIA A100-SXM4-40GB",
+      "torch": "2.7.1+cu128",
+      "split": "test",
+      "evidence": "tasks/rq2_exact_aug/results/c8_ablation_20261118_v1/runs/equidiff_c8_n50_s0",
+      "code_snapshot": "experiments/releases/c8_ablation_20261118_v1",
+      "snapshot_sha256": "24f9c424204082a78e47c394f513086283ab8f82630011dc4fb603a257871f1c",
+      "scores": {
+        "16000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "18000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "20000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        }
+      }
+    },
+    {
+      "run_id": "c8_ablation_20261118_v1/equidiff_c8_n50_s1",
+      "study": "c8_ablation",
+      "state": "not_started",
+      "device": "sicc",
+      "training_step": null,
+      "runtime_gpu": null,
+      "torch": null,
+      "split": "test",
+      "evidence": "tasks/rq2_exact_aug/results/c8_ablation_20261118_v1/runs/equidiff_c8_n50_s1",
+      "code_snapshot": "experiments/releases/c8_ablation_20261118_v1",
+      "snapshot_sha256": "24f9c424204082a78e47c394f513086283ab8f82630011dc4fb603a257871f1c",
+      "scores": {
+        "16000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "18000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "20000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        }
+      }
+    },
+    {
+      "run_id": "c8_ablation_20261118_v1/equidiff_c8_n50_s2",
+      "study": "c8_ablation",
+      "state": "not_started",
+      "device": "sicc",
+      "training_step": null,
+      "runtime_gpu": null,
+      "torch": null,
+      "split": "test",
+      "evidence": "tasks/rq2_exact_aug/results/c8_ablation_20261118_v1/runs/equidiff_c8_n50_s2",
+      "code_snapshot": "experiments/releases/c8_ablation_20261118_v1",
+      "snapshot_sha256": "24f9c424204082a78e47c394f513086283ab8f82630011dc4fb603a257871f1c",
+      "scores": {
+        "16000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "18000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        },
+        "20000": {
+          "state": null,
+          "episodes": null,
+          "mean_max_coverage": null
+        }
+      }
+    }
+  ]
+}

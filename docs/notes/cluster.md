@@ -1,7 +1,8 @@
 # Cluster Tasks
 
-Updated: 2026-11-16. The project is authorized to use the workstation and
-Slurm clusters. No remote deployment or job submission has succeeded yet.
+Updated: 2026-11-16. SICC code/data deployment, isolated environment installation
+and A100 preflight job 27159 succeeded. No cluster training or formal comparison
+jobs have been submitted.
 
 ## Layout
 
@@ -21,10 +22,11 @@ query current quotas before scheduling parallel jobs.
 ## Deployment checklist
 
 - [x] Prepare source/data checksums, upload helper and Slurm templates.
-- [ ] Verify SSH connectivity, account permissions, storage and current queues.
-- [ ] Create the shared `robotic` root and upload code plus data.
-- [ ] Install an independent project environment; do not copy the workstation venv.
-- [ ] Submit the CUDA/model preflight through Slurm.
+- [x] Verify SSH connectivity, account permissions and current queues.
+- [ ] Verify remaining group storage quota; filesystem free space is not this quota.
+- [x] Create the shared `robotic` root and upload code plus data.
+- [x] Install an independent project environment; do not copy the workstation venv.
+- [x] Complete the CUDA/model preflight through Slurm (27159, exit 0:0).
 - [ ] Run a DP pilot to measure memory, throughput and evaluation cost.
 - [ ] Freeze a validated protocol and submit formal experiments in quota-sized batches.
 
@@ -35,10 +37,16 @@ and output path for each submission.
 
 ## Access status
 
-The agent session currently cannot access the workstation GPU or open the
-cluster SSH connections. The workstation owner supplied a healthy RTX 5090
-`nvidia-smi` report at 2026-11-16 13:12 CST, confirming that the host driver
-works. Agent-side access restrictions do not establish a host hardware,
-driver or cluster account fault.
+GPU and SSH access were verified from the agent session after 13:45 CST on
+2026-11-16. Both clusters accepted authenticated SSH with strict host-key
+checking. The preferred cluster's account/QOS match the planned configuration.
+SICC now contains the deployed robotic root and an isolated Python 3.10.19
+interpreter under envs/python; envs/robotic does not inherit system packages.
+The final stack uses PyTorch 2.7.1+cu128 and torchvision 0.22.1+cu128. pip check
+passed. Storage quotas remain unverified. The backup cluster is not deployed.
 
-No Slurm job IDs are available for this project yet.
+Job 27159 completed on an NVIDIA A100-SXM4-40GB in 51 seconds. Full pilot model
+CUDA forward/backward passed, maximum single-step C4 error was 1.490e-8, and
+all seven tests passed. Logs and environment manifests were copied back under
+results/sicc_deployment_20261116/. The user's queue was empty after completion.
+The original EquiDiff dependency stack and architecture port remain unfinished.

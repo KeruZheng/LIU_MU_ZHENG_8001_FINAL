@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-19",
+  "scope": "Task layout, exact scientific snapshots and three-platform observation",
+  "checks": {
+    "fleet_tests": 7,
+    "layout_tests": 2,
+    "fallback_tests": 8,
+    "cluster_preview_tests": 1
+  },
+  "existing_frozen_releases": {
+    "c4_main_20261118_v1": {
+      "files": 86,
+      "mismatches": 0
+    },
+    "rq3_state_20261118_v1": {
+      "files": 78,
+      "mismatches": 0
+    },
+    "c8_ablation_20261118_v1": {
+      "files": 58,
+      "mismatches": 0
+    }
+  },
+  "fleet_observed_at": "2026-11-19T15:00:21.021552+00:00",
+  "fleet_alerts": [],
+  "limitations": [
+    "No active training was moved or modified",
+    "No model/GPU workload was added for layout verification",
+    "Pending jobs have not passed GPU preflight",
+    "Checkpoint views are references; archive receipts establish verified backups"
+  ]
+}

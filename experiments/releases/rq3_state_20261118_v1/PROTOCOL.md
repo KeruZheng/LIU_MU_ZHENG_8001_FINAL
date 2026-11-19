@@ -1,0 +1,50 @@
+# RQ3 State Protocol v1
+
+Freeze date: 2026-11-18. This is a separate mechanistic study; it is not pooled
+with the image-policy matrix. Fixed and rotated goal tasks each use four models
+and three training seeds: 24 runs, 50 nested demonstrations per run.
+
+Inputs are agent xy, block xy, and (cos theta, sin theta) of the block. Position
+vectors are centered and scaled by 255.5. Every observation contains three rho1
+vectors. Observations have two-step history; action horizon is 16 and eight
+actions are executed per policy call. Goal metadata is kept outside the state
+tensor and is ignored by all models except the explicit goal-input method.
+
+Methods:
+
+- state_dp: unconstrained MLP observation encoder and ordinary temporal U-Net.
+- state_equidiff: C4 equivariant linear/ReLU state encoder and the same
+  representation-aware, group-shared temporal U-Net used by the image adaptation.
+- state_equidiff_goal: an additional rho1 goal heading. In this environment the
+  subpixel goal-position offset is determined by that heading, so it carries the
+  complete goal orientation/offset information relevant to the C4 orbit.
+- state_equidiff_gate: an additional fixed world vector (1,0), multiplied by a
+  learnable scalar initialized to exactly zero. It is deliberately not rotated
+  with the state. At initialization the policy is C4 equivariant; a nonzero gate
+  can break that symmetry. The gate value is recorded throughout training.
+
+Fixed-goal training uses canonical demonstrations without rotational relabeling;
+the goal stays at (256,256,pi/4). Rotated-goal training uses the same trajectory
+IDs with the frozen balanced base orientations, rotating state, action and goal.
+No method has online rotation augmentation in this RQ3 comparison.
+
+All methods: 20,000 updates, effective batch 64, AdamW 1e-4, widths [128,256,512],
+existing EMA schedule, 100-step DDPM, FP32 without TF32, seeds 0/1/2. The state DP
+encoder has width 256; the equivariant encoder has 64 C4 regular fields and an
+action embedding of 32 regular fields. This budget is a controlled state study,
+not a claim to reproduce an upstream state-policy training recipe.
+
+Evaluate the same 25 reserved base initial states under four rotations. In the
+fixed-goal condition only the initial scene rotates; the world goal stays fixed.
+In the rotated-goal condition the goal rotates as described in the C4 protocol.
+Use raw state observations without image rendering. All methods within each
+condition use the same test states and stochastic-policy seeds. Report mean max
+coverage and success (>0.95), per orientation, each training seed, and paired
+bootstrap intervals. Retain EMA at 16k/18k/20k; report their mean and 20k separately.
+
+Deployment uses an independent frozen release and a new project-local environment
+that reads the existing SICC PyTorch environment without modifying it. New escnn
+dependencies are installed only in that new environment. GPU/model checks run
+inside Slurm before the queue. The local C4 image queue remains unchanged.
+
+These 24 state runs do not include the proposal's additional 18 RQ3 image runs.

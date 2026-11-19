@@ -1,0 +1,125 @@
+{
+  "sha": "5ba07ac6661db573af695b419a7947ecb704690f",
+  "node_id": "C_kwDOJGpCJ9oAKDViYTA3YWM2NjYxZGI1NzNhZjY5NWI0MTlhNzk0N2VjYjcwNDY5MGY",
+  "commit": {
+    "author": {
+      "name": "Yihuai Gao",
+      "email": "yihuai@stanford.edu",
+      "date": "2024-12-24T19:47:59Z"
+    },
+    "committer": {
+      "name": "Yihuai Gao",
+      "email": "yihuai@stanford.edu",
+      "date": "2024-12-24T19:47:59Z"
+    },
+    "message": "Done adapting mujoco image dataset",
+    "tree": {
+      "sha": "5a8bd7058d1dce44312e2e1a78949237884dab32",
+      "url": "https://api.github.com/repos/real-stanford/diffusion_policy/git/trees/5a8bd7058d1dce44312e2e1a78949237884dab32"
+    },
+    "url": "https://api.github.com/repos/real-stanford/diffusion_policy/git/commits/5ba07ac6661db573af695b419a7947ecb704690f",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "url": "https://api.github.com/repos/real-stanford/diffusion_policy/commits/5ba07ac6661db573af695b419a7947ecb704690f",
+  "html_url": "https://github.com/real-stanford/diffusion_policy/commit/5ba07ac6661db573af695b419a7947ecb704690f",
+  "comments_url": "https://api.github.com/repos/real-stanford/diffusion_policy/commits/5ba07ac6661db573af695b419a7947ecb704690f/comments",
+  "author": {
+    "login": "yihuai-gao",
+    "id": 70081676,
+    "node_id": "MDQ6VXNlcjcwMDgxNjc2",
+    "avatar_url": "https://avatars.githubusercontent.com/u/70081676?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/yihuai-gao",
+    "html_url": "https://github.com/yihuai-gao",
+    "followers_url": "https://api.github.com/users/yihuai-gao/followers",
+    "following_url": "https://api.github.com/users/yihuai-gao/following{/other_user}",
+    "gists_url": "https://api.github.com/users/yihuai-gao/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/yihuai-gao/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/yihuai-gao/subscriptions",
+    "organizations_url": "https://api.github.com/users/yihuai-gao/orgs",
+    "repos_url": "https://api.github.com/users/yihuai-gao/repos",
+    "events_url": "https://api.github.com/users/yihuai-gao/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/yihuai-gao/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "yihuai-gao",
+    "id": 70081676,
+    "node_id": "MDQ6VXNlcjcwMDgxNjc2",
+    "avatar_url": "https://avatars.githubusercontent.com/u/70081676?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/yihuai-gao",
+    "html_url": "https://github.com/yihuai-gao",
+    "followers_url": "https://api.github.com/users/yihuai-gao/followers",
+    "following_url": "https://api.github.com/users/yihuai-gao/following{/other_user}",
+    "gists_url": "https://api.github.com/users/yihuai-gao/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/yihuai-gao/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/yihuai-gao/subscriptions",
+    "organizations_url": "https://api.github.com/users/yihuai-gao/orgs",
+    "repos_url": "https://api.github.com/users/yihuai-gao/repos",
+    "events_url": "https://api.github.com/users/yihuai-gao/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/yihuai-gao/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "548a52bbb105518058e27bf34dcf90bf6f73681a",
+      "url": "https://api.github.com/repos/real-stanford/diffusion_policy/commits/548a52bbb105518058e27bf34dcf90bf6f73681a",
+      "html_url": "https://github.com/real-stanford/diffusion_policy/commit/548a52bbb105518058e27bf34dcf90bf6f73681a"
+    }
+  ],
+  "stats": {
+    "total": 293,
+    "additions": 293,
+    "deletions": 0
+  },
+  "files": [
+    {
+      "sha": "57b5aca1bd969759e768cc0b5d661dc4309c46c9",
+      "filename": "diffusion_policy/common/replay_buffer.py",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "changes": 2,
+      "blob_url": "https://github.com/real-stanford/diffusion_policy/blob/5ba07ac6661db573af695b419a7947ecb704690f/diffusion_policy%2Fcommon%2Freplay_buffer.py",
+      "raw_url": "https://github.com/real-stanford/diffusion_policy/raw/5ba07ac6661db573af695b419a7947ecb704690f/diffusion_policy%2Fcommon%2Freplay_buffer.py",
+      "contents_url": "https://api.github.com/repos/real-stanford/diffusion_policy/contents/diffusion_policy%2Fcommon%2Freplay_buffer.py?ref=5ba07ac6661db573af695b419a7947ecb704690f",
+      "patch": "@@ -158,6 +158,8 @@ def copy_from_store(cls, src_store, store=None, keys=None,\n             # numpy backend\n             meta = dict()\n             for key, value in src_root['meta'].items():\n+                if isinstance(value, zarr.Group):\n+                    continue\n                 if len(value.shape) == 0:\n                     meta[key] = np.array(value)\n                 else:"
+    },
+    {
+      "sha": "f51aa9d9b086fc93d7b2cfbbb5daa21df8b8605a",
+      "filename": "diffusion_policy/dataset/mujoco_image_dataset.py",
+      "status": "added",
+      "additions": 109,
+      "deletions": 0,
+      "changes": 109,
+      "blob_url": "https://github.com/real-stanford/diffusion_policy/blob/5ba07ac6661db573af695b419a7947ecb704690f/diffusion_policy%2Fdataset%2Fmujoco_image_dataset.py",
+      "raw_url": "https://github.com/real-stanford/diffusion_policy/raw/5ba07ac6661db573af695b419a7947ecb704690f/diffusion_policy%2Fdataset%2Fmujoco_image_dataset.py",
+      "contents_url": "https://api.github.com/repos/real-stanford/diffusion_policy/contents/diffusion_policy%2Fdataset%2Fmujoco_image_dataset.py?ref=5ba07ac6661db573af695b419a7947ecb704690f",
+      "patch": "@@ -0,0 +1,109 @@\n+from typing import Dict\n+import torch\n+import numpy as np\n+import copy\n+from diffusion_policy.common.pytorch_util import dict_apply\n+from diffusion_policy.common.replay_buffer import ReplayBuffer\n+from diffusion_policy.common.sampler import (\n+    SequenceSampler, get_val_mask, downsample_mask)\n+from diffusion_policy.model.common.normalizer import LinearNormalizer\n+from diffusion_policy.dataset.base_dataset import BaseImageDataset\n+from diffusion_policy.common.normalize_util import get_image_range_normalizer\n+\n+class MujocoImageDataset(BaseImageDataset):\n+    def __init__(self,\n+            zarr_path, \n+            horizon=1,\n+            pad_before=0,\n+            pad_after=0,\n+            seed=42,\n+            val_ratio=0.0,\n+            max_train_episodes=None\n+            ):\n+        \n+        super().__init__()\n+        self.replay_buffer = ReplayBuffer.copy_from_path(\n+            # zarr_path, keys=['img', 'state', 'action'])\n+            zarr_path, keys=['robot_0_camera_images', 'robot_0_tcp_xyz_wxyz', 'robot_0_gripper_width', 'action_0_tcp_xyz_wxyz', 'action_0_gripper_width'])\n+        val_mask = get_val_mask(\n+            n_episodes=self.replay_buffer.n_episodes, \n+            val_ratio=val_ratio,\n+            seed=seed)\n+        train_mask = ~val_mask\n+        train_mask = downsample_mask(\n+            mask=train_mask, \n+            max_n=max_train_episodes, \n+            seed=seed)\n+\n+        self.sampler = SequenceSampler(\n+            replay_buffer=self.replay_buffer, \n+            sequence_length=horizon,\n+            pad_before=pad_before, \n+            pad_after=pad_after,\n+            episode_mask=train_mask)\n+        self.train_mask = train_mask\n+        self.horizon = horizon\n+        self.pad_before = pad_before\n+        self.pad_after = pad_after\n+\n+    def get_validation_dataset(self):\n+        val_set = copy.copy(self)\n+        val_set.sampler = SequenceSampler(\n+            replay_buffer=self.replay_buffer, \n+            sequence_length=self.horizon,\n+            pad_before=self.pad_before, \n+            pad_after=self.pad_after,\n+            episode_mask=~self.train_mask\n+            )\n+        val_set.train_mask = ~self.train_mask\n+        return val_set\n+\n+    def get_normalizer(self, mode='limits', **kwargs):\n+        data = {\n+            'action': np.concatenate([self.replay_buffer['action_0_tcp_xyz_wxyz'], self.replay_buffer['action_0_gripper_width']], axis=-1),\n+            'agent_pos': np.concatenate([self.replay_buffer['robot_0_tcp_xyz_wxyz'], self.replay_buffer['robot_0_tcp_xyz_wxyz']], axis=-1)\n+        }\n+        normalizer = LinearNormalizer()\n+        normalizer.fit(data=data, last_n_dims=1, mode=mode, **kwargs)\n+        normalizer['image'] = get_image_range_normalizer()\n+        return normalizer\n+\n+    def __len__(self) -> int:\n+        return len(self.sampler)\n+\n+    def _sample_to_data(self, sample):\n+        # agent_pos = sample['state'][:,:2].astype(np.float32) # (agent_posx2, block_posex3)\n+        agent_pos = np.concatenate([sample['robot_0_tcp_xyz_wxyz'], sample['robot_0_gripper_width']], axis=-1).astype(np.float32)\n+        agent_action = np.concatenate([sample['action_0_tcp_xyz_wxyz'], sample['action_0_gripper_width']], axis=-1).astype(np.float32)\n+        # image = np.moveaxis(sample['img'],-1,1)/255\n+        image = np.moveaxis(sample['robot_0_camera_images'].astype(np.float32).squeeze(1),-1,1)/255\n+\n+        data = {\n+            'obs': {\n+                'image': image, # T, 3, 224, 224\n+                'agent_pos': agent_pos, # T, 8 (x,y,z,qx,qy,qz,qw,gripper_width)\n+            },\n+            'action': agent_action # T, 8 (x,y,z,qx,qy,qz,qw,gripper_width)\n+        }\n+        return data\n+    \n+    def __getitem__(self, idx: int) -> Dict[str, torch.Tensor]:\n+        sample = self.sampler.sample_sequence(idx)\n+        data = self._sample_to_data(sample)\n+        torch_data = dict_apply(data, torch.from_numpy)\n+        return torch_data\n+\n+\n+def test():\n+    import os\n+    zarr_path = os.path.expanduser('/home/yihuai/robotics/repositories/mujoco/mujoco-env/data/collect_heuristic_data/2024-12-24_11-36-15_100episodes/merged_data.zarr')\n+    dataset = MujocoImageDataset(zarr_path, horizon=16)\n+    print(dataset[0])\n+    # from matplotlib import pyplot as plt\n+    # normalizer = dataset.get_normalizer()\n+    # nactions = normalizer['action'].normalize(dataset.replay_buffer['action'])\n+    # diff = np.diff(nactions, axis=0)\n+    # dists = np.linalg.norm(np.diff(nactions, axis=0), axis=-1)\n+\n+if __name__ == '__main__':\n+    test()\n\\ No newline at end of file"
+    },
+    {
+      "sha": "dd884081c135dc5833c7190cfdea574f36209bf2",
+      "filename": "image_pusht_diffusion_policy_cnn.yaml",
+      "status": "added",
+      "additions": 182,
+      "deletions": 0,
+      "changes": 182,
+      "blob_url": "https://github.com/real-stanford/diffusion_policy/blob/5ba07ac6661db573af695b419a7947ecb704690f/image_pusht_diffusion_policy_cnn.yaml",
+      "raw_url": "https://github.com/real-stanford/diffusion_policy/raw/5ba07ac6661db573af695b419a7947ecb704690f/image_pusht_diffusion_policy_cnn.yaml",
+      "contents_url": "https://api.github.com/repos/real-stanford/diffusion_policy/contents/image_pusht_diffusion_policy_cnn.yaml?ref=5ba07ac6661db573af695b419a7947ecb704690f",
+      "patch": "@@ -0,0 +1,182 @@\n+_target_: diffusion_policy.workspace.train_diffusion_unet_hybrid_workspace.TrainDiffusionUnetHybridWorkspace\n+checkpoint:\n+  save_last_ckpt: true\n+  save_last_snapshot: false\n+  topk:\n+    format_str: epoch={epoch:04d}-test_mean_score={test_mean_score:.3f}.ckpt\n+    k: 5\n+    mode: max\n+    monitor_key: test_mean_score\n+dataloader:\n+  batch_size: 64\n+  num_workers: 8\n+  persistent_workers: false\n+  pin_memory: true\n+  shuffle: true\n+dataset_obs_steps: 2\n+ema:\n+  _target_: diffusion_policy.model.diffusion.ema_model.EMAModel\n+  inv_gamma: 1.0\n+  max_value: 0.9999\n+  min_value: 0.0\n+  power: 0.75\n+  update_after_step: 0\n+exp_name: default\n+horizon: 16\n+keypoint_visible_rate: 1.0\n+logging:\n+  group: null\n+  id: null\n+  mode: online\n+  name: 2023.01.16-20.20.06_train_diffusion_unet_hybrid_pusht_image\n+  project: diffusion_policy_debug\n+  resume: true\n+  tags:\n+  - train_diffusion_unet_hybrid\n+  - pusht_image\n+  - default\n+multi_run:\n+  run_dir: data/outputs/2023.01.16/20.20.06_train_diffusion_unet_hybrid_pusht_image\n+  wandb_name_base: 2023.01.16-20.20.06_train_diffusion_unet_hybrid_pusht_image\n+n_action_steps: 8\n+n_latency_steps: 0\n+n_obs_steps: 2\n+name: train_diffusion_unet_hybrid\n+obs_as_global_cond: true\n+optimizer:\n+  _target_: torch.optim.AdamW\n+  betas:\n+  - 0.95\n+  - 0.999\n+  eps: 1.0e-08\n+  lr: 0.0001\n+  weight_decay: 1.0e-06\n+past_action_visible: false\n+policy:\n+  _target_: diffusion_policy.policy.diffusion_unet_hybrid_image_policy.DiffusionUnetHybridImagePolicy\n+  cond_predict_scale: true\n+  crop_shape:\n+  - 84\n+  - 84\n+  diffusion_step_embed_dim: 128\n+  down_dims:\n+  - 512\n+  - 1024\n+  - 2048\n+  eval_fixed_crop: true\n+  horizon: 16\n+  kernel_size: 5\n+  n_action_steps: 8\n+  n_groups: 8\n+  n_obs_steps: 2\n+  noise_scheduler:\n+    _target_: diffusers.schedulers.scheduling_ddpm.DDPMScheduler\n+    beta_end: 0.02\n+    beta_schedule: squaredcos_cap_v2\n+    beta_start: 0.0001\n+    clip_sample: true\n+    num_train_timesteps: 100\n+    prediction_type: epsilon\n+    variance_type: fixed_small\n+  num_inference_steps: 100\n+  obs_as_global_cond: true\n+  obs_encoder_group_norm: true\n+  shape_meta:\n+    action:\n+      shape:\n+      - 2\n+    obs:\n+      agent_pos:\n+        shape:\n+        - 2\n+        type: low_dim\n+      image:\n+        shape:\n+        - 3\n+        - 96\n+        - 96\n+        type: rgb\n+shape_meta:\n+  action:\n+    shape:\n+    - 2\n+  obs:\n+    agent_pos:\n+      shape:\n+      - 2\n+      type: low_dim\n+    image:\n+      shape:\n+      - 3\n+      - 96\n+      - 96\n+      type: rgb\n+task:\n+  dataset:\n+    _target_: diffusion_policy.dataset.pusht_image_dataset.PushTImageDataset\n+    horizon: 16\n+    max_train_episodes: 90\n+    pad_after: 7\n+    pad_before: 1\n+    seed: 42\n+    val_ratio: 0.02\n+    zarr_path: data/pusht/pusht_cchi_v7_replay.zarr\n+  env_runner:\n+    _target_: diffusion_policy.env_runner.pusht_image_runner.PushTImageRunner\n+    fps: 10\n+    legacy_test: true\n+    max_steps: 300\n+    n_action_steps: 8\n+    n_envs: null\n+    n_obs_steps: 2\n+    n_test: 50\n+    n_test_vis: 4\n+    n_train: 6\n+    n_train_vis: 2\n+    past_action: false\n+    test_start_seed: 100000\n+    train_start_seed: 0\n+  image_shape:\n+  - 3\n+  - 96\n+  - 96\n+  name: pusht_image\n+  shape_meta:\n+    action:\n+      shape:\n+      - 2\n+    obs:\n+      agent_pos:\n+        shape:\n+        - 2\n+        type: low_dim\n+      image:\n+        shape:\n+        - 3\n+        - 96\n+        - 96\n+        type: rgb\n+task_name: pusht_image\n+training:\n+  checkpoint_every: 50\n+  debug: false\n+  device: cuda:0\n+  gradient_accumulate_every: 1\n+  lr_scheduler: cosine\n+  lr_warmup_steps: 500\n+  max_train_steps: null\n+  max_val_steps: null\n+  num_epochs: 3050\n+  resume: true\n+  rollout_every: 50\n+  sample_every: 5\n+  seed: 42\n+  tqdm_interval_sec: 1.0\n+  use_ema: true\n+  val_every: 1\n+val_dataloader:\n+  batch_size: 64\n+  num_workers: 8\n+  persistent_workers: false\n+  pin_memory: true\n+  shuffle: false"
+    }
+  ]
+}

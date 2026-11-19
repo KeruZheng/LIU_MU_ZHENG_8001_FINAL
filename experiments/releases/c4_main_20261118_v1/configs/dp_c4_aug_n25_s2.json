@@ -1,0 +1,34 @@
+{
+  "method": "dp_c4_aug",
+  "seed": 2,
+  "demos": 25,
+  "data": "data/pusht/pusht_cchi_v7_replay.zarr",
+  "split": "manifests/split.json",
+  "rotated": true,
+  "allow_rotated": true,
+  "formal": true,
+  "allow_formal": true,
+  "horizon": 16,
+  "obs_steps": 2,
+  "action_steps": 8,
+  "down_dims": [
+    512,
+    1024,
+    2048
+  ],
+  "diffusion_steps": 100,
+  "inference_steps": 100,
+  "lr": 0.0001,
+  "steps": 20000,
+  "batch_size": 64,
+  "checkpoint_every": 2000,
+  "cpu_threads": 4,
+  "tiny": false,
+  "cache_data": true,
+  "allow_tf32": false,
+  "retain_ema_steps": [
+    16000,
+    18000,
+    20000
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "task": "rq3_symmetry_breaking",
+  "releases": [
+    "rq3_state_20261118_v1"
+  ],
+  "owned_releases": [
+    "rq3_state_20261118_v1"
+  ],
+  "shared_releases": [],
+  "evidence_index": "results/run_index.json",
+  "shareable_report": "reports/latest.json",
+  "unimplemented": [
+    "image_rq3_18_runs"
+  ],
+  "published_report": "reports/submission_20261119.json"
+}

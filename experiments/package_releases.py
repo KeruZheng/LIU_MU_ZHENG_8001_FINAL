@@ -11,6 +11,9 @@ NAMES += ['conv_dp_n%s_20261119_v1' % n for n in (25, 50, 100, 200)]
 NAMES += ['conv_c4_n%s_20261119_v2' % n for n in (50, 200)]
 NAMES += ['c8_speed_20261119_v1', 'official_dp_preflight_20261119_v1']
 NAMES += ['official_dp_s42_20261120_v1']
+NAMES += [f'conv_aug_n{n}_20261120_v1' for n in (25, 50, 100, 200)]
+NAMES += [f'conv_c4_n{n}_s12_20261120_v1' for n in (50, 200)]
+NAMES += [f'rq3_image_{mode}_20261120_v1' for mode in ('fixed', 'rotated')]
 MANIFESTS = {'data.json', 'data.sha256', 'split.json', 'evaluation_seeds.json',
              'upstream.json', 'equidiff_commit.json', 'diffusion_policy_commit.json',
              'lane.json'}
@@ -29,7 +32,7 @@ def package(source, destination):
         keep |= len(parts) == 1 and relative.endswith('.md')
         keep |= relative in ('config.yaml', 'upstream_files.json', 'runner.py', 'train.sbatch')
         keep |= parts[0] == 'manifests' and Path(relative).name in MANIFESTS
-        keep |= relative == 'scripts/validate_c4.py'
+        keep |= relative in ('scripts/validate_c4.py', 'scripts/image_preflight.py', 'scripts/image_lane.py')
         if not keep:
             continue
         path = source / relative

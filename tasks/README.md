@@ -28,6 +28,12 @@ Two additional single-seed C4 convergence runs use separate V100 lanes; they
 are exploratory. Calibration and engineering-preflight jobs do not increase the
 scientific run count.
 
+November 20 follow-ups add 12 exact-augmentation convergence runs and four C4
+seeds. The visible-goal image RQ3 extension has 18 comparison cells but reuses six
+primary baselines by global ID, requiring 12 new trainings. It is separate from
+state RQ3 and brings the primary plus image-extension unique-run target to 78,
+not 84. See [deployment details](../operations/fill_20261120/README.md).
+
 Every task has a `task.json`, a live ignored `reports/latest.json`, and an ignored
 `results/run_index.json`. The evidence index identifies the code snapshot,
 configuration, training/evaluation state, device, Slurm job, runtime versions,

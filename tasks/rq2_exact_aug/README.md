@@ -7,6 +7,9 @@ equivariant architecture still improve performance? Use the same frozen
 - [Shared C4 scientific protocol](../../experiments/releases/c4_main_20261118_v1/PROTOCOL.md).
 - [C8 architecture ablation](../../experiments/releases/c8_ablation_20261118_v1/PROTOCOL.md):
   50/200 demos times three seeds, six additional runs.
+- Follow-up augmentation convergence: `conv_aug_n*_20261120_v1`, four data sizes
+  and seeds 0/1/2, fresh 20k/40k/60k validation curves. These 12 runs complement
+  DP/C4 convergence; they are exploratory and never replace the primary test table.
 - Shared main raw evidence stays at
   `../rq1_transfer/results/c4_main_20261118_v1/runs/`.
 - C8 raw evidence is owned here: `results/c8_ablation_20261118_v1/runs/`.

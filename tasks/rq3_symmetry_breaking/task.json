@@ -1,16 +1,32 @@
 {
   "task": "rq3_symmetry_breaking",
   "releases": [
-    "rq3_state_20261118_v1"
+    "rq3_state_20261118_v1",
+    "rq3_image_fixed_20261120_v1",
+    "rq3_image_rotated_20261120_v1"
   ],
   "owned_releases": [
-    "rq3_state_20261118_v1"
+    "rq3_state_20261118_v1",
+    "rq3_image_fixed_20261120_v1",
+    "rq3_image_rotated_20261120_v1"
   ],
   "shared_releases": [],
   "evidence_index": "results/run_index.json",
   "shareable_report": "reports/latest.json",
-  "unimplemented": [
-    "image_rq3_18_runs"
-  ],
-  "published_report": "reports/submission_20261119.json"
+  "unimplemented": [],
+  "published_report": "reports/submission_20261119.json",
+  "image_extension": {
+    "comparison_cells": 18,
+    "new_trainings": 12,
+    "shared_baseline_run_ids": [
+      "c4_main_20261118_v1/dp_n50_s0",
+      "c4_main_20261118_v1/dp_n50_s1",
+      "c4_main_20261118_v1/dp_n50_s2",
+      "c4_main_20261118_v1/equidiff_c4_n50_s0",
+      "c4_main_20261118_v1/equidiff_c4_n50_s1",
+      "c4_main_20261118_v1/equidiff_c4_n50_s2"
+    ],
+    "status": "submitted_with_preflight_gate",
+    "interpretation": "RGB goal visible; distinct from hidden-goal state hypothesis"
+  }
 }

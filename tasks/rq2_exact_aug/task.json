@@ -2,10 +2,18 @@
   "task": "rq2_exact_aug",
   "releases": [
     "c8_ablation_20261118_v1",
-    "c4_main_20261118_v1"
+    "c4_main_20261118_v1",
+    "conv_aug_n100_20261120_v1",
+    "conv_aug_n200_20261120_v1",
+    "conv_aug_n25_20261120_v1",
+    "conv_aug_n50_20261120_v1"
   ],
   "owned_releases": [
-    "c8_ablation_20261118_v1"
+    "c8_ablation_20261118_v1",
+    "conv_aug_n100_20261120_v1",
+    "conv_aug_n200_20261120_v1",
+    "conv_aug_n25_20261120_v1",
+    "conv_aug_n50_20261120_v1"
   ],
   "shared_releases": [
     "c4_main_20261118_v1"

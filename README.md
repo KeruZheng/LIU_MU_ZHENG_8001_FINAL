@@ -1,6 +1,6 @@
 # Robotic: EquiDiff / Push-T study
 
-## Current Research Layout (2026-11-19)
+## Current Research Layout (2026-11-20)
 
 Start with [the task map](tasks/README.md). The current EquiDiff adaptation and
 frozen scientific code are now included in this repository under
@@ -11,8 +11,8 @@ implementation; they are preserved and are not the source of the active main run
 | Research task | Code/configuration entry | Results and provenance |
 |---|---|---|
 | RQ1: transfer and data efficiency | [rq1_transfer](tasks/rq1_transfer/README.md) | Main matrix and independent convergence curves |
-| RQ2: exact augmentation comparison | [rq2_exact_aug](tasks/rq2_exact_aug/README.md) | Shared main runs and C8 ablation |
-| RQ3: symmetry failure and fixes | [rq3_symmetry_breaking](tasks/rq3_symmetry_breaking/README.md) | Fixed/rotated-goal state matrix |
+| RQ2: exact augmentation comparison | [rq2_exact_aug](tasks/rq2_exact_aug/README.md) | Shared main runs, C8, augmentation convergence |
+| RQ3: symmetry failure and fixes | [rq3_symmetry_breaking](tasks/rq3_symmetry_breaking/README.md) | State matrix and visible-goal image extension |
 
 The [fleet monitor](operations/fleet/README.md) tracks the local 5090 and both
 clusters. Its live local dashboard is
@@ -22,12 +22,14 @@ ignored raw evidence and provenance. Model files stay in their existing verified
 archive locations, referenced by the task evidence index. Active training paths
 are unchanged. See [reproduction preparation](experiments/README.md).
 
-The current scope is 66 primary runs plus 12 independent DP convergence runs
-and two exploratory single-seed C4 convergence runs. Short runtime calibrations
-and official DP engineering preflights are tracked separately.
-Submitting or preparing a run does not mean that it is running or completed.
-The proposal's 18 image RQ3 runs, full official DP recipe, Stack-D1 sanity check,
-and optional E4 are not completed by this layout change.
+The initial scope is 66 primary runs, 12 independent DP convergence runs, and two
+single-seed C4 diagnostics. The [November 20 follow-ups](operations/fill_20261120/README.md)
+add 12 augmentation convergence runs, four C4 convergence seeds, and 12 new image
+RQ3 trainings. The 18-cell image comparison reuses six primary baselines without
+double counting. Official DP seed 42's full 3050-epoch recipe is also submitted.
+Short calibrations and preflights are tracked separately. Submitting or preparing
+a run does not mean it is running or complete. Stack-D1 sanity and optional E4
+remain outstanding; fixed published reports retain their original snapshot date.
 
 ## Historical Fallback Documentation
 

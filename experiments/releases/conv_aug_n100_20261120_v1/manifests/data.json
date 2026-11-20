@@ -1,0 +1,49 @@
+{
+  "episode_count": 206,
+  "frames": 25650,
+  "arrays": {
+    "action": {
+      "shape": [
+        25650,
+        2
+      ],
+      "dtype": "float32"
+    },
+    "img": {
+      "shape": [
+        25650,
+        96,
+        96,
+        3
+      ],
+      "dtype": "float32"
+    },
+    "keypoint": {
+      "shape": [
+        25650,
+        9,
+        2
+      ],
+      "dtype": "float32"
+    },
+    "n_contacts": {
+      "shape": [
+        25650,
+        1
+      ],
+      "dtype": "float32"
+    },
+    "state": {
+      "shape": [
+        25650,
+        5
+      ],
+      "dtype": "float32"
+    }
+  },
+  "episode_ends_sha256": "82db02e667c59a83fedb211ab9b84182591b75009df1385210d5235197f93d72",
+  "url": "https://diffusion-policy.cs.columbia.edu/data/training/pusht.zip",
+  "archive_sha256": "63d52a114a3f010861f0181309d165b7d69133ccae426ece2fc94caed147bdf9",
+  "archive_bytes": 30988725,
+  "path": "data/pusht/pusht_cchi_v7_replay.zarr"
+}

@@ -1,0 +1,27 @@
+{
+  "runs": [
+    "fixed_dp_n50_s0",
+    "fixed_equidiff_c4_n50_s0",
+    "fixed_equidiff_c4_gate_n50_s0",
+    "fixed_dp_n50_s1",
+    "fixed_equidiff_c4_n50_s1",
+    "fixed_equidiff_c4_gate_n50_s1",
+    "fixed_dp_n50_s2",
+    "fixed_equidiff_c4_n50_s2",
+    "fixed_equidiff_c4_gate_n50_s2"
+  ],
+  "milestones": [
+    16000,
+    18000,
+    20000
+  ],
+  "scope": "Visible-goal image RQ3; post-state-result protocol",
+  "shared_rotated_baselines": [
+    "c4_main_20261118_v1/dp_n50_s0",
+    "c4_main_20261118_v1/dp_n50_s1",
+    "c4_main_20261118_v1/dp_n50_s2",
+    "c4_main_20261118_v1/equidiff_c4_n50_s0",
+    "c4_main_20261118_v1/equidiff_c4_n50_s1",
+    "c4_main_20261118_v1/equidiff_c4_n50_s2"
+  ]
+}

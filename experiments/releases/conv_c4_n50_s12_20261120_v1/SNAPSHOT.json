@@ -1,0 +1,31 @@
+{
+  "release": "conv_c4_n50_s12_20261120_v1",
+  "original_frozen_manifest_sha256": "611dea9c822aeaecb345e6cc874c48b610c4f14dfcec9ddaae70959cb92a6eed",
+  "files": {
+    "src/pusht_study/statistics.py": "849ed4d93410a99bab9dacd9c706beb5e351840a5531505e5fb3af8fcaed58ff",
+    "src/pusht_study/evaluate.py": "cb4e7d9570f2ced5eff0909cc93b2e9fbaf83b2d151c510ea514e13cca45b232",
+    "src/pusht_study/geometry.py": "f54cc70c92833fea7ef271d5762e8f57c2ebe80762b6bffcc261d88f63ff76e6",
+    "src/pusht_study/__init__.py": "7af6bba97bee4f635da0b7148dc3a14e77604be2a54d8f90ceb2f17b9d6f1203",
+    "src/pusht_study/models.py": "ae1ac423d71b9dbb23f39c07d931300fe750acd5507fc5d8602f9a0f7ef09b56",
+    "src/pusht_study/train.py": "d79c7971fd877130d5f2e6c7e4d6d987ffd1791a717eca47bd5302ab36ad8727",
+    "src/pusht_study/equidiff.py": "aa1d236907ff65a78a9506b9d5f87278c552419d33a418b9257c01dbb731ecdf",
+    "src/pusht_study/env.py": "936c9a048cb7e903b6d59c36e43fbf1f1719d84f139abb9b43ce94ec0cc0a0c5",
+    "src/pusht_study/env_c4.py": "1fcdc3ecc7d828a37de61c7b115811a119f00eeef6e31bbc691296481e64064d",
+    "src/pusht_study/data.py": "2b6762d4014117153e62f4bf2e2957dac19e973378a0585a409b4dd218249337",
+    "src/pusht_study/evaluate_c4.py": "0eb68890a0f7d7268a61aa1688f5550b556b48b764636aa1290ab34bc32d8a6a",
+    "scripts/validate_c4.py": "c49f79bd1af32fd419c003a97b8ea98b64415fd4b27fe1a7ae03ece653b00f69",
+    "manifests/lane.json": "781cd724a3076c8d9979660e9da7d2918085a7c40b48a00848998e84a358b1b4",
+    "manifests/evaluation_seeds.json": "42c3731f7afbdbc4d2ee6af90f3957f9c4aac20669005d38e0b1504dfcd6aa55",
+    "manifests/upstream.json": "49796844feca5be102b123cc272bb13a7f9436df383f7db23054fa14aa3721af",
+    "manifests/split.json": "8a9eb34ea19831013b77e3a582b7601afe446ca369f9bb8d45ea492fb9ff811b",
+    "manifests/data.json": "a81f05cdfda082f3a4b159b56d25805002b4380bd28df51921abc2e7602eebe6",
+    "configs/equidiff_c4_n50_s1_40000.json": "34f01ff9f529f0b96352345b2d55cc082466bc87ef8f11638e09fc0b39a99a59",
+    "configs/equidiff_c4_n50_s2_20000.json": "b5f1f33beefd3faa73137a7c4d3a7b589c3e80cc003b2849538cedb13edf65c8",
+    "configs/equidiff_c4_n50_s2_60000.json": "7d3496c33658436dab2f4d2862adec22c125289b84df80c002598588a1852e66",
+    "configs/equidiff_c4_n50_s2_40000.json": "e5de4aaa89c17595dd6c35b1c7e6025f6b44b86c9c4913f31773dcf16461ccd0",
+    "configs/equidiff_c4_n50_s1_60000.json": "514b24ac5926666c89c61c8ac2b1f06d128c3d99e652b61c76c395bb3f74c97f",
+    "configs/equidiff_c4_n50_s1_20000.json": "8df5f1127854fbb6e26400186957711ee0f7a76cd582bf104d19e6cdece8fb7a",
+    "PROTOCOL.md": "0618d9ba087f6ef887b52c4b812226dab084a3a45a5b5136297f10bb4c6073fd"
+  },
+  "scope": "Exact scientific files; machine-specific queues, environments and logs omitted"
+}

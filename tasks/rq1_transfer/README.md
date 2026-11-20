@@ -14,6 +14,9 @@ for the shared RQ2 comparison: 36 unique runs, not two independently trained tab
   `conv_c4_n200_20261119_v2`, one seed each, run independently at the same
   20k/40k/60k milestones. These two diagnostics do not establish three-seed
   convergence or extend the primary matrix.
+- Follow-up C4 convergence: `conv_c4_n50_s12_20261120_v1` and
+  `conv_c4_n200_s12_20261120_v1` add seeds 1/2 to the completed seed-0 curves.
+  These remain validation-only follow-ups, with new independent run identities.
 - Raw main evidence: `results/c4_main_20261118_v1/runs/<run>/`.
 - Raw convergence evidence: `results/conv_dp_n*_20261119_v1/runs/<run>/`.
 - [Published result snapshot](reports/submission_20261119.json); local provenance:

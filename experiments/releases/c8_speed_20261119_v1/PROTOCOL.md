@@ -1,0 +1,1 @@
+C8 full-model 200-update runtime calibration only. Exact original calibration configuration, batch64, FP32, TF32 disabled. No performance or convergence claims. Never pooled with primary experiments. Separate output per device.

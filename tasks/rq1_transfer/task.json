@@ -5,21 +5,34 @@
     "conv_dp_n25_20261119_v1",
     "conv_dp_n50_20261119_v1",
     "conv_dp_n100_20261119_v1",
-    "conv_dp_n200_20261119_v1"
+    "conv_dp_n200_20261119_v1",
+    "conv_c4_n50_20261119_v2",
+    "conv_c4_n200_20261119_v2"
   ],
   "owned_releases": [
     "c4_main_20261118_v1",
     "conv_dp_n25_20261119_v1",
     "conv_dp_n50_20261119_v1",
     "conv_dp_n100_20261119_v1",
-    "conv_dp_n200_20261119_v1"
+    "conv_dp_n200_20261119_v1",
+    "conv_c4_n50_20261119_v2",
+    "conv_c4_n200_20261119_v2"
   ],
   "shared_releases": [],
   "evidence_index": "results/run_index.json",
   "shareable_report": "reports/latest.json",
   "unimplemented": [
-    "official_dp_reference",
     "equidiff_stack_d1_reference"
+  ],
+  "reference_experiments": [
+    {
+      "release": "official_dp_s42_20261120_v1",
+      "job_id": "28232",
+      "state_at_submission": "submitted",
+      "seed": 42,
+      "target_epochs": 3050,
+      "note": "Separate published 90-demo recipe; no completed reference result yet"
+    }
   ],
   "published_report": "reports/submission_20261119.json"
 }

@@ -8,6 +8,9 @@ import shutil
 CODES = Path(__file__).resolve().parents[1]
 NAMES = ['c4_main_20261118_v1', 'rq3_state_20261118_v1', 'c8_ablation_20261118_v1']
 NAMES += ['conv_dp_n%s_20261119_v1' % n for n in (25, 50, 100, 200)]
+NAMES += ['conv_c4_n%s_20261119_v2' % n for n in (50, 200)]
+NAMES += ['c8_speed_20261119_v1', 'official_dp_preflight_20261119_v1']
+NAMES += ['official_dp_s42_20261120_v1']
 MANIFESTS = {'data.json', 'data.sha256', 'split.json', 'evaluation_seeds.json',
              'upstream.json', 'equidiff_commit.json', 'diffusion_policy_commit.json',
              'lane.json'}
@@ -24,6 +27,7 @@ def package(source, destination):
         parts = Path(relative).parts
         keep = parts[0] in ('src', 'configs', 'tests')
         keep |= len(parts) == 1 and relative.endswith('.md')
+        keep |= relative in ('config.yaml', 'upstream_files.json', 'runner.py', 'train.sbatch')
         keep |= parts[0] == 'manifests' and Path(relative).name in MANIFESTS
         keep |= relative == 'scripts/validate_c4.py'
         if not keep:

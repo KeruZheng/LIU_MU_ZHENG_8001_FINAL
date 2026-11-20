@@ -89,18 +89,30 @@ def progress_alert(key, token, previous, now, running, threshold=1800):
     return state, running and now - changed_at > threshold
 
 
+def training_rate(status, target):
+    elapsed = status.get('elapsed_seconds', 0)
+    completed = status.get('step', 0) - status.get('attempt_start_step', 0)
+    if status.get('state') != 'training' or elapsed <= 0 or completed <= 0:
+        return None
+    rate = completed / elapsed
+    return {'updates_per_second': rate,
+            'remaining_training_seconds': max(0, target - status['step']) / rate,
+            'scope': 'Current attempt/current training milestone only; excludes future evaluation and queue waits'}
+
+
 def collect(config, out):
     now = time.time()
     codes = Path(config['codes'])
     prior = read(out / 'latest.json', {})
     state = {'time': datetime.now(timezone.utc).isoformat(), 'time_epoch': now,
-             'devices': {}, 'lanes': [], 'services': [], 'alerts': [], 'progress_memory': {}}
+             'devices': {}, 'lanes': [], 'auxiliary': [], 'services': [], 'alerts': [], 'progress_memory': {}}
     servers = {s['name']: s for s in config['servers']}
     probe_source = Path(__file__).with_name('probe.py').read_text()
 
     def remote(server):
         releases = [e['release'] for e in config['lanes'] if e['device'] == server['name']]
         jobs = sorted(set([str(e['job_id']) for e in config['lanes'] if e['device'] == server['name']] + server.get('extra_jobs', [])))
+        jobs = sorted(set(jobs + [str(e['job_id']) for e in config.get('auxiliary', []) if e['device'] == server['name']]))
         cmd = ['python3', '-', '--root', server['root'], '--jobs', ','.join(jobs), '--releases', ','.join(releases)]
         result = execute(server['ssh'] + [shlex.join(cmd)], timeout=55, text=probe_source)
         if result['returncode'] == 0:
@@ -200,6 +212,25 @@ def collect(config, out):
         state['lanes'].append(dict(release=release, device=entry['device'], scheduler=scheduler,
             current=queue.get('name') or queue.get('run') or '-', phase=queue.get('state'),
             progress=queue.get('progress', {}), job_id=entry.get('job_id'), counts=counts))
+        current_run = queue.get('run')
+        if queue.get('name', '').endswith('_train'):
+            current_run = queue['name'][:-6]
+        if current_run:
+            status = read(evidence / 'runs' / current_run / 'status.json', {})
+            state['lanes'][-1]['rate'] = training_rate(status, queue.get('target_step', max(entry['milestones'])))
+    for entry in config.get('auxiliary', []):
+        device = state['devices'].get(entry['device'], {})
+        job = device.get('jobs', {}).get(str(entry['job_id']), {})
+        result = dict(entry, scheduler=job.get('state', 'UNKNOWN'), allocation=job)
+        if entry.get('release'):
+            result['sync'] = sync_metadata(entry, servers.get(entry['device']), codes)
+            evidence = codes / 'tasks' / entry['owner'] / 'results' / entry['release']
+            result['reports'] = {str(p.relative_to(evidence)): read(p) for p in
+                                 list(evidence.glob('runs/*/calibration.json')) +
+                                 list(evidence.glob('runs/*/preflight_result.json'))}
+        state['auxiliary'].append(result)
+        if result['scheduler'].split('+')[0].split(' ')[0] in FAILURES and not entry.get('resolved_by'):
+            state['alerts'].append(entry['name'] + ': ' + result['scheduler'])
     for service in config['services']:
         try:
             pid = Path(service['pid_file']).read_text().strip()
@@ -241,6 +272,17 @@ def collect(config, out):
              '|---|---|---|---|---|---|']
     for lane in state['lanes']:
         lines.append('| {device} | {release} | {job_id} | {scheduler} | {current} | {complete}/{planned} |'.format(**lane, **lane['counts']))
+    lines += ['', '## Current training throughput', '']
+    for lane in state['lanes']:
+        if lane.get('rate'):
+            rate = lane['rate']
+            lines.append('- %s: %.3f updates/s; about %.2f hours to current milestone, excluding evaluation.' %
+                         (lane['release'], rate['updates_per_second'], rate['remaining_training_seconds'] / 3600))
+    lines += ['', '## Calibration and preflight jobs', '',
+              '| Device | Job | Purpose | Scheduler | Follow-up |', '|---|---|---|---|---|']
+    for entry in state['auxiliary']:
+        lines.append('| %s | %s | %s | %s | %s |' %
+                     (entry['device'], entry['job_id'], entry['name'], entry['scheduler'], entry.get('resolved_by', '-')))
     lines += ['', '## Alerts', ''] + (['- ' + a for a in state['alerts']] or ['No current alerts.'])
     lines += ['', '## Monitoring services', '']
     lines += ['- %s: alive=%s, heartbeat age=%s seconds' % (s['name'], s['alive'], s['heartbeat_age_seconds']) for s in state['services']]

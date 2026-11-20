@@ -1,0 +1,12 @@
+{
+  "release": "official_dp_s42_20261120_v1",
+  "original_frozen_manifest_sha256": "879770e15fa58559ebe3e9667d773a9432d24b659498586fa2aeda5c5a45ef7b",
+  "files": {
+    "upstream_files.json": "97a2d7903b1751985a8a462b8a17f07c8017c2b5063d8fa8a18957be299e9b59",
+    "runner.py": "79cdeb65f653004e089c363ca034bda3aa4e506a2dc06d76470e9dbd2360523f",
+    "PROTOCOL.md": "3b6259425974f377765ac800c28a9073f59ce1548cfcc41d8bb059c43fc11df6",
+    "train.sbatch": "6674dbd438e23243178413cbde985d106b6a31512a0f74f9cdb6abd21122f382",
+    "config.yaml": "a335ac5d4fda88ef53b4c04788b58966e2a72c7540abb5465a22d4edac2e6f9b"
+  },
+  "scope": "Exact scientific files; machine-specific queues, environments and logs omitted"
+}

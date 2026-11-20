@@ -1,0 +1,26 @@
+{
+  "release": "c8_speed_20261119_v1",
+  "original_frozen_manifest_sha256": "8b6db47afc5117b5b640b87f8f04d027a769ed339fdcc08e50f55bc85536700d",
+  "files": {
+    "PROTOCOL.md": "eb2f89fad4f9e6d9b03c8792132045df1b2d4680bfa7306218869e30e4b376d6",
+    "scripts/validate_c4.py": "c49f79bd1af32fd419c003a97b8ea98b64415fd4b27fe1a7ae03ece653b00f69",
+    "configs/calibration.json": "76ce6043b600e1cb2c4447635fc2b7d9fe2b423684223274a2427eb6b33185fa",
+    "manifests/evaluation_seeds.json": "7ca03e2e1b880429bcdd32b4c35dae468eaab60d47fc22a249f238e6f9035fe2",
+    "manifests/upstream.json": "49796844feca5be102b123cc272bb13a7f9436df383f7db23054fa14aa3721af",
+    "manifests/split.json": "8a9eb34ea19831013b77e3a582b7601afe446ca369f9bb8d45ea492fb9ff811b",
+    "manifests/data.json": "a81f05cdfda082f3a4b159b56d25805002b4380bd28df51921abc2e7602eebe6",
+    "src/pusht_study/statistics.py": "849ed4d93410a99bab9dacd9c706beb5e351840a5531505e5fb3af8fcaed58ff",
+    "src/pusht_study/evaluate.py": "cb4e7d9570f2ced5eff0909cc93b2e9fbaf83b2d151c510ea514e13cca45b232",
+    "src/pusht_study/state_models.py": "0aa021cc5ae976ed6a7d525c73d7d0e934029d6fb3b84669fbd6e0ec0bc0f705",
+    "src/pusht_study/geometry.py": "f54cc70c92833fea7ef271d5762e8f57c2ebe80762b6bffcc261d88f63ff76e6",
+    "src/pusht_study/__init__.py": "7af6bba97bee4f635da0b7148dc3a14e77604be2a54d8f90ceb2f17b9d6f1203",
+    "src/pusht_study/models.py": "ec9f8b56060db635e50353e0385b77dde01bc28b13ae4212cbfdc4a3f876097a",
+    "src/pusht_study/train.py": "f2cf6f2f9b37fd56558fe933ff7bf4a21623c787948d8e09fd93026ac9f8c63b",
+    "src/pusht_study/equidiff.py": "3167250c3240da7443f97fa4a34ad4ad38ed949baeb878471661f0268f769fa4",
+    "src/pusht_study/env.py": "936c9a048cb7e903b6d59c36e43fbf1f1719d84f139abb9b43ce94ec0cc0a0c5",
+    "src/pusht_study/env_c4.py": "fda1490fd5c47bf1ae3862c8e5a473dd4b7f062f16072918454dbd113e34fea4",
+    "src/pusht_study/data.py": "e5b8639a9bd754c2cf0c463b13fa03c1d83e4a6c0f924b123acd4edbd838eb15",
+    "src/pusht_study/evaluate_c4.py": "af09a8b5c2b29ba646f87f28089d135803c4917ab9cbe8e88a33d1d4ee13d144"
+  },
+  "scope": "Exact scientific files; machine-specific queues, environments and logs omitted"
+}

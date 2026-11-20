@@ -22,7 +22,9 @@ ignored raw evidence and provenance. Model files stay in their existing verified
 archive locations, referenced by the task evidence index. Active training paths
 are unchanged. See [reproduction preparation](experiments/README.md).
 
-The current scope is 66 primary runs plus 12 independent DP convergence runs.
+The current scope is 66 primary runs plus 12 independent DP convergence runs
+and two exploratory single-seed C4 convergence runs. Short runtime calibrations
+and official DP engineering preflights are tracked separately.
 Submitting or preparing a run does not mean that it is running or completed.
 The proposal's 18 image RQ3 runs, full official DP recipe, Stack-D1 sanity check,
 and optional E4 are not completed by this layout change.

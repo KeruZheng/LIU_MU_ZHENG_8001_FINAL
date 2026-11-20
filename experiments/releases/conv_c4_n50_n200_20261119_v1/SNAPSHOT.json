@@ -1,0 +1,30 @@
+{
+  "release": "conv_c4_n50_n200_20261119_v1",
+  "original_frozen_manifest_sha256": "e2819a31d78a1a4abe0c7d357f29dfbd91dce005941f3664383ae64c6a9ad9b6",
+  "files": {
+    "src/pusht_study/__init__.py": "7af6bba97bee4f635da0b7148dc3a14e77604be2a54d8f90ceb2f17b9d6f1203",
+    "src/pusht_study/data.py": "2b6762d4014117153e62f4bf2e2957dac19e973378a0585a409b4dd218249337",
+    "src/pusht_study/env.py": "936c9a048cb7e903b6d59c36e43fbf1f1719d84f139abb9b43ce94ec0cc0a0c5",
+    "src/pusht_study/env_c4.py": "1fcdc3ecc7d828a37de61c7b115811a119f00eeef6e31bbc691296481e64064d",
+    "src/pusht_study/equidiff.py": "aa1d236907ff65a78a9506b9d5f87278c552419d33a418b9257c01dbb731ecdf",
+    "src/pusht_study/evaluate.py": "cb4e7d9570f2ced5eff0909cc93b2e9fbaf83b2d151c510ea514e13cca45b232",
+    "src/pusht_study/evaluate_c4.py": "0eb68890a0f7d7268a61aa1688f5550b556b48b764636aa1290ab34bc32d8a6a",
+    "src/pusht_study/geometry.py": "f54cc70c92833fea7ef271d5762e8f57c2ebe80762b6bffcc261d88f63ff76e6",
+    "src/pusht_study/models.py": "ae1ac423d71b9dbb23f39c07d931300fe750acd5507fc5d8602f9a0f7ef09b56",
+    "src/pusht_study/statistics.py": "849ed4d93410a99bab9dacd9c706beb5e351840a5531505e5fb3af8fcaed58ff",
+    "src/pusht_study/train.py": "d79c7971fd877130d5f2e6c7e4d6d987ffd1791a717eca47bd5302ab36ad8727",
+    "scripts/validate_c4.py": "c49f79bd1af32fd419c003a97b8ea98b64415fd4b27fe1a7ae03ece653b00f69",
+    "configs/equidiff_c4_n200_s0_20000.json": "c2b8cf958324bfc2e77a7da1641d3d84cc4d2599b7bf0be9e0741a33dc66e5cc",
+    "configs/equidiff_c4_n200_s0_40000.json": "b7eed0958eb984fcd969e01ce9eb817c4f7ac41434e21ee4971b2f081ac71ea2",
+    "configs/equidiff_c4_n200_s0_60000.json": "08fcee7f7fcf4495e68e631769af01d695c19b4d72ffee28662a640dae5e11fc",
+    "configs/equidiff_c4_n50_s0_20000.json": "66eaa589791cfc3ea418a88436af1f94c463e28f9ff3c269ada820ef4d96b001",
+    "configs/equidiff_c4_n50_s0_40000.json": "aecf5e7d65fab66a8817b8fdb176a832bbb65b9d828de7d5b117457664979ec6",
+    "configs/equidiff_c4_n50_s0_60000.json": "3670807193d75d7ed6c3a680df45ecc8d44d11b1c2ec0855acbf923eefc9b310",
+    "manifests/data.json": "a81f05cdfda082f3a4b159b56d25805002b4380bd28df51921abc2e7602eebe6",
+    "manifests/evaluation_seeds.json": "42c3731f7afbdbc4d2ee6af90f3957f9c4aac20669005d38e0b1504dfcd6aa55",
+    "manifests/lane.json": "6a4f913f0bdab6d46a2d7161c61bf134eb831a14024078d57b95d72a41e411e6",
+    "manifests/split.json": "8a9eb34ea19831013b77e3a582b7601afe446ca369f9bb8d45ea492fb9ff811b",
+    "manifests/upstream.json": "49796844feca5be102b123cc272bb13a7f9436df383f7db23054fa14aa3721af"
+  },
+  "scope": "Exact scientific files; machine-specific queues, environments and logs omitted"
+}

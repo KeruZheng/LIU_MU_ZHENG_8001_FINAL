@@ -1,0 +1,10 @@
+{
+  "release": "official_dp_preflight_20261119_v1",
+  "original_frozen_manifest_sha256": "e8dd96dcc37d0cc288ce15d106556367258c356ff92a19b1629523cf2a21a2b4",
+  "files": {
+    "upstream_files.json": "97a2d7903b1751985a8a462b8a17f07c8017c2b5063d8fa8a18957be299e9b59",
+    "PROTOCOL.md": "93ab068e83961b877dbef72ed945310743599411276be79076bbc1299783d19e",
+    "config.yaml": "a335ac5d4fda88ef53b4c04788b58966e2a72c7540abb5465a22d4edac2e6f9b"
+  },
+  "scope": "Exact scientific files; machine-specific queues, environments and logs omitted"
+}

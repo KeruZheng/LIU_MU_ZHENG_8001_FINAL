@@ -1,0 +1,1 @@
+Official DP engineering preflight only. Published full-width model, batch64, 84-pixel crops. Upstream debug mode runs 2 epochs with 3 train batches per epoch, 2 rollout seeds. New venv; no primary source/env edits. Offline logging and atomic synchronous checkpoints. No scientific scores or convergence claims.

@@ -24,6 +24,9 @@ references it through the same global `release/run` identifiers. Do not add the
 RQ1 and RQ2 report row counts to obtain an experiment total. C8 has six independent
 runs, and RQ3 state has 24, giving 66 unique primary runs. Twelve new convergence
 runs are a separate validation study with a different runtime and fresh seeds.
+Two additional single-seed C4 convergence runs use separate V100 lanes; they
+are exploratory. Calibration and engineering-preflight jobs do not increase the
+scientific run count.
 
 Every task has a `task.json`, a live ignored `reports/latest.json`, and an ignored
 `results/run_index.json`. The evidence index identifies the code snapshot,

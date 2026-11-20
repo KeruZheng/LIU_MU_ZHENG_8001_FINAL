@@ -1,6 +1,6 @@
 import unittest
 
-from collect import classify, progress_alert
+from collect import classify, progress_alert, training_rate
 
 
 class FleetTests(unittest.TestCase):
@@ -34,6 +34,13 @@ class FleetTests(unittest.TestCase):
         self.assertTrue(progress_alert('lane', 'step1', previous, 2001, True)[1])
         self.assertFalse(progress_alert('lane', 'step2', previous, 2001, True)[1])
         self.assertFalse(progress_alert('lane', 'step1', previous, 2001, False)[1])
+
+    def test_resume_throughput_uses_only_this_attempt(self):
+        row = {'state': 'training', 'step': 21000, 'attempt_start_step': 20000, 'elapsed_seconds': 500}
+        rate = training_rate(row, 40000)
+        self.assertEqual(rate['updates_per_second'], 2)
+        self.assertEqual(rate['remaining_training_seconds'], 9500)
+        self.assertIsNone(training_rate({'state': 'complete', 'step': 20000}, 20000))
 
 
 if __name__ == '__main__':

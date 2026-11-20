@@ -44,8 +44,15 @@ python3 operations/fleet/collect.py --config operations/fleet/config.local.json 
 python3 -m unittest discover -s operations/fleet -p 'test_*.py' -v
 ```
 
-The deployed processes use a frozen copy under ignored `runtime/v1/` so editing
+The deployed processes use a frozen copy under ignored `runtime/v2/` so editing
 reviewable monitor source does not silently change running code. Update by making
 a new runtime version. JSON configuration is runtime data and can be updated
 separately when job IDs change. The original primary monitor and archive workers
 continue unchanged; this new collector checks them independently.
+
+Version 2 also displays calibration/preflight jobs separately from scientific
+runs and estimates the remaining time to the current training milestone from
+updates completed in the current attempt. It excludes evaluation, future runs,
+and scheduler waits, and handles resumed training without counting prior updates
+as work performed in the current attempt. Auxiliary jobs are configured through
+`auxiliary` entries with device, job ID, name, and optional release/evidence owner.

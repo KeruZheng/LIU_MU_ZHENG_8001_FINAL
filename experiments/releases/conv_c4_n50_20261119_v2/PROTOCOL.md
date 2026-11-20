@@ -1,0 +1,1 @@
+Exploratory C4 convergence diagnostic: 50 demos, seed 0 only, fresh initialization, validation at 20k/40k/60k. Original main C4 architecture/config; new device/runtime recorded separately. Not pooled with primary test results. Split from the never-started two-run lane for concurrent V100 execution.

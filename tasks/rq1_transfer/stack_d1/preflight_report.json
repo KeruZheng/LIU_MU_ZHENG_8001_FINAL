@@ -1,0 +1,195 @@
+{
+  "recorded_at": "2026-11-22T02:21:50.579480+08:00",
+  "status": "environment and data ready; formal training not started",
+  "formal_batch_128_validated": false,
+  "default_28_rollout_workers_validated": false,
+  "upstream_files_unchanged": 497,
+  "simulation": {
+    "camera_shapes": {
+      "agentview_image": [
+        3,
+        84,
+        84
+      ],
+      "robot0_eye_in_hand_image": [
+        3,
+        84,
+        84
+      ]
+    },
+    "step_reward": 0.0,
+    "step_done": false,
+    "action_conversion_errors": [
+      {
+        "delta_max_error": {
+          "state": 0.01770720924375551,
+          "pos": 0.0007961002736885552,
+          "rot": 0.0026565934351523153
+        },
+        "abs_max_error": {
+          "state": 0.004449420070387844,
+          "pos": 0.0007950789582475609,
+          "rot": 0.0027550712857629194
+        }
+      },
+      {
+        "delta_max_error": {
+          "state": 0.07672399562466789,
+          "pos": 0.000731558359513077,
+          "rot": 0.0027860401508315556
+        },
+        "abs_max_error": {
+          "state": 0.0761149131889654,
+          "pos": 0.0007308673826879859,
+          "rot": 0.002725805781399525
+        }
+      }
+    ],
+    "smoke_sha256": "e5518d26cf9040cbdb5d48c1b9e26e5a420a467fe292bcf27c98bf98db141498",
+    "scope": "engineering smoke check; not a trained policy or performance result"
+  },
+  "model": {
+    "torch": "2.12.0.dev20260407+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA GeForce RTX 5090",
+    "batch_size": 1,
+    "parameters": 271175734,
+    "loss": 1.0674866437911987,
+    "optimizer_step": true,
+    "ema_step": true,
+    "prediction_shape": [
+      1,
+      8,
+      10
+    ],
+    "inference_steps": 100,
+    "rotation_roundtrip_max_error": {
+      "cpu": 2.9802322387695312e-08,
+      "cuda": 2.9802322387695312e-08
+    },
+    "peak_allocated_gib": 5.652831077575684,
+    "elapsed_seconds": 2.1245291149243712,
+    "formal_batch_128_validated": false,
+    "scope": "engineering smoke check; not a trained policy or performance result"
+  },
+  "vector": {
+    "workers": 1,
+    "steps": 8,
+    "rewards": [
+      0.0
+    ],
+    "done": [
+      true
+    ],
+    "obs_shapes": {
+      "agentview_image": [
+        1,
+        2,
+        3,
+        84,
+        84
+      ],
+      "robot0_eye_in_hand_image": [
+        1,
+        2,
+        3,
+        84,
+        84
+      ],
+      "robot0_eef_pos": [
+        1,
+        2,
+        3
+      ],
+      "robot0_eef_quat": [
+        1,
+        2,
+        4
+      ],
+      "robot0_gripper_qpos": [
+        1,
+        2,
+        2
+      ]
+    },
+    "scope": "engineering smoke check; not a trained policy or performance result"
+  },
+  "workspace": {
+    "train_batches": 1,
+    "validation_batches": 1,
+    "rollout_episodes": 1,
+    "rollout_max_steps": 8,
+    "checkpoint_bytes": 4797609012,
+    "checkpoint_deserialized": true,
+    "peak_allocated_gib": 6.575051307678223,
+    "formal_batch_128_validated": false,
+    "scope": "engineering smoke check; not a trained policy or performance result"
+  },
+  "data": {
+    "recipe_n_demo": 100,
+    "train_episodes": 98,
+    "validation_episodes": 2,
+    "frames": 10777,
+    "train_sequences": 9876,
+    "action_shape": [
+      1,
+      16,
+      10
+    ],
+    "obs_shapes": {
+      "agentview_image": [
+        1,
+        2,
+        3,
+        84,
+        84
+      ],
+      "robot0_eye_in_hand_image": [
+        1,
+        2,
+        3,
+        84,
+        84
+      ],
+      "robot0_eef_pos": [
+        1,
+        2,
+        3
+      ],
+      "robot0_eef_quat": [
+        1,
+        2,
+        4
+      ],
+      "robot0_gripper_qpos": [
+        1,
+        2,
+        2
+      ]
+    },
+    "normalizer_finite": true,
+    "cache_bytes": 44472069,
+    "scope": "engineering smoke check; not a trained policy or performance result"
+  },
+  "conversion": {
+    "source": "stack_d1.hdf5",
+    "source_sha256": "edc9815a2738a583dcb3e7a9e239a71eca6057396a839e52b022935c273cfd61",
+    "output": "stack_d1_abs.hdf5",
+    "output_sha256": "e5bcd618904c76d370e7b7c1ffa5a8175191cc669c711dd0629212f409c661b5",
+    "output_bytes": 1072340218,
+    "demos": 1000,
+    "frames": 108233,
+    "verified_arrays": 17000,
+    "unchanged_non_action_arrays": true,
+    "unchanged_metadata": true,
+    "finite_absolute_actions": true,
+    "unchanged_gripper_actions": true,
+    "converter": "upstream/equidiff/equi_diffpo/scripts/robomimic_dataset_conversion.py",
+    "workers": 2,
+    "action_semantics": "absolute xyz, axis-angle, gripper; original env_args retained as in upstream conversion"
+  },
+  "script_sha256": {
+    "preflight.py": "9bfe2780dbcb3d93ee8d1add3bb66bd2b0d1971f673d2020eb368bfb2c6f1a0f",
+    "verify_conversion.py": "0a1701921494cfac52fa4bf1410cea55e349e38810fb60059ff920cb1b4eaf84"
+  }
+}

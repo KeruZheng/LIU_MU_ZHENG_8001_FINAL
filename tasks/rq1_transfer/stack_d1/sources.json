@@ -1,0 +1,53 @@
+{
+  "robosuite": {
+    "repository": "ARISE-Initiative/robosuite",
+    "commit": "b9d8d3de5e3dfd1724f4a0e6555246c460407daa",
+    "url": "https://codeload.github.com/ARISE-Initiative/robosuite/tar.gz/b9d8d3de5e3dfd1724f4a0e6555246c460407daa",
+    "archive_sha256": "907c4e49aaab62964ab1ba968c73da315dda4bb3f3a99b5a1bdeb019577ed0b1",
+    "bytes": 230106212
+  },
+  "robomimic": {
+    "repository": "pointW/robomimic",
+    "commit": "8aad5b3caaaac9289b1504438a7f5d3a76d06c07",
+    "url": "https://codeload.github.com/pointW/robomimic/tar.gz/8aad5b3caaaac9289b1504438a7f5d3a76d06c07",
+    "archive_sha256": "ead49f27df6327f5a8583da498f5c147ab1d3c97ee2a6fb55439c86831bf4761",
+    "bytes": 46789383
+  },
+  "robosuite-task-zoo": {
+    "repository": "pointW/robosuite-task-zoo",
+    "commit": "0f8a7b2fa5d192e4e8800bebfe8090b28926f3ed",
+    "url": "https://codeload.github.com/pointW/robosuite-task-zoo/tar.gz/0f8a7b2fa5d192e4e8800bebfe8090b28926f3ed",
+    "archive_sha256": "81fec8f7e9ae68c9938f948dc47cf3449c5febe4b74b530b1f95dcb05ce05edb",
+    "bytes": 1682025
+  },
+  "mimicgen": {
+    "repository": "NVlabs/mimicgen_environments",
+    "commit": "081f7dbbe5fff17b28c67ce8ec87c371f32526a9",
+    "url": "https://codeload.github.com/NVlabs/mimicgen_environments/tar.gz/081f7dbbe5fff17b28c67ce8ec87c371f32526a9",
+    "archive_sha256": "6050552eb06840722d9e8c7438e3c26017345f010d9e9baa0f06a516938e1b4d",
+    "bytes": 15903059
+  },
+  "gym": {
+    "url": "https://files.pythonhosted.org/packages/4b/48/920cea66177b865663fde5a9390a59de0ef3b642ad98106ac1d8717d7005/gym-0.21.0.tar.gz",
+    "sha256": "0fd1ce165c754b4017e37a617b097c032b8c3feb8a0394ccc8777c7c50dddff3",
+    "packaging_only_patch": "opencv-python>=3. -> opencv-python>=3.0"
+  },
+  "pytorch3d": {
+    "url": "https://codeload.github.com/facebookresearch/pytorch3d/tar.gz/refs/tags/v0.7.5",
+    "sha256": "335c51933485e8bf44b88dbf07d0106c05362da8830cef3968983314db0645d5",
+    "build_environment": {
+      "PYTORCH3D_NO_EXTENSION": "1"
+    }
+  },
+  "escnn": {
+    "repository": "pointW/escnn",
+    "commit": "fc4714cb6dc0d2a32f9fcea35771968b89911109",
+    "optional_py3nj_installed": false
+  },
+  "dataset": {
+    "url": "https://huggingface.co/datasets/amandlek/mimicgen_datasets/resolve/main/core/stack_d1.hdf5",
+    "sha256": "edc9815a2738a583dcb3e7a9e239a71eca6057396a839e52b022935c273cfd61",
+    "bytes": 1072340218,
+    "verified": true
+  }
+}

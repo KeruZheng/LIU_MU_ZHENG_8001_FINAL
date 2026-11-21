@@ -38,4 +38,8 @@ Official reference seed 42 completed all 3050 epochs in about 20.6 hours and has
 a verified local archive receipt. Its last scheduled native rollout at epoch 3000
 has test mean score 0.7991; best scheduled rollout is 0.8519 at epoch 550. Neither
 is an evaluation of the epoch-3050 terminal checkpoint, and this is still one seed.
-EquiDiff Stack-D1 remains outstanding.
+EquiDiff Stack-D1 formal training remains outstanding. Its separate workstation
+environment now passes simulation, full-model batch-1 training/sampling, vector
+rollout, and official-workspace checkpoint checks. See
+[Stack-D1 preparation](stack_d1/README.md) for pinned sources, dataset conversion,
+runtime differences, and the remaining formal-batch resource preflight.

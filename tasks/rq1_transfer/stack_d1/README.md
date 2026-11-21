@@ -2,7 +2,10 @@
 
 This is the proposal's W1-2 reference sanity check, separate from the Push-T
 primary matrix and optional E4 (D0 training followed by D1/D2 transfer tests).
-Preparation began on November 22, 2026. No formal Stack-D1 training has started.
+Preparation began on November 22, 2026. The full seed-0 reference subsequently
+started on the local RTX 5090 after passing batch-128 resource preflight; see
+[the priority-run record](../../../operations/stack_d1_local_20261122/README.md).
+The evidence below documents the earlier environment-preparation checks.
 
 ## Environment and provenance
 
@@ -77,7 +80,7 @@ The local evidence is under `../results/stack_d1_20261122/`:
 | Spawned vector environment | One worker, eight simulation steps passed |
 | Official training workspace | One training batch, one validation batch, one short rollout, checkpoint save/deserialization passed |
 | Peak allocated GPU memory | 5.65 GiB model check; 6.58 GiB workspace check |
-| Formal batch 128 / 28 rollout workers | Not tested; requires a separate resource preflight |
+| Formal batch 128 / rollout concurrency | Subsequent batch-128 and four-worker preflight passed; default 28 workers not tested |
 
 These checks use two demos and deliberately short execution. Their success score
 is not scientifically meaningful. The checkpoint check verifies serialization
@@ -125,10 +128,9 @@ unchanged state/observation arrays, finite actions, and gripper preservation
 are verified and a new hash receipt is recorded. Formal training uses the
 converted complete file, never the two-demo preflight file.
 
-Before scheduling: validate the formal batch and
-chosen rollout concurrency on an available GPU, freeze a new release and output
-directory, and register it with the fleet monitor/archive worker. The active
-25/100-demo C4 queue is not interrupted. The proposal estimates approximately
-22 GB for the default Stack batch, which cannot safely overlap that active
-training on the 32 GB workstation GPU. Small-batch preflight timing is not a
-full-run ETA.
+The subsequent priority run passed formal-batch preflight, froze a new release,
+and started with four rollout workers. On the user's priority instruction, the
+25/100-demo C4 queue was paused at a verified 12,000-step checkpoint, with an
+automatic continuation guard after Stack-D1 completes. No frozen C4 source was
+changed. The original small-batch checks are not a full-run ETA; see the linked
+run record for actual batch-128 measurements.

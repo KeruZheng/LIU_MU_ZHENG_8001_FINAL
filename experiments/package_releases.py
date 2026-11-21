@@ -14,6 +14,7 @@ NAMES += ['official_dp_s42_20261120_v1']
 NAMES += [f'conv_aug_n{n}_20261120_v1' for n in (25, 50, 100, 200)]
 NAMES += [f'conv_c4_n{n}_s12_20261120_v1' for n in (50, 200)]
 NAMES += [f'rq3_image_{mode}_20261120_v1' for mode in ('fixed', 'rotated')]
+NAMES += ['conv_c4_n25_n100_local_20261122_v1']
 MANIFESTS = {'data.json', 'data.sha256', 'split.json', 'evaluation_seeds.json',
              'upstream.json', 'equidiff_commit.json', 'diffusion_policy_commit.json',
              'lane.json'}
@@ -33,6 +34,7 @@ def package(source, destination):
         keep |= relative in ('config.yaml', 'upstream_files.json', 'runner.py', 'train.sbatch')
         keep |= parts[0] == 'manifests' and Path(relative).name in MANIFESTS
         keep |= relative in ('scripts/validate_c4.py', 'scripts/image_preflight.py', 'scripts/image_lane.py')
+        keep |= source.name == 'conv_c4_n25_n100_local_20261122_v1' and relative == 'scripts/supervise.py'
         if not keep:
             continue
         path = source / relative

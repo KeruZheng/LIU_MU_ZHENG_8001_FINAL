@@ -1,0 +1,16 @@
+{
+  "runs": [
+    "equidiff_c4_n25_s0",
+    "equidiff_c4_n100_s0",
+    "equidiff_c4_n25_s1",
+    "equidiff_c4_n100_s1",
+    "equidiff_c4_n25_s2",
+    "equidiff_c4_n100_s2"
+  ],
+  "milestones": [
+    20000,
+    40000,
+    60000
+  ],
+  "scope": "Exploratory fresh C4 validation curves; no primary test replacement"
+}

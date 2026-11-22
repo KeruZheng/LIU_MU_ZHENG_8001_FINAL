@@ -1,0 +1,16 @@
+[
+  {
+    "name": "diffusion_policy",
+    "repository": "https://github.com/real-stanford/diffusion_policy",
+    "commit": "5ba07ac6661db573af695b419a7947ecb704690f",
+    "archive_sha256": "ce530dbf17f099b29945abf1fdced97be5b7ad38772f93ecea4e8e9a00b65931",
+    "source_format": "official pinned commit archive; no Git history"
+  },
+  {
+    "name": "equidiff",
+    "repository": "https://github.com/pointW/equidiff",
+    "commit": "e40abb003b25071d4e5b01bfa9933dc16cd32c67",
+    "archive_sha256": "ccba7d2da946d44ffac3b15783afffc0697fe8cd68a680b56b137491741c919a",
+    "source_format": "official pinned commit archive; no Git history"
+  }
+]

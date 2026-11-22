@@ -1,5 +1,11 @@
 # Local C4 convergence follow-up
 
+Update November 22: ownership of all six curves has moved to the legacy cluster.
+The local 12k checkpoint is preserved and imported for seed-0 continuation.
+Do not restart this local supervisor; see the
+[migration record](../migrate_c4_legacy_20261122/README.md). The text below records
+the original local arrangement.
+
 The completed primary matrix frees the local 5090 for six new validation curves:
 25 and 100 demos, three seeds each, 20k/40k/60k milestones. These complement the
 50/200-demo C4 curves already owned by the cluster queues; no run is duplicated.

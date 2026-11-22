@@ -40,7 +40,9 @@ has test mean score 0.7991; best scheduled rollout is 0.8519 at epoch 550. Neith
 is an evaluation of the epoch-3050 terminal checkpoint, and this is still one seed.
 EquiDiff Stack-D1 seed 0 is now training on the local RTX 5090 with the full
 500-epoch, batch-128 recipe after a successful resource preflight. It is a
-separate reference run. The extra 25/100-demo C4 queue is paused at a verified
-12,000-step checkpoint and will resume after verified Stack-D1 completion.
+separate reference run. The extra 25/100-demo C4 queue has migrated to the legacy
+cluster as jobs 232837/232838; its 12,000-step local checkpoint is preserved for
+continuation. The local auto-resume watcher is disabled to avoid duplicate work.
+See [the migration record](../../operations/migrate_c4_legacy_20261122/README.md).
 See [Stack-D1 preparation](stack_d1/README.md) and the
 [priority-run record](../../operations/stack_d1_local_20261122/README.md).

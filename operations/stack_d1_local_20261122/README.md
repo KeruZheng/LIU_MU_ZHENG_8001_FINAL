@@ -1,5 +1,10 @@
 # Local Stack-D1 priority run
 
+Update November 22, morning: the user moved the paused C4 follow-up to the
+legacy cluster. The local auto-resume watcher described below is now disabled;
+see [the migration record](../migrate_c4_legacy_20261122/README.md). Stack-D1
+continues unchanged on the workstation.
+
 On November 22, the user assigned the local RTX 5090 to Stack-D1 as the highest
 priority. The independent C4 25/100-demo follow-up lane was paused at its atomic
 12,000-update checkpoint after CPU deserialization, optimizer/RNG presence

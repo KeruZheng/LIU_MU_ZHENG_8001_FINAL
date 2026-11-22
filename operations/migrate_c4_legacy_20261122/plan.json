@@ -1,0 +1,46 @@
+[
+  {
+    "release": "conv_c4_n25_s02_legacy_20261122_v1",
+    "demos": 25,
+    "seeds": [
+      0,
+      2
+    ],
+    "runs": [
+      "equidiff_c4_n25_s0",
+      "equidiff_c4_n25_s2"
+    ]
+  },
+  {
+    "release": "conv_c4_n100_s02_legacy_20261122_v1",
+    "demos": 100,
+    "seeds": [
+      0,
+      2
+    ],
+    "runs": [
+      "equidiff_c4_n100_s0",
+      "equidiff_c4_n100_s2"
+    ]
+  },
+  {
+    "release": "conv_c4_n25_s1_legacy_20261122_v1",
+    "demos": 25,
+    "seeds": [
+      1
+    ],
+    "runs": [
+      "equidiff_c4_n25_s1"
+    ]
+  },
+  {
+    "release": "conv_c4_n100_s1_legacy_20261122_v1",
+    "demos": 100,
+    "seeds": [
+      1
+    ],
+    "runs": [
+      "equidiff_c4_n100_s1"
+    ]
+  }
+]

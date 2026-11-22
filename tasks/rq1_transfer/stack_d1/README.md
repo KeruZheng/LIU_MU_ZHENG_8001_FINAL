@@ -6,6 +6,8 @@ Preparation began on November 22, 2026. The full seed-0 reference subsequently
 started on the local RTX 5090 after passing batch-128 resource preflight; see
 [the priority-run record](../../../operations/stack_d1_local_20261122/README.md).
 The evidence below documents the earlier environment-preparation checks.
+The paused C4 follow-up subsequently moved to the legacy cluster; its local
+auto-resume watcher is disabled. Stack-D1 continues on the 5090.
 
 ## Environment and provenance
 
@@ -131,6 +133,7 @@ converted complete file, never the two-demo preflight file.
 The subsequent priority run passed formal-batch preflight, froze a new release,
 and started with four rollout workers. On the user's priority instruction, the
 25/100-demo C4 queue was paused at a verified 12,000-step checkpoint, with an
-automatic continuation guard after Stack-D1 completes. No frozen C4 source was
+automatic continuation guard after Stack-D1 completes. That guard was later
+disabled when the user moved the C4 curves to the legacy cluster. No frozen C4 source was
 changed. The original small-batch checks are not a full-run ETA; see the linked
 run record for actual batch-128 measurements.

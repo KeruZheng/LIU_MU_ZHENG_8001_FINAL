@@ -1,0 +1,12 @@
+{
+  "runs": [
+    "equidiff_c4_n100_s1"
+  ],
+  "milestones": [
+    20000,
+    40000,
+    60000
+  ],
+  "scope": "Migrated exploratory C4 validation curves; same scientific configuration; not primary test results",
+  "origin_release": "conv_c4_n25_n100_local_20261122_v1"
+}

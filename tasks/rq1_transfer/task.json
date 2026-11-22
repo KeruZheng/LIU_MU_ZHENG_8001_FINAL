@@ -10,7 +10,10 @@
     "conv_c4_n200_20261119_v2",
     "conv_c4_n50_s12_20261120_v1",
     "conv_c4_n200_s12_20261120_v1",
-    "conv_c4_n25_n100_local_20261122_v1"
+    "conv_c4_n100_s02_legacy_20261122_v1",
+    "conv_c4_n100_s1_legacy_20261122_v1",
+    "conv_c4_n25_s02_legacy_20261122_v1",
+    "conv_c4_n25_s1_legacy_20261122_v1"
   ],
   "owned_releases": [
     "c4_main_20261118_v1",
@@ -22,7 +25,10 @@
     "conv_c4_n200_20261119_v2",
     "conv_c4_n50_s12_20261120_v1",
     "conv_c4_n200_s12_20261120_v1",
-    "conv_c4_n25_n100_local_20261122_v1"
+    "conv_c4_n100_s02_legacy_20261122_v1",
+    "conv_c4_n100_s1_legacy_20261122_v1",
+    "conv_c4_n25_s02_legacy_20261122_v1",
+    "conv_c4_n25_s1_legacy_20261122_v1"
   ],
   "shared_releases": [],
   "evidence_index": "results/run_index.json",
@@ -40,5 +46,17 @@
       "note": "Separate published 90-demo recipe; no completed reference result yet"
     }
   ],
-  "published_report": "reports/submission_20261119.json"
+  "published_report": "reports/submission_20261119.json",
+  "retired_releases": [
+    {
+      "release": "conv_c4_n25_n100_local_20261122_v1",
+      "reason": "Migrated all six runs to the legacy cluster; original 12k checkpoint and frozen source preserved",
+      "replaced_by": [
+        "conv_c4_n100_s02_legacy_20261122_v1",
+        "conv_c4_n100_s1_legacy_20261122_v1",
+        "conv_c4_n25_s02_legacy_20261122_v1",
+        "conv_c4_n25_s1_legacy_20261122_v1"
+      ]
+    }
+  ]
 }

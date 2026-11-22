@@ -58,5 +58,28 @@
         "conv_c4_n25_s1_legacy_20261122_v1"
       ]
     }
-  ]
+  ],
+  "optional_e4": {
+    "release": "e4_square_d0_local_20261122_v1",
+    "family": "Square",
+    "train_domain": "D0",
+    "evaluation_domains": [
+      "D0",
+      "D1",
+      "D2"
+    ],
+    "methods": [
+      "DP",
+      "EquiDiff"
+    ],
+    "training_seeds": [
+      0,
+      1,
+      2
+    ],
+    "planned_runs": 6,
+    "state_at_launch": "waiting_downloads",
+    "device": "local5090",
+    "evidence": "results/e4_square_d0_local_20261122_v1"
+  }
 }

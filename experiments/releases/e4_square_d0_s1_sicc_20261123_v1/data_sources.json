@@ -1,0 +1,42 @@
+{
+  "repository": "amandlek/mimicgen_datasets",
+  "revision": "33016f8a62c02334f929f2913af8fdd2a8a129e1",
+  "files": [
+    {
+      "type": "file",
+      "oid": "1f27c716607cd994281b071b6ad84c5b355468e1",
+      "size": 1621351476,
+      "lfs": {
+        "oid": "41fc24bce0f88343099c0b1b5bf6eee08cbc35851e71276d4509a01c9b75481c",
+        "size": 1621351476,
+        "pointerSize": 135
+      },
+      "xetHash": "5bc460830e0714ab3b6e1d4571e1a4714af3fb4c8db0f9fa78ca262c91486675",
+      "path": "core/square_d0.hdf5"
+    },
+    {
+      "type": "file",
+      "oid": "3f5b2747bf3c48a9a071d9ea3cc6a4fa3fe0c123",
+      "size": 1659441082,
+      "lfs": {
+        "oid": "bdb88ebb36f791645ed4b42512b5cf92e337c1673a71ddf4a7a6295c446fabdf",
+        "size": 1659441082,
+        "pointerSize": 135
+      },
+      "xetHash": "51c3f660acfb3e68a6822e01e960a4d31c5bfcd784605c074af8b9a2da068e8f",
+      "path": "core/square_d1.hdf5"
+    },
+    {
+      "type": "file",
+      "oid": "83b83df6c3b498f8e59c0506b08f6935a855f84e",
+      "size": 1570601672,
+      "lfs": {
+        "oid": "2fa7bd08c158d13f4fab1b507ce2117905df0fc5a126f3d4e971bc8668074434",
+        "size": 1570601672,
+        "pointerSize": 135
+      },
+      "xetHash": "9d551690b4aaa8fccfe5dc59e04cd05dfefd1292e6e59c3857efe28acea83d13",
+      "path": "core/square_d2.hdf5"
+    }
+  ]
+}

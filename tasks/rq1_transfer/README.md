@@ -1,8 +1,11 @@
 # RQ1: transfer and data efficiency
 
-Optional E4 is now queued on the local 5090: [Square D0 to D1/D2 transfer](../../operations/e4_20261122/README.md),
-DP and EquiDiff with three seeds, 500 epochs and matched batch64. Preparation
-and both-model GPU checks gate all formal training; see live task evidence.
+Optional E4: [Square D0 to D1/D2 transfer](../../operations/e4_20261122/README.md),
+DP and EquiDiff with three seeds, 500 epochs and matched batch64. The
+[parallel placement](../../operations/e4_parallel_20261123/README.md) keeps seed 0
+on the local 5090 and assigns seeds 1/2 to independent SICC lanes. Full-size
+both-model GPU checks gate formal training on each device. See
+`results/e4_monitor/status.html` for the combined live queue and domain scores.
 
 Question: does the EquiDiff adaptation transfer to planar Push-T, especially at
 small demonstration counts? Compare DP and EquiDiff-C4 across 25/50/100/200 demos,

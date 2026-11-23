@@ -1,0 +1,25 @@
+{
+  "table_rows_verified": 48,
+  "citations_and_labels": "passed",
+  "figure_paths": "passed",
+  "summary_sha256": "5846c73aba7ee07d290f248e93501c3074a6f0fd111fd963fd8d83a7e240f892",
+  "compiler": "Tectonic 0.17.0 (XeTeX + BibTeX)",
+  "documents": {
+    "en": {
+      "pages": 8,
+      "warnings": [],
+      "pdf_sha256": "81c6c055d73cf475b91e4549af4036a3da5e9b817cc5631680a0ec229be06652"
+    },
+    "zh": {
+      "pages": 10,
+      "warnings": [],
+      "pdf_sha256": "056a7aa81c0321da832a0c993998dec8044b63e2028d95f782eae3f75bb9c7fe"
+    }
+  },
+  "source_sha256": {
+    "body_en.tex": "947cfdffcc7586b36b4f6e6765034462f62702731c9513787b6be678d8578b5a",
+    "body_zh.tex": "aaa11ee9693620fddad00776aa1f310bd0e782f47b824d0e0c9fbb215ff4515f",
+    "main_en.tex": "edf230b342978c232a5facc4ee71bf8997a9ce69dc2183d3895d5a399c4b2a07",
+    "main_zh.tex": "b765e7dccecc0f4aef303de8b9348f7429da397b086c829993db3d91858839cf"
+  }
+}

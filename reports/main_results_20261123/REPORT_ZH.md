@@ -2,6 +2,8 @@
 
 RQ1 / RQ2 / RQ3 主实验报告；结果冻结日期：2026-11-23。
 
+可直接复用的[中英文 LaTeX 正文、独立编译入口与 PDF](latex/README.md)已另行提供。中文按问题解释，英文按研究论文组织；两版共用本报告的冻结数据。
+
 本文对应原 proposal《Does Equivariance Beat Exact Augmentation? Transferring Equivariant Diffusion Policy to Planar Pushing with Controllable Symmetry》。[原文快照](proposal_snapshot.md)、[机器可读汇总](summary.json)、[完整数值表](tables.md)与本报告一起保存。
 
 ## 摘要

@@ -5,6 +5,10 @@ explains RQ1/RQ2/RQ3, their hypotheses, results and limitations in Chinese.
 It includes frozen episode evidence for 78 test runs and 36 independent
 validation runs, paired bootstrap intervals, and reusable PNG/PDF figures.
 Optional E4 is explicitly separated from the completed main experiments.
+The [bilingual LaTeX package](reports/main_results_20261123/latex/README.md)
+provides reusable Chinese/English bodies and compiled PDFs.
+See [the project directory map](docs/PROJECT_MAP.md) for what is published to
+GitHub and how local operational notes differ from report artifacts.
 
 ## Current Research Layout (2026-11-20)
 

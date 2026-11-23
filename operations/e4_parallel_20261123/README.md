@@ -72,3 +72,26 @@ and runtime paths are kept in ignored operational records and task evidence.
 The submission overrides the frozen script's four-day default with three days:
 H800's partition permits four days but its effective QOS permits only three.
 Both jobs may be scheduled on A100 or H800; pending is not a running GPU preflight.
+
+## EGL recovery, v2
+
+The first two SICC attempts failed at their first native image rollout after
+CUDA training updates and diffusion sampling. An allocated A100 diagnostic
+confirmed successful CUDA backward, but only Mesa EGL vendor registration and
+no NVIDIA EGL library in the job environment. It could not initialize rendering.
+
+`private_nvidia_egl.py` downloads NVIDIA's exact 580.173.02 graphics and GPU
+compiler packages, verifies their repository SHA256 values, and extracts them
+under the project. It does not install packages or change the kernel driver.
+Jobs explicitly select the private NVIDIA vendor JSON and library path.
+
+`retry_egl.py` creates fresh `_v2` lanes with byte-identical trainers, upstream
+source and YAML configurations. Old failed evidence is preserved. New lanes
+have an `afterok` dependency on the small EGL diagnostic, then repeat both full
+model preflights. Failed diagnostic dependencies cancel the gated jobs.
+An account-wide submission cap initially admitted only the diagnostic and seed-1
+retry. `recovery_dispatch.py` waits for proven rendering, then submits seed 2
+when a slot is available and records its job in ignored fleet configuration.
+It retries connection/submission-cap waits, not failed training. Unit tests
+verify failed diagnostics never dispatch and account-cap waits preserve other
+services. The E4 observer reads current release assignments from `task.json`.

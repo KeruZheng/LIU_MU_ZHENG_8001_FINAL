@@ -21,11 +21,16 @@ def atomic(path, text):
 
 def observe(codes, root):
     fleet = read(codes / 'operations/fleet/results/latest.json')
+    recovery = read(codes / 'tasks/rq1_transfer/results/e4_monitor/recovery_status.json')
     alerts, runs, queues = [], [], []
+    if recovery.get('state', '').startswith('failed'):
+        alerts.append('E4 recovery dispatch: ' + str(recovery))
     now = time.time()
     jobs = {item.get('release'): item for item in fleet.get('auxiliary', [])}
+    assignments = read(codes / 'tasks/rq1_transfer/task.json').get('optional_e4', {}).get('assignments', [])
+    releases = {seed: entry['release'] for entry in assignments for seed in entry['seeds']}
     for seed in (0, 1, 2):
-        release = root.name if seed == 0 else f'e4_square_d0_s{seed}_sicc_20261123_v1'
+        release = root.name if seed == 0 else releases.get(seed, f'e4_square_d0_s{seed}_sicc_20261123_v1')
         evidence = root if seed == 0 else codes / 'tasks/rq1_transfer/results' / release
         queue = read(evidence / 'results' / ('supervisor_status.json' if seed == 0 else 'lane_status.json'))
         job = jobs.get(release, {})
@@ -58,7 +63,7 @@ def observe(codes, root):
                 'epoch': status.get('epoch'), 'step': status.get('global_step'),
                 'complete': done, 'scores': {d: v.get('scores', {}).get('test/mean_score') for d, v in scores.items()}})
     return {'updated': datetime.now().astimezone().isoformat(timespec='seconds'), 'timestamp': now,
-            'monitor_pid': os.getpid(), 'queues': queues, 'runs': runs, 'alerts': alerts,
+            'monitor_pid': os.getpid(), 'queues': queues, 'runs': runs, 'alerts': alerts, 'recovery': recovery,
             'completed_runs': sum(r['complete'] for r in runs), 'planned_runs': 6}
 
 
@@ -66,6 +71,7 @@ def render(record):
     lines = ['# E4 live status: local 5090 + SICC', '', 'Updated: ' + record['updated'], '',
              f"Complete training + all final evaluations: {record['completed_runs']}/6", '',
              'Alerts: ' + ('; '.join(record['alerts']) or 'none'), '',
+             'Recovery dispatch: ' + record['recovery'].get('state', 'not_active'), '',
              '| Seed | Device | Job | Scheduler | Queue phase |', '|---|---|---|---|---|']
     for q in record['queues']:
         lines.append(f"| {q['seed']} | {q['device']} | {q['job_id'] or '-'} | {q['scheduler']} | {q['phase']} |")

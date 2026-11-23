@@ -96,7 +96,7 @@
       },
       {
         "device": "sicc",
-        "release": "e4_square_d0_s1_sicc_20261123_v1",
+        "release": "e4_square_d0_s1_sicc_20261123_v2",
         "seeds": [
           1
         ],
@@ -104,11 +104,15 @@
           "EquiDiff",
           "DP"
         ],
-        "job_id": "29341"
+        "previous_release": "e4_square_d0_s1_sicc_20261123_v1",
+        "previous_job_id": "29341",
+        "job_id": "29412",
+        "diagnostic_dependency": "29411",
+        "state_at_recovery": "waiting_diagnostic"
       },
       {
         "device": "sicc",
-        "release": "e4_square_d0_s2_sicc_20261123_v1",
+        "release": "e4_square_d0_s2_sicc_20261123_v2",
         "seeds": [
           2
         ],
@@ -116,7 +120,10 @@
           "EquiDiff",
           "DP"
         ],
-        "job_id": "29342"
+        "previous_release": "e4_square_d0_s2_sicc_20261123_v1",
+        "previous_job_id": "29342",
+        "diagnostic_dependency": "29411",
+        "state_at_recovery": "awaiting_submission_slot"
       }
     ],
     "monitor": "results/e4_monitor/status.html"

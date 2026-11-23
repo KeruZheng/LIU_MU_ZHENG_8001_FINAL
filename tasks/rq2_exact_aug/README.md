@@ -1,5 +1,8 @@
 # RQ2: equivariance versus exact augmentation
 
+Completed main-study interpretation: [November 23 report](../../reports/main_results_20261123/REPORT_ZH.md),
+section 6 covers exact augmentation, training-budget sensitivity and C8.
+
 Question: once physically exact C4 augmentation is available, does the
 equivariant architecture still improve performance? Use the same frozen
 36-run main matrix as RQ1; compare DP, DP + C4 augmentation, and EquiDiff-C4.

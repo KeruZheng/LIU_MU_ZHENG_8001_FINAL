@@ -1,5 +1,11 @@
 # Robotic: EquiDiff / Push-T study
 
+The [November 23 main-results report](reports/main_results_20261123/REPORT_ZH.md)
+explains RQ1/RQ2/RQ3, their hypotheses, results and limitations in Chinese.
+It includes frozen episode evidence for 78 test runs and 36 independent
+validation runs, paired bootstrap intervals, and reusable PNG/PDF figures.
+Optional E4 is explicitly separated from the completed main experiments.
+
 ## Current Research Layout (2026-11-20)
 
 Start with [the task map](tasks/README.md). The current EquiDiff adaptation and

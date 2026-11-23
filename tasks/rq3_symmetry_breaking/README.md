@@ -1,5 +1,8 @@
 # RQ3: incorrect symmetry and fixes
 
+Completed main-study interpretation: [November 23 report](../../reports/main_results_20261123/REPORT_ZH.md),
+section 7 separates hidden-goal state results from the visible-goal image extension.
+
 Question: how does a fixed, unobserved goal affect equivariant policies, and do
 explicit goal input or a learnable symmetry-breaking gate recover performance?
 

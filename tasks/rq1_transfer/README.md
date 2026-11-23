@@ -1,5 +1,8 @@
 # RQ1: transfer and data efficiency
 
+Completed main-study interpretation: [November 23 report](../../reports/main_results_20261123/REPORT_ZH.md),
+sections 5 and 6.4 cover data efficiency and the separate validation curves.
+
 Optional E4: [Square D0 to D1/D2 transfer](../../operations/e4_20261122/README.md),
 DP and EquiDiff with three seeds, 500 epochs and matched batch64. The
 [parallel placement](../../operations/e4_parallel_20261123/README.md) keeps seed 0

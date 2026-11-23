@@ -1,0 +1,9 @@
+{
+  "raw_config_and_evaluation_hashes_verified": 456,
+  "unique_runs": 114,
+  "checkpoint_episode_records": 34200,
+  "existing_aggregate_rows_matched": 22,
+  "existing_paired_coverage_intervals_matched": 30,
+  "internal_markdown_links": "passed",
+  "gpu_used_for_analysis": false
+}

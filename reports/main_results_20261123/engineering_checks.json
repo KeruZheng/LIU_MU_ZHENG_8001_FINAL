@@ -1,0 +1,70 @@
+{
+  "c4_native_replay_v2.json": {
+    "source": "development/proposal_v2/results/c4_native_replay_v2.json",
+    "sha256": "6b8b7acb0a4077fe8e3ffe2ba342e8727855b9cda92d1e9016e3aee8ff6af06d",
+    "result": {
+      "protocol": "native_c4_canonical_raster_v1",
+      "tolerances": {
+        "position": 0.001,
+        "velocity": 0.001,
+        "angle": 1e-05,
+        "coverage": 1e-05,
+        "pixel_mae": 1e-05,
+        "pixel_max": 0.003921668627450981
+      },
+      "maxima": {
+        "position": 4.888534022029489e-11,
+        "velocity": 5.2386539550752786e-11,
+        "angle": 2.2026824808563106e-13,
+        "coverage": 1.1993739335025566e-12,
+        "pixel_mae": 0.0,
+        "pixel_max": 0.0
+      },
+      "passed": true,
+      "full_validation_episodes": true,
+      "legacy_modes": [
+        false,
+        true
+      ],
+      "seconds": 9.67875536181964,
+      "source_sha256": "1fcdc3ecc7d828a37de61c7b115811a119f00eeef6e31bbc691296481e64064d",
+      "scope": "Held-out demo action replay across native orientations; not reproduction of recorded trajectories",
+      "goal_convention": "Rotate original (256,256) position and angle about (255.5,255.5)",
+      "renderer": "Inverse-transform physical state, use original rasterizer, rotate pixels"
+    }
+  },
+  "equidiff_full_gpu_preflight.json": {
+    "source": "development/proposal_v2/results/equidiff_full_gpu_preflight.json",
+    "sha256": "9247bbb3baf2a5e166d44e630a1ecfd24caec7c30264a8aee0d01e468b69cddc",
+    "result": {
+      "method": "equidiff_c4",
+      "parameters": 257559008,
+      "elapsed_seconds": 8.10305753396824,
+      "max_errors": [
+        2.16066837310791e-06,
+        2.3692846298217773e-06,
+        2.4586915969848633e-06
+      ],
+      "peak_MiB": 2646.8701171875,
+      "tf32": false,
+      "finite_gradients": true,
+      "passed": true
+    }
+  },
+  "dataset_render_alignment_v2.json": {
+    "source": "development/proposal_v2/results/dataset_render_alignment_v2.json",
+    "sha256": "be3e3dac51ead263dff6046216e031e7b56c5b1cdf5ecea1b983176cc404793c",
+    "result": {
+      "frames": 30,
+      "new_vs_original_max": 0.0,
+      "stored_vs_original_max_mae": 0.000601823499891907,
+      "stored_vs_original_max_pixel": 0.4431372582912445,
+      "scope": "Sampled held-out frames; stored-image mismatch is measured against unmodified upstream renderer",
+      "no_added_canonical_render_error": true
+    }
+  },
+  "proposal": {
+    "source": "03_Proposal_A_EquiDiff_final.md",
+    "sha256": "ab5d4ec9b1d9b86a044c8bd725bea7e50d9cfa535374d9e40f30868c3b67d56d"
+  }
+}

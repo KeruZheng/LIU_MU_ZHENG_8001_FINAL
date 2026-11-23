@@ -95,3 +95,15 @@ when a slot is available and records its job in ignored fleet configuration.
 It retries connection/submission-cap waits, not failed training. Unit tests
 verify failed diagnostics never dispatch and account-cap waits preserve other
 services. The E4 observer reads current release assignments from `task.json`.
+
+The NVIDIA repair diagnostic subsequently generated a valid 84x84 RGB frame on
+an A100 (identical SHA256 to the same simple scene locally), but its cleanup
+incorrectly called `Renderer.close()`, absent in MuJoCo 2.3.2. That diagnostic
+failure cancelled the dependent seed-1 job before it ran. `egl_diagnose_v3.py`
+releases the two owned contexts explicitly and passes a real local CUDA/render
+check with the same MuJoCo version. `submit_inline.py` now runs that corrected
+check and the unchanged v2 lane in the same GPU allocation. Both seeds have
+separate submissions, so no separate diagnostic job or submission dispatcher is
+needed. The cancelled lane had no preflight or training outputs; its frozen
+source and original cancelled-job receipt remain unchanged. Remote full-model
+preflight must still pass before formal training.

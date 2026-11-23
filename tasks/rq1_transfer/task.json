@@ -106,9 +106,9 @@
         ],
         "previous_release": "e4_square_d0_s1_sicc_20261123_v1",
         "previous_job_id": "29341",
-        "job_id": "29412",
-        "diagnostic_dependency": "29411",
-        "state_at_recovery": "waiting_diagnostic"
+        "job_id": "29427",
+        "state_at_recovery": "submitted_pending_priority",
+        "gate": "Corrected inline EGL check and both-model preflight within allocation"
       },
       {
         "device": "sicc",
@@ -122,8 +122,9 @@
         ],
         "previous_release": "e4_square_d0_s2_sicc_20261123_v1",
         "previous_job_id": "29342",
-        "diagnostic_dependency": "29411",
-        "state_at_recovery": "awaiting_submission_slot"
+        "state_at_recovery": "submitted_pending_priority",
+        "job_id": "29428",
+        "gate": "Corrected inline EGL check and both-model preflight within allocation"
       }
     ],
     "monitor": "results/e4_monitor/status.html"

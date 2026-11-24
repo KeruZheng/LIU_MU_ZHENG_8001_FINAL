@@ -1,0 +1,404 @@
+{
+  "job_id": "29935",
+  "release": "e4_corrected_eval_20261124_v2",
+  "state": "preflight_passed_formal_evaluation_started",
+  "checked_at": 1795509647.8742454,
+  "source_checkpoint_sha256": "7ffe554fccc0ad5eb4a54a07421eeb15c599d94c132317651ed4e88aff57a219",
+  "weights_sha256": "a798eb704a33c2b8a88c761ed3934ed8c774311f8f6944785dee7699ea500da8",
+  "script_sha256": "3fc5ae74d913655d4f6676173f20e5209cadccb96a157bfca6d592f9ed644705",
+  "domains": {
+    "d0": {
+      "constructor_pairing_passed": true,
+      "scenes": [
+        {
+          "seed": 200000,
+          "peg_pos": [
+            0.23,
+            0.1,
+            0.85
+          ],
+          "peg_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "nut_pos": [
+            -0.113708704938487,
+            0.2019681409444005,
+            0.89
+          ],
+          "state_and_model_hashes": {
+            "body_pos": "694f6552a3010212d1693102c464cfc04de3f67d947c4a95df2e6cb9c99ed0aa",
+            "body_quat": "83f0a726376cc106b0783e7ca430c669ecce833a60928cf3027cdce4c590bb1f",
+            "geom_pos": "e90addee187b07209fe4ffa11af4d5160a686344d11fd4eef64614f44632de4b",
+            "geom_quat": "8a35128d9647bfd76899c0a0f13edd97cee23d603652d6b8a113ca7a72a45a25",
+            "cam_pos": "109065c42078bab2100a2723e2ea6790e30669eebfe4d65a70c4dbe647e2678f",
+            "cam_quat": "306181a9d49214e5f30291f637d13382ec8cc5cf73d76c26afabc5ba1c84d5de",
+            "state": "58b3e455310c891e53debf115e486ad9d1c69fda73bbccb52cb21be1181f1101"
+          },
+          "observation_hashes": {
+            "agentview_image": "90ed2460dd0e26872897b5c65cdd613502ea64086f756a768e3799de08f1631a",
+            "robot0_eye_in_hand_image": "4a792799608db4bebcf0d11e98ad7c43616d6bee5dcb6f72bb20bc629b1ecc62",
+            "robot0_eef_pos": "fc85eb6c2cf04f25d6c783af0163277f229579e349b09403b274a417d5453967",
+            "robot0_eef_quat": "126ffe89beb454604d0daf6a74bc36450fd296c451fb5778e3a3d01d5e4b0102",
+            "robot0_gripper_qpos": "591a016959091449fb88352814d9735e02f385a55292c254d4e1250233b3ea56"
+          }
+        },
+        {
+          "seed": 200001,
+          "peg_pos": [
+            0.23,
+            0.1,
+            0.85
+          ],
+          "peg_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "nut_pos": [
+            -0.11247489449558246,
+            0.19856200679147118,
+            0.89
+          ],
+          "state_and_model_hashes": {
+            "body_pos": "694f6552a3010212d1693102c464cfc04de3f67d947c4a95df2e6cb9c99ed0aa",
+            "body_quat": "83f0a726376cc106b0783e7ca430c669ecce833a60928cf3027cdce4c590bb1f",
+            "geom_pos": "e90addee187b07209fe4ffa11af4d5160a686344d11fd4eef64614f44632de4b",
+            "geom_quat": "8a35128d9647bfd76899c0a0f13edd97cee23d603652d6b8a113ca7a72a45a25",
+            "cam_pos": "109065c42078bab2100a2723e2ea6790e30669eebfe4d65a70c4dbe647e2678f",
+            "cam_quat": "306181a9d49214e5f30291f637d13382ec8cc5cf73d76c26afabc5ba1c84d5de",
+            "state": "8b1e7c36a7c8411a306befa2b21fc34fad1d8eaa5400b3b1e91051ebd826a4d2"
+          },
+          "observation_hashes": {
+            "agentview_image": "c7aad5db59f623ba6e024579d9e40602494f758cfb38a126ec062feccc6e79c1",
+            "robot0_eye_in_hand_image": "fc46a91fddd3c713fdeaabfee61b93fff6dd7fb4ab1733f200dfa706f07b439f",
+            "robot0_eef_pos": "316cd0bc45aeb50364fb42a3c491a5f242e5e07425feda5dd8e03b416159037a",
+            "robot0_eef_quat": "b6a4b733ab9e7a7dc3cd5734b0516c469b7cfa5d175a3bfa002f79895560c15a",
+            "robot0_gripper_qpos": "591a016959091449fb88352814d9735e02f385a55292c254d4e1250233b3ea56"
+          }
+        },
+        {
+          "seed": 200002,
+          "peg_pos": [
+            0.23,
+            0.1,
+            0.85
+          ],
+          "peg_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "nut_pos": [
+            -0.11386415429421314,
+            0.20646161305555374,
+            0.89
+          ],
+          "state_and_model_hashes": {
+            "body_pos": "694f6552a3010212d1693102c464cfc04de3f67d947c4a95df2e6cb9c99ed0aa",
+            "body_quat": "83f0a726376cc106b0783e7ca430c669ecce833a60928cf3027cdce4c590bb1f",
+            "geom_pos": "e90addee187b07209fe4ffa11af4d5160a686344d11fd4eef64614f44632de4b",
+            "geom_quat": "8a35128d9647bfd76899c0a0f13edd97cee23d603652d6b8a113ca7a72a45a25",
+            "cam_pos": "109065c42078bab2100a2723e2ea6790e30669eebfe4d65a70c4dbe647e2678f",
+            "cam_quat": "306181a9d49214e5f30291f637d13382ec8cc5cf73d76c26afabc5ba1c84d5de",
+            "state": "0a9b02689a4c7bb55c1255d641a9357fc82bcebab9cb69da3a56fdc69bea6ac4"
+          },
+          "observation_hashes": {
+            "agentview_image": "51abff19404322f1bff1c5dedca4b6689f13ee803eb8d5f323a6990c8630f4dc",
+            "robot0_eye_in_hand_image": "b6c2123437469f2433d18d1d0d9409b63c66247181ab14f429c85b3833ce62aa",
+            "robot0_eef_pos": "714cc70d822c395779fdb1fe4974a76802ba2615a11d16503b483190ac398fab",
+            "robot0_eef_quat": "9b603c91abdeea28c3a0c24130daf884aee5e52a9c510170fb824f37e69bb31c",
+            "robot0_gripper_qpos": "591a016959091449fb88352814d9735e02f385a55292c254d4e1250233b3ea56"
+          }
+        }
+      ],
+      "peak_rss_kib": [
+        1352064,
+        1364520,
+        1370680,
+        1371328
+      ],
+      "gpu_smoke": {
+        "domain": "d0",
+        "scores": {
+          "900000": 0.0,
+          "900001": 0.0
+        },
+        "max_steps": 8,
+        "seconds": 9.001600503921509,
+        "peak_gpu_bytes": 1438282752,
+        "peak_rss_kib": 3436248,
+        "gpu": "NVIDIA GeForce RTX 2080 Ti",
+        "torch": "2.7.1+cu128",
+        "cuda": "12.8"
+      }
+    },
+    "d1": {
+      "constructor_pairing_passed": true,
+      "scenes": [
+        {
+          "seed": 200000,
+          "peg_pos": [
+            0.196525192501557,
+            -0.05442403847100197,
+            0.85
+          ],
+          "peg_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "nut_pos": [
+            0.07327275693702308,
+            0.2309043172661724,
+            0.89
+          ],
+          "state_and_model_hashes": {
+            "body_pos": "0d45731f1b255cd06b63f927fcc199785e8d75507af12d88d296de378c0f8b1a",
+            "body_quat": "83f0a726376cc106b0783e7ca430c669ecce833a60928cf3027cdce4c590bb1f",
+            "geom_pos": "e90addee187b07209fe4ffa11af4d5160a686344d11fd4eef64614f44632de4b",
+            "geom_quat": "8a35128d9647bfd76899c0a0f13edd97cee23d603652d6b8a113ca7a72a45a25",
+            "cam_pos": "109065c42078bab2100a2723e2ea6790e30669eebfe4d65a70c4dbe647e2678f",
+            "cam_quat": "306181a9d49214e5f30291f637d13382ec8cc5cf73d76c26afabc5ba1c84d5de",
+            "state": "bfee2a04faebef5da5aa91cbb432bfe658e48c0cbe52d65ae4b4a9f23b860bc8"
+          },
+          "observation_hashes": {
+            "agentview_image": "9e6317d776f473556167cac07388ddc8e99ae5b96e72a59df4e28241a32fb699",
+            "robot0_eye_in_hand_image": "cee97053dfc3ca1461083d3daa29cefff1b87c9030c1ae120639b5232b4dcd4f",
+            "robot0_eef_pos": "79a089cf34f19084848ae309aa498d8f55a3254411b65abcc0b5899308cc12ce",
+            "robot0_eef_quat": "113ca3708c42353908eece361f42fbae4d88715b63e3d928fc41fa4e9874d707",
+            "robot0_gripper_qpos": "591a016959091449fb88352814d9735e02f385a55292c254d4e1250233b3ea56"
+          }
+        },
+        {
+          "seed": 200001,
+          "peg_pos": [
+            0.24850932505818843,
+            -0.15905946729890896,
+            0.85
+          ],
+          "peg_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "nut_pos": [
+            0.06212401358294235,
+            0.049159795703931364,
+            0.89
+          ],
+          "state_and_model_hashes": {
+            "body_pos": "e922b46c566e410089447acffbe16f68fed0805235b11813f237778c4200ceb2",
+            "body_quat": "83f0a726376cc106b0783e7ca430c669ecce833a60928cf3027cdce4c590bb1f",
+            "geom_pos": "e90addee187b07209fe4ffa11af4d5160a686344d11fd4eef64614f44632de4b",
+            "geom_quat": "8a35128d9647bfd76899c0a0f13edd97cee23d603652d6b8a113ca7a72a45a25",
+            "cam_pos": "109065c42078bab2100a2723e2ea6790e30669eebfe4d65a70c4dbe647e2678f",
+            "cam_quat": "306181a9d49214e5f30291f637d13382ec8cc5cf73d76c26afabc5ba1c84d5de",
+            "state": "b20f3971e59d8f544156fbc52ad3d04b42937eb5bb8bde6909d88ca64825c03b"
+          },
+          "observation_hashes": {
+            "agentview_image": "0cf407bea4b186d22c8652b7a71f71dc2b60dde17d600b4262f6e7512027e65a",
+            "robot0_eye_in_hand_image": "5483e4bf2aac0dc7b0683f4542df47bbe43836b2434205a716538dccbe220dfe",
+            "robot0_eef_pos": "e74246f5b3c779923d0644125bcd605b15c852842316b1bec1d75d413907d214",
+            "robot0_eef_quat": "6d2408f7f590cdfb167bb88d07286cc213de1f651d9b243d539591592ea9346f",
+            "robot0_gripper_qpos": "591a016959091449fb88352814d9735e02f385a55292c254d4e1250233b3ea56"
+          }
+        },
+        {
+          "seed": 200002,
+          "peg_pos": [
+            -0.06030157216293,
+            -0.1739088818313082,
+            0.85
+          ],
+          "peg_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "nut_pos": [
+            0.08262328937504622,
+            -0.1678721203448048,
+            0.89
+          ],
+          "state_and_model_hashes": {
+            "body_pos": "f79d23c7d5efe9a015568ec7a9efbf62b9dfaa4da991005d4c579cd28120f5e6",
+            "body_quat": "83f0a726376cc106b0783e7ca430c669ecce833a60928cf3027cdce4c590bb1f",
+            "geom_pos": "e90addee187b07209fe4ffa11af4d5160a686344d11fd4eef64614f44632de4b",
+            "geom_quat": "8a35128d9647bfd76899c0a0f13edd97cee23d603652d6b8a113ca7a72a45a25",
+            "cam_pos": "109065c42078bab2100a2723e2ea6790e30669eebfe4d65a70c4dbe647e2678f",
+            "cam_quat": "306181a9d49214e5f30291f637d13382ec8cc5cf73d76c26afabc5ba1c84d5de",
+            "state": "a84910e45954948abc292247e5d79604db0d628c0ba322d93480724e2f72e1ec"
+          },
+          "observation_hashes": {
+            "agentview_image": "da0d1ea856d5e325d4b3e04271565ff0350e8caab2d6cfdb0c34cd4f90cc04bd",
+            "robot0_eye_in_hand_image": "ba2d0b5d46a90873e22d13c714d5f54f9b29bb321df19877c44843f08be4de02",
+            "robot0_eef_pos": "e68e787ccc55b31cdc2300e73560a60c4589202c1fdff7b4309f70e15db64f2b",
+            "robot0_eef_quat": "85fe11166a1e1e8e27608d37b0e2515cd049614df2f3d4f21ea6eac3fa389829",
+            "robot0_gripper_qpos": "591a016959091449fb88352814d9735e02f385a55292c254d4e1250233b3ea56"
+          }
+        }
+      ],
+      "peak_rss_kib": [
+        1353800,
+        1363516,
+        1367416,
+        1373556
+      ],
+      "gpu_smoke": {
+        "domain": "d1",
+        "scores": {
+          "900000": 0.0,
+          "900001": 0.0
+        },
+        "max_steps": 8,
+        "seconds": 17.566919326782227,
+        "peak_gpu_bytes": 1438282752,
+        "peak_rss_kib": 3439756,
+        "gpu": "NVIDIA GeForce RTX 2080 Ti",
+        "torch": "2.7.1+cu128",
+        "cuda": "12.8"
+      }
+    },
+    "d2": {
+      "constructor_pairing_passed": true,
+      "scenes": [
+        {
+          "seed": 200000,
+          "peg_pos": [
+            0.12065649062694622,
+            -0.06803004808875246,
+            0.85
+          ],
+          "peg_quat": [
+            0.9779066312890479,
+            0.0,
+            0.0,
+            0.20904215001024634
+          ],
+          "nut_pos": [
+            0.15928860203700668,
+            0.22637678163350233,
+            0.89
+          ],
+          "state_and_model_hashes": {
+            "body_pos": "ebe0cce5bd610b8f45fd7a4086aedbaed483eb928f5d6f49c09896b208b7ed11",
+            "body_quat": "aac82e9d5159435daf16d106394b30049d76700b6795f967f14cc70818552088",
+            "geom_pos": "e90addee187b07209fe4ffa11af4d5160a686344d11fd4eef64614f44632de4b",
+            "geom_quat": "8a35128d9647bfd76899c0a0f13edd97cee23d603652d6b8a113ca7a72a45a25",
+            "cam_pos": "1b9baf18ea1e7b7449fd49e7e4ceb889101fc8a9fa7649b4725aa9ee27c8139b",
+            "cam_quat": "46fa13e827996a0121332434dc50321e57c96464dc111397f7f0e2ec3be4e451",
+            "state": "e71ddc643c78e7e1f0ac3990b820459cedf2e3528f589fb3c0776b6dafdc348a"
+          },
+          "observation_hashes": {
+            "agentview_image": "d7eb8aa4902af58a59540ddd121bb8cd882e1a3ffdb4c614e2408089899fcd44",
+            "robot0_eye_in_hand_image": "06c2f6e3251eacc42806cb94eb64a3b0d7b3ec6872b4b8b0aa0f803ae453e9ab",
+            "robot0_eef_pos": "79a089cf34f19084848ae309aa498d8f55a3254411b65abcc0b5899308cc12ce",
+            "robot0_eef_quat": "113ca3708c42353908eece361f42fbae4d88715b63e3d928fc41fa4e9874d707",
+            "robot0_gripper_qpos": "591a016959091449fb88352814d9735e02f385a55292c254d4e1250233b3ea56"
+          }
+        },
+        {
+          "seed": 200001,
+          "peg_pos": [
+            0.18563665632273552,
+            -0.1988243341236362,
+            0.85
+          ],
+          "peg_quat": [
+            0.8786538529324565,
+            0.0,
+            0.0,
+            0.4774593246832123
+          ],
+          "nut_pos": [
+            0.13505220344117902,
+            0.048195878141109205,
+            0.89
+          ],
+          "state_and_model_hashes": {
+            "body_pos": "cf45356b115411f1478bba73110cdbcd848c61254d43387e8292ed3be084cd51",
+            "body_quat": "2a5402ea6aaaca747023600604478175f4846d7d5c0682ed8fecdbd38282449f",
+            "geom_pos": "e90addee187b07209fe4ffa11af4d5160a686344d11fd4eef64614f44632de4b",
+            "geom_quat": "8a35128d9647bfd76899c0a0f13edd97cee23d603652d6b8a113ca7a72a45a25",
+            "cam_pos": "1b9baf18ea1e7b7449fd49e7e4ceb889101fc8a9fa7649b4725aa9ee27c8139b",
+            "cam_quat": "46fa13e827996a0121332434dc50321e57c96464dc111397f7f0e2ec3be4e451",
+            "state": "a23e056b9abd2b12c07dac550f918b0efb319af02772d970b0f5eea7006c1c4f"
+          },
+          "observation_hashes": {
+            "agentview_image": "bbb937ead69a2942ef0b6b6eae65a68ff480079ba04839ad5f0ae47fc4d81d4b",
+            "robot0_eye_in_hand_image": "c2fe935b4cff07645764e1caf024468520e95bf8a95b7177d0c176889c8640dd",
+            "robot0_eef_pos": "e74246f5b3c779923d0644125bcd605b15c852842316b1bec1d75d413907d214",
+            "robot0_eef_quat": "6d2408f7f590cdfb167bb88d07286cc213de1f651d9b243d539591592ea9346f",
+            "robot0_gripper_qpos": "591a016959091449fb88352814d9735e02f385a55292c254d4e1250233b3ea56"
+          }
+        },
+        {
+          "seed": 200002,
+          "peg_pos": [
+            -0.2003769652036625,
+            -0.21738610228913524,
+            0.85
+          ],
+          "peg_quat": [
+            0.891338153427234,
+            0.0,
+            0.0,
+            0.4533390521948541
+          ],
+          "nut_pos": [
+            0.1796158464674918,
+            -0.1645805101419655,
+            0.89
+          ],
+          "state_and_model_hashes": {
+            "body_pos": "5b3b03bd03ec787f0dc5cdbb8147575242b9403848b716d081a5a7f7ade79c48",
+            "body_quat": "c7241112bcf623c1a9f15b0a397ddc2d547f04c3aae56def0724a3a5b13bbf6e",
+            "geom_pos": "e90addee187b07209fe4ffa11af4d5160a686344d11fd4eef64614f44632de4b",
+            "geom_quat": "8a35128d9647bfd76899c0a0f13edd97cee23d603652d6b8a113ca7a72a45a25",
+            "cam_pos": "1b9baf18ea1e7b7449fd49e7e4ceb889101fc8a9fa7649b4725aa9ee27c8139b",
+            "cam_quat": "46fa13e827996a0121332434dc50321e57c96464dc111397f7f0e2ec3be4e451",
+            "state": "68af5c73096fb5cc227f41ab67483fc37fc581da088ae22fd3841da3864e4289"
+          },
+          "observation_hashes": {
+            "agentview_image": "b7cfefe44a9672f1dba022c9481b90eba2a8dabfcef31fe3edeb28a66d1c9eac",
+            "robot0_eye_in_hand_image": "2646adfc3b7f9e3b3a21d0d2f624f775dc7e7c98c51a92f4f6cbde9133400bf5",
+            "robot0_eef_pos": "e68e787ccc55b31cdc2300e73560a60c4589202c1fdff7b4309f70e15db64f2b",
+            "robot0_eef_quat": "85fe11166a1e1e8e27608d37b0e2515cd049614df2f3d4f21ea6eac3fa389829",
+            "robot0_gripper_qpos": "591a016959091449fb88352814d9735e02f385a55292c254d4e1250233b3ea56"
+          }
+        }
+      ],
+      "peak_rss_kib": [
+        1349792,
+        1364100,
+        1368752,
+        1371964
+      ],
+      "gpu_smoke": {
+        "domain": "d2",
+        "scores": {
+          "900000": 0.0,
+          "900001": 0.0
+        },
+        "max_steps": 8,
+        "seconds": 8.724246263504028,
+        "peak_gpu_bytes": 1438282752,
+        "peak_rss_kib": 3437872,
+        "gpu": "NVIDIA GeForce RTX 2080 Ti",
+        "torch": "2.7.1+cu128",
+        "cuda": "12.8"
+      }
+    }
+  },
+  "formal_scores_available": false,
+  "cpu_ema_load": "strict load passed; every loaded tensor equals exported EMA; eval caches rebuilt",
+  "known_teardown_warning": "Pinned robosuite EGL destructors emit ignored EGL_NOT_INITIALIZED on worker exit after valid rollouts; child process exits zero. Shards use fresh processes."
+}

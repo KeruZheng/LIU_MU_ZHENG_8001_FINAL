@@ -53,3 +53,11 @@ GPU smoke tests before formal evaluation. No training source was modified.
 The archived v1 remote weight duplicate was removed only after verifying its
 local backup and all failed-job result/log files. Version 2 is independently
 monitored under `results/e4_corrected_eval_20261124/v2/`.
+
+At 16:38 CST, job 29935 passed all three domains' paired-constructor scene/image
+audits and real-model GPU rollout checks, then entered formal D1 evaluation.
+See [preflight evidence](preflight_evidence.json). Smoke scores use only eight
+steps and are engineering checks, not scientific success estimates. The pinned
+robosuite EGL destructors emit ignored cleanup errors at worker exit; rollouts
+and parent processes exit successfully. Independent shard processes bound the
+lifetime of all such contexts. The 300-episode evaluation is still in progress.

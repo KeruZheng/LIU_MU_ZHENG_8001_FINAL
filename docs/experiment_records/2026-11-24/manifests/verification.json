@@ -1,0 +1,28 @@
+{
+  "updated_utc": "2026-11-16T06:29:17.263869+00:00",
+  "unit_and_integration_tests": {
+    "passed": 7,
+    "command": "PYTHONPATH=src HF_HOME=envs/huggingface envs/local/bin/python -m unittest discover -s tests -v"
+  },
+  "cpu_preflight": "results/preflight_cpu.json",
+  "full_model_cpu_preflight": "results/preflight_full_cpu.json",
+  "native_symmetry_diagnostic": "results/symmetry_native.json",
+  "real_data_smoke": "runs/smoke_cpu",
+  "source_and_data_sha256": "results/source_and_data_verification.txt",
+  "gpu_verified": true,
+  "remote_uploaded": true,
+  "slurm_jobs": [
+    27159
+  ],
+  "formal_results": false,
+  "full_model_gpu_preflight": "results/preflight_full_gpu_20261116.json",
+  "gpu_pilot": "runs/dp_gpu_pilot_20261116",
+  "sicc_preflight": {
+    "job_id": 27159,
+    "state": "COMPLETED",
+    "exit_code": "0:0",
+    "tests_passed": 7,
+    "artifacts": "results/sicc_deployment_20261116",
+    "report": "results/sicc_deployment_20261116/results/preflight_27159.json"
+  }
+}

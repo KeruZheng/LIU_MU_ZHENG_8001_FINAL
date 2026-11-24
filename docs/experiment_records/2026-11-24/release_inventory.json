@@ -1,0 +1,258 @@
+{
+  "captured_at": "2026-11-24T08:58:05.434451+00:00",
+  "scope": "Directory inventory, not training completion or full-source verification",
+  "releases": [
+    {
+      "release": "c4_main_20261118_v1",
+      "local_path": "development/proposal_v2/releases/c4_main_20261118_v1",
+      "published_scientific_snapshot": "experiments/releases/c4_main_20261118_v1/SNAPSHOT.json",
+      "frozen_manifest_sha256": null,
+      "protocol": "protocols/releases/c4_main_20261118_v1.md"
+    },
+    {
+      "release": "c8_ablation_20261118_v1",
+      "local_path": "development/proposal_v2/releases/c8_ablation_20261118_v1",
+      "published_scientific_snapshot": "experiments/releases/c8_ablation_20261118_v1/SNAPSHOT.json",
+      "frozen_manifest_sha256": null,
+      "protocol": "protocols/releases/c8_ablation_20261118_v1.md"
+    },
+    {
+      "release": "c8_speed_20261119_v1",
+      "local_path": "development/proposal_v2/releases/c8_speed_20261119_v1",
+      "published_scientific_snapshot": "experiments/releases/c8_speed_20261119_v1/SNAPSHOT.json",
+      "frozen_manifest_sha256": null,
+      "protocol": "protocols/releases/c8_speed_20261119_v1.md"
+    },
+    {
+      "release": "cache_calib_20261118",
+      "local_path": "development/proposal_v2/releases/cache_calib_20261118",
+      "published_scientific_snapshot": null,
+      "frozen_manifest_sha256": null,
+      "protocol": null
+    },
+    {
+      "release": "conv_aug_n100_20261120_v1",
+      "local_path": "development/proposal_v2/releases/conv_aug_n100_20261120_v1",
+      "published_scientific_snapshot": "experiments/releases/conv_aug_n100_20261120_v1/SNAPSHOT.json",
+      "frozen_manifest_sha256": null,
+      "protocol": "protocols/releases/conv_aug_n100_20261120_v1.md"
+    },
+    {
+      "release": "conv_aug_n200_20261120_v1",
+      "local_path": "development/proposal_v2/releases/conv_aug_n200_20261120_v1",
+      "published_scientific_snapshot": "experiments/releases/conv_aug_n200_20261120_v1/SNAPSHOT.json",
+      "frozen_manifest_sha256": null,
+      "protocol": "protocols/releases/conv_aug_n200_20261120_v1.md"
+    },
+    {
+      "release": "conv_aug_n25_20261120_v1",
+      "local_path": "development/proposal_v2/releases/conv_aug_n25_20261120_v1",
+      "published_scientific_snapshot": "experiments/releases/conv_aug_n25_20261120_v1/SNAPSHOT.json",
+      "frozen_manifest_sha256": null,
+      "protocol": "protocols/releases/conv_aug_n25_20261120_v1.md"
+    },
+    {
+      "release": "conv_aug_n50_20261120_v1",
+      "local_path": "development/proposal_v2/releases/conv_aug_n50_20261120_v1",
+      "published_scientific_snapshot": "experiments/releases/conv_aug_n50_20261120_v1/SNAPSHOT.json",
+      "frozen_manifest_sha256": null,
+      "protocol": "protocols/releases/conv_aug_n50_20261120_v1.md"
+    },
+    {
+      "release": "conv_c4_n100_s02_legacy_20261122_v1",
+      "local_path": "development/proposal_v2/releases/conv_c4_n100_s02_legacy_20261122_v1",
+      "published_scientific_snapshot": "experiments/releases/conv_c4_n100_s02_legacy_20261122_v1/SNAPSHOT.json",
+      "frozen_manifest_sha256": null,
+      "protocol": "protocols/releases/conv_c4_n100_s02_legacy_20261122_v1.md"
+    },
+    {
+      "release": "conv_c4_n100_s1_legacy_20261122_v1",
+      "local_path": "development/proposal_v2/releases/conv_c4_n100_s1_legacy_20261122_v1",
+      "published_scientific_snapshot": "experiments/releases/conv_c4_n100_s1_legacy_20261122_v1/SNAPSHOT.json",
+      "frozen_manifest_sha256": null,
+      "protocol": "protocols/releases/conv_c4_n100_s1_legacy_20261122_v1.md"
+    },
+    {
+      "release": "conv_c4_n200_20261119_v2",
+      "local_path": "development/proposal_v2/releases/conv_c4_n200_20261119_v2",
+      "published_scientific_snapshot": "experiments/releases/conv_c4_n200_20261119_v2/SNAPSHOT.json",
+      "frozen_manifest_sha256": null,
+      "protocol": "protocols/releases/conv_c4_n200_20261119_v2.md"
+    },
+    {
+      "release": "conv_c4_n200_s12_20261120_v1",
+      "local_path": "development/proposal_v2/releases/conv_c4_n200_s12_20261120_v1",
+      "published_scientific_snapshot": "experiments/releases/conv_c4_n200_s12_20261120_v1/SNAPSHOT.json",
+      "frozen_manifest_sha256": null,
+      "protocol": "protocols/releases/conv_c4_n200_s12_20261120_v1.md"
+    },
+    {
+      "release": "conv_c4_n25_n100_local_20261122_v1",
+      "local_path": "development/proposal_v2/releases/conv_c4_n25_n100_local_20261122_v1",
+      "published_scientific_snapshot": "experiments/releases/conv_c4_n25_n100_local_20261122_v1/SNAPSHOT.json",
+      "frozen_manifest_sha256": null,
+      "protocol": "protocols/releases/conv_c4_n25_n100_local_20261122_v1.md"
+    },
+    {
+      "release": "conv_c4_n25_s02_legacy_20261122_v1",
+      "local_path": "development/proposal_v2/releases/conv_c4_n25_s02_legacy_20261122_v1",
+      "published_scientific_snapshot": "experiments/releases/conv_c4_n25_s02_legacy_20261122_v1/SNAPSHOT.json",
+      "frozen_manifest_sha256": null,
+      "protocol": "protocols/releases/conv_c4_n25_s02_legacy_20261122_v1.md"
+    },
+    {
+      "release": "conv_c4_n25_s1_legacy_20261122_v1",
+      "local_path": "development/proposal_v2/releases/conv_c4_n25_s1_legacy_20261122_v1",
+      "published_scientific_snapshot": "experiments/releases/conv_c4_n25_s1_legacy_20261122_v1/SNAPSHOT.json",
+      "frozen_manifest_sha256": null,
+      "protocol": "protocols/releases/conv_c4_n25_s1_legacy_20261122_v1.md"
+    },
+    {
+      "release": "conv_c4_n50_20261119_v2",
+      "local_path": "development/proposal_v2/releases/conv_c4_n50_20261119_v2",
+      "published_scientific_snapshot": "experiments/releases/conv_c4_n50_20261119_v2/SNAPSHOT.json",
+      "frozen_manifest_sha256": null,
+      "protocol": "protocols/releases/conv_c4_n50_20261119_v2.md"
+    },
+    {
+      "release": "conv_c4_n50_n200_20261119_v1",
+      "local_path": "development/proposal_v2/releases/conv_c4_n50_n200_20261119_v1",
+      "published_scientific_snapshot": "experiments/releases/conv_c4_n50_n200_20261119_v1/SNAPSHOT.json",
+      "frozen_manifest_sha256": null,
+      "protocol": null
+    },
+    {
+      "release": "conv_c4_n50_s12_20261120_v1",
+      "local_path": "development/proposal_v2/releases/conv_c4_n50_s12_20261120_v1",
+      "published_scientific_snapshot": "experiments/releases/conv_c4_n50_s12_20261120_v1/SNAPSHOT.json",
+      "frozen_manifest_sha256": null,
+      "protocol": "protocols/releases/conv_c4_n50_s12_20261120_v1.md"
+    },
+    {
+      "release": "conv_dp_n100_20261119_v1",
+      "local_path": "development/proposal_v2/releases/conv_dp_n100_20261119_v1",
+      "published_scientific_snapshot": "experiments/releases/conv_dp_n100_20261119_v1/SNAPSHOT.json",
+      "frozen_manifest_sha256": null,
+      "protocol": null
+    },
+    {
+      "release": "conv_dp_n200_20261119_v1",
+      "local_path": "development/proposal_v2/releases/conv_dp_n200_20261119_v1",
+      "published_scientific_snapshot": "experiments/releases/conv_dp_n200_20261119_v1/SNAPSHOT.json",
+      "frozen_manifest_sha256": null,
+      "protocol": null
+    },
+    {
+      "release": "conv_dp_n25_20261119_v1",
+      "local_path": "development/proposal_v2/releases/conv_dp_n25_20261119_v1",
+      "published_scientific_snapshot": "experiments/releases/conv_dp_n25_20261119_v1/SNAPSHOT.json",
+      "frozen_manifest_sha256": null,
+      "protocol": null
+    },
+    {
+      "release": "conv_dp_n50_20261119_v1",
+      "local_path": "development/proposal_v2/releases/conv_dp_n50_20261119_v1",
+      "published_scientific_snapshot": "experiments/releases/conv_dp_n50_20261119_v1/SNAPSHOT.json",
+      "frozen_manifest_sha256": null,
+      "protocol": null
+    },
+    {
+      "release": "e4_corrected_eval_20261124_v1",
+      "local_path": "development/proposal_v2/releases/e4_corrected_eval_20261124_v1",
+      "published_scientific_snapshot": null,
+      "frozen_manifest_sha256": "dffc435f8cdd49f812aeb38035a7686aaac51adc7644e2b41997b0d0ad75f6cc",
+      "protocol": null
+    },
+    {
+      "release": "e4_corrected_eval_20261124_v2",
+      "local_path": "development/proposal_v2/releases/e4_corrected_eval_20261124_v2",
+      "published_scientific_snapshot": null,
+      "frozen_manifest_sha256": "89166f4e9546dafd6df419b64e14767101b1fb72cdbc593350599f2761d5a2b2",
+      "protocol": null
+    },
+    {
+      "release": "e4_square_d0_local_20261122_v1",
+      "local_path": "development/proposal_v2/releases/e4_square_d0_local_20261122_v1",
+      "published_scientific_snapshot": "experiments/releases/e4_square_d0_local_20261122_v1/SNAPSHOT.json",
+      "frozen_manifest_sha256": "339ed915f93bddcf332d19b6b7cb2b1398ce3671a3a9d9e348de1cbf4be6050d",
+      "protocol": "protocols/releases/e4_square_d0_local_20261122_v1.md"
+    },
+    {
+      "release": "e4_square_d0_s1_sicc_20261123_v1",
+      "local_path": "development/proposal_v2/releases/e4_square_d0_s1_sicc_20261123_v1",
+      "published_scientific_snapshot": "experiments/releases/e4_square_d0_s1_sicc_20261123_v1/SNAPSHOT.json",
+      "frozen_manifest_sha256": "6c5c5656484f5076470bf8e191363ee8b1b0bd2376d363e7164dc967a1925388",
+      "protocol": "protocols/releases/e4_square_d0_s1_sicc_20261123_v1.md"
+    },
+    {
+      "release": "e4_square_d0_s1_sicc_20261123_v2",
+      "local_path": "development/proposal_v2/releases/e4_square_d0_s1_sicc_20261123_v2",
+      "published_scientific_snapshot": "experiments/releases/e4_square_d0_s1_sicc_20261123_v2/SNAPSHOT.json",
+      "frozen_manifest_sha256": "c128300ad0802458abe7fb1c86cabac969247e7194174f731a6a3f2ca8380c63",
+      "protocol": "protocols/releases/e4_square_d0_s1_sicc_20261123_v2.md"
+    },
+    {
+      "release": "e4_square_d0_s2_sicc_20261123_v1",
+      "local_path": "development/proposal_v2/releases/e4_square_d0_s2_sicc_20261123_v1",
+      "published_scientific_snapshot": "experiments/releases/e4_square_d0_s2_sicc_20261123_v1/SNAPSHOT.json",
+      "frozen_manifest_sha256": "b2e73c54d11734a09dc31970dca5ae067134fdba8eecef94dc68b07ef38c2df4",
+      "protocol": "protocols/releases/e4_square_d0_s2_sicc_20261123_v1.md"
+    },
+    {
+      "release": "e4_square_d0_s2_sicc_20261123_v2",
+      "local_path": "development/proposal_v2/releases/e4_square_d0_s2_sicc_20261123_v2",
+      "published_scientific_snapshot": "experiments/releases/e4_square_d0_s2_sicc_20261123_v2/SNAPSHOT.json",
+      "frozen_manifest_sha256": "731334751ce684a42029694be792f029a39bf81d15ced00b7a53c5fb1099dbb7",
+      "protocol": "protocols/releases/e4_square_d0_s2_sicc_20261123_v2.md"
+    },
+    {
+      "release": "monitor_20261118_v1",
+      "local_path": "development/proposal_v2/releases/monitor_20261118_v1",
+      "published_scientific_snapshot": null,
+      "frozen_manifest_sha256": null,
+      "protocol": null
+    },
+    {
+      "release": "official_dp_preflight_20261119_v1",
+      "local_path": "development/proposal_v2/releases/official_dp_preflight_20261119_v1",
+      "published_scientific_snapshot": "experiments/releases/official_dp_preflight_20261119_v1/SNAPSHOT.json",
+      "frozen_manifest_sha256": null,
+      "protocol": "protocols/releases/official_dp_preflight_20261119_v1.md"
+    },
+    {
+      "release": "official_dp_s42_20261120_v1",
+      "local_path": "development/proposal_v2/releases/official_dp_s42_20261120_v1",
+      "published_scientific_snapshot": "experiments/releases/official_dp_s42_20261120_v1/SNAPSHOT.json",
+      "frozen_manifest_sha256": null,
+      "protocol": "protocols/releases/official_dp_s42_20261120_v1.md"
+    },
+    {
+      "release": "rq3_image_fixed_20261120_v1",
+      "local_path": "development/proposal_v2/releases/rq3_image_fixed_20261120_v1",
+      "published_scientific_snapshot": "experiments/releases/rq3_image_fixed_20261120_v1/SNAPSHOT.json",
+      "frozen_manifest_sha256": null,
+      "protocol": "protocols/releases/rq3_image_fixed_20261120_v1.md"
+    },
+    {
+      "release": "rq3_image_rotated_20261120_v1",
+      "local_path": "development/proposal_v2/releases/rq3_image_rotated_20261120_v1",
+      "published_scientific_snapshot": "experiments/releases/rq3_image_rotated_20261120_v1/SNAPSHOT.json",
+      "frozen_manifest_sha256": null,
+      "protocol": "protocols/releases/rq3_image_rotated_20261120_v1.md"
+    },
+    {
+      "release": "rq3_state_20261118_v1",
+      "local_path": "development/proposal_v2/releases/rq3_state_20261118_v1",
+      "published_scientific_snapshot": "experiments/releases/rq3_state_20261118_v1/SNAPSHOT.json",
+      "frozen_manifest_sha256": null,
+      "protocol": "protocols/releases/rq3_state_20261118_v1.md"
+    },
+    {
+      "release": "stack_d1_s0_local_20261122_v1",
+      "local_path": "development/proposal_v2/releases/stack_d1_s0_local_20261122_v1",
+      "published_scientific_snapshot": null,
+      "frozen_manifest_sha256": "50fa068606d9a62715306b9c989a1584e883d1cc89e1e6bfa185aab38098377a",
+      "protocol": null
+    }
+  ]
+}

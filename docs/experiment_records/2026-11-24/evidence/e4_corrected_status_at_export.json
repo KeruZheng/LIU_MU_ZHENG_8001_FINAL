@@ -1,0 +1,25 @@
+{
+  "time": 1795510636.78373,
+  "queue": "29935 RUNNING 28:01 um-gpu01",
+  "evaluation": {
+    "state": "evaluating",
+    "started_at": 1795508975.0609088,
+    "domains": [
+      "d1",
+      "d2",
+      "d0"
+    ],
+    "training_seed": 0,
+    "weights_sha256": "a798eb704a33c2b8a88c761ed3934ed8c774311f8f6944785dee7699ea500da8",
+    "source_checkpoint_sha256": "7ffe554fccc0ad5eb4a54a07421eeb15c599d94c132317651ed4e88aff57a219",
+    "script_sha256": "3fc5ae74d913655d4f6676173f20e5209cadccb96a157bfca6d592f9ed644705",
+    "slurm_job_id": "29935",
+    "episodes_completed": 20,
+    "protocol": "seeded_full_scene_v1",
+    "selection": "final epoch-500 EMA; no target-based checkpoint selection",
+    "domain": "d1",
+    "heartbeat": 1795510634.4258492,
+    "shard_start": 200020,
+    "last_shard_seconds": 134.3348617553711
+  }
+}

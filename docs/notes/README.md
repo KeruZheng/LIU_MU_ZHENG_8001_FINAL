@@ -1,5 +1,9 @@
 # 这里是历史公开快照
 
+**完整的日期化实验记录已移到新的入口：[实验记录](../experiment_records/README.md)。**
+该入口从 2026-11-24 起收录外层 notes 的全部 Markdown 及精选 development 协议/证据。
+画图数据和结果路径见 [数据地图](../../reports/main_results_20261123/DATA_MAP_ZH.md)。
+
 这个目录不是本地 `wangdian/notes/` 的自动同步副本。已有的 `list.md`、`reproduction.md`、`cluster.md`
 是早期纳入仓库的记录，其中的排队状态、未完成项和预算可能已经过时。
 

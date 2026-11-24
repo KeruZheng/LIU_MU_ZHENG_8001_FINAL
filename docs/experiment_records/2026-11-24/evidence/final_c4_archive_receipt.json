@@ -1,0 +1,92 @@
+{
+  "release": "conv_c4_n25_s02_legacy_20261122_v1",
+  "run": "equidiff_c4_n25_s2",
+  "key": "conv_c4_n25_s02_legacy_20261122_v1__equidiff_c4_n25_s2",
+  "files": [
+    {
+      "name": "archive_ready.json",
+      "size": 278,
+      "sha256": "79b4e96f1c8a4cf639f49b30e8e37606a9da397a6d284f4f001aed40d0c336d7"
+    },
+    {
+      "name": "config.json",
+      "size": 612,
+      "sha256": "e0b8c25a241b61fb5a2b291da236a8d45c571f1d5ea6ce1b65688fa3704b941a"
+    },
+    {
+      "name": "ema_step_20000.pt",
+      "size": 1032363122,
+      "sha256": "a51f79a906df58c50b8845d5423efa109d7f8981c9bde58e6b20387a8bde6101"
+    },
+    {
+      "name": "ema_step_40000.pt",
+      "size": 1032363122,
+      "sha256": "ddfbe987ac4d26631871ade363c25b78b034619eeebb0de11057fd5cfff59030"
+    },
+    {
+      "name": "ema_step_60000.pt",
+      "size": 1032363122,
+      "sha256": "4a1168bb3359b5fbaeca8b1e8fbb5fe5019db23591afbdf952fde1f2f32a70df"
+    },
+    {
+      "name": "last.pt",
+      "size": 4125375057,
+      "sha256": "0d610b9618c465d8913c0483cecb476f53aad156376c6f0dfa41a93266f1b3b1"
+    },
+    {
+      "name": "metrics.jsonl",
+      "size": 13103931,
+      "sha256": "daaa4b190dc619ce897e6723d5e3a3e15dd79bf34a19dfdaf972ebde761e6e29"
+    },
+    {
+      "name": "runtime.json",
+      "size": 3330,
+      "sha256": "bca59c8d914097feab080fdc5170e1aab53b7e31be91f28a71e90fea56f7ecd9"
+    },
+    {
+      "name": "runtime_step_20000.json",
+      "size": 3330,
+      "sha256": "bca59c8d914097feab080fdc5170e1aab53b7e31be91f28a71e90fea56f7ecd9"
+    },
+    {
+      "name": "runtime_step_40000.json",
+      "size": 3330,
+      "sha256": "bca59c8d914097feab080fdc5170e1aab53b7e31be91f28a71e90fea56f7ecd9"
+    },
+    {
+      "name": "runtime_step_60000.json",
+      "size": 3330,
+      "sha256": "bca59c8d914097feab080fdc5170e1aab53b7e31be91f28a71e90fea56f7ecd9"
+    },
+    {
+      "name": "status.json",
+      "size": 170,
+      "sha256": "d81fc644703ff4c97ba481a98167bbe9ecd6a19e86dd7f9cfb08a5caae52b21a"
+    },
+    {
+      "name": "validation_step_20000.json",
+      "size": 22854,
+      "sha256": "98d8767cbc76def31f9d74754c539dbcb9a27621bbfd66894f9b963b2ae63de9"
+    },
+    {
+      "name": "validation_step_40000.json",
+      "size": 22927,
+      "sha256": "e6c4dda36fdbc1f3c7cbb9dad43c39cb284b0583df0f3e3b5749795ca4dce898"
+    },
+    {
+      "name": "validation_step_60000.json",
+      "size": 23036,
+      "sha256": "01852c7f646b6da442b81e464676d35331bb32f86f17599a15448a0d931fac49"
+    }
+  ],
+  "checkpoints": [
+    "last.pt",
+    "ema_step_20000.pt",
+    "ema_step_40000.pt",
+    "ema_step_60000.pt"
+  ],
+  "local_backup": "${WORKSPACE}/development/proposal_v2/results/parallel_20261119/archive/legacy/conv_c4_n25_s02_legacy_20261122_v1/runs/equidiff_c4_n25_s2",
+  "state": "archived",
+  "time": "2026-11-23T13:38:18.254926+00:00",
+  "freed_bytes_this_attempt": 7222464423
+}

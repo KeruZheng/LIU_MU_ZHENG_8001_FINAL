@@ -10,6 +10,13 @@ provides reusable Chinese/English bodies and compiled PDFs.
 See [the project directory map](docs/PROJECT_MAP.md) for what is published to
 GitHub and how local operational notes differ from report artifacts.
 
+**Results and figures:** [data map / 数据路径与重绘说明](reports/main_results_20261123/DATA_MAP_ZH.md)
+maps each figure to its published CSV, frozen episode evidence, and original
+local evaluation files. The [plotting CSVs](reports/main_results_20261123/plot_data/)
+can be used directly to redesign figures without rerunning training.
+The [experiment notebook / 实验记录](docs/experiment_records/README.md) publishes
+dated operational notes, protocols, provenance and recovery/audit evidence.
+
 ## Current Research Layout (2026-11-20)
 
 Start with [the task map](tasks/README.md). The current EquiDiff adaptation and

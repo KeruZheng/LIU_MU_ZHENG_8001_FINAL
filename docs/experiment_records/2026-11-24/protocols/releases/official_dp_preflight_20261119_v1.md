@@ -1,0 +1,3 @@
+> Historical record exported 2026-11-24T08:58:05.434451+00:00. Source: `development/proposal_v2/releases/official_dp_preflight_20261119_v1/PROTOCOL.md`. Statuses and instructions below describe their original dates, not the current queue. Private connection values are placeholders; local-only references are labelled. See the experiment-record index for current interpretation.
+
+Official DP engineering preflight only. Published full-width model, batch64, 84-pixel crops. Upstream debug mode runs 2 epochs with 3 train batches per epoch, 2 rollout seeds. New venv; no primary source/env edits. Offline logging and atomic synchronous checkpoints. No scientific scores or convergence claims.

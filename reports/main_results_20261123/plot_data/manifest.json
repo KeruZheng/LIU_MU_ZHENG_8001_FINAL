@@ -1,0 +1,65 @@
+{
+  "frozen_evidence_captured_at": "2026-11-23T13:47:48.370213+00:00",
+  "input_sha256": {
+    "evidence.json": "95b2fb062a2e038554ffebde1d5fd7a9e85a0bc1441c1b0ed79202079362b1d1",
+    "summary.json": "5846c73aba7ee07d290f248e93501c3074a6f0fd111fd963fd8d83a7e240f892",
+    "source_hashes.json": "c1916339b50f9499906c084f2f9a7b34180945f7524a6832b6f51aef8e498eef"
+  },
+  "export_script_sha256": "477fe56ca9490b9fa25888fedf02ffaadae402b3e4aa3ff6ff3d6b88b205251f",
+  "files": {
+    "run_catalog.csv": {
+      "rows": 114,
+      "sha256": "aada166f4aaa67645eda88dfaafda0dc4e7d5931987c78140dc67f5f00b65b0a"
+    },
+    "run_checkpoints.csv": {
+      "rows": 342,
+      "sha256": "25e62d0bc849153c6251f771678215b1b8ed726b2a0c27aaf8a401604576dd5b"
+    },
+    "episodes.csv": {
+      "rows": 34200,
+      "sha256": "355a7b650d0b9d2d480dee63c8e0a98965554f7ac5d8dfc84a85b840bf1c66b3"
+    },
+    "test_summary.csv": {
+      "rows": 26,
+      "sha256": "f8f5cd3b740b514d7515de1fdf32571579af9451c22f4a43261a56a3845df5cd"
+    },
+    "test_seeds.csv": {
+      "rows": 78,
+      "sha256": "36f061b82bdabe7aa919491f46a4ab19a5c97ecd7e7f1a082be6f35bdf363cd0"
+    },
+    "checkpoint_summary.csv": {
+      "rows": 114,
+      "sha256": "ef60c6e45c091d6ecb9c67cf1844ead1486925ca3f7ef8da7f7e1ffe8f7aade0"
+    },
+    "rq1_rq2.csv": {
+      "rows": 12,
+      "sha256": "8cd0990bd150c882aa19b12bf3fa0ac2bf7de8f0afcc1180814d5bdf2e9f666d"
+    },
+    "rq3_state.csv": {
+      "rows": 8,
+      "sha256": "059021461642cb3e7e4eb815a24befabb258f4bc72ab778efb294c592d8fbb73"
+    },
+    "rq3_image.csv": {
+      "rows": 6,
+      "sha256": "d9a0a3c6e6ab1579c808add1230bf4253768fd9d8c55afa2fe5089c01d364882"
+    },
+    "c8.csv": {
+      "rows": 2,
+      "sha256": "a22e5add82bb648869793d4ebe50e98408e67cef95363922a47aaf2d996c91dd"
+    },
+    "convergence.csv": {
+      "rows": 36,
+      "sha256": "87035d5a8a521b1d68d8dff8d33d0310610fa9ce66ed4288a6263139ae2d1c8b"
+    },
+    "paired_comparisons.csv": {
+      "rows": 74,
+      "sha256": "d9f1a96ca31534b6215b181682ed49e45bcb36a1792c5cce5f65043bdb12bca6"
+    }
+  },
+  "verification": {
+    "run_checkpoint_means_recomputed_from_export": 342,
+    "group_means_and_seed_std_checked": 38,
+    "input_files_unchanged": true
+  },
+  "interpretation": "Checkpoint episodes are repeated measures, not independent training runs. Coverage is intersection/goal area. Success rates are fractions. E4 excluded."
+}

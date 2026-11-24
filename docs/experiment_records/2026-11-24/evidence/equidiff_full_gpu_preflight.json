@@ -1,0 +1,14 @@
+{
+  "method": "equidiff_c4",
+  "parameters": 257559008,
+  "elapsed_seconds": 8.10305753396824,
+  "max_errors": [
+    2.16066837310791e-06,
+    2.3692846298217773e-06,
+    2.4586915969848633e-06
+  ],
+  "peak_MiB": 2646.8701171875,
+  "tf32": false,
+  "finite_gradients": true,
+  "passed": true
+}

@@ -1,5 +1,10 @@
 # Research tasks and evidence ownership
 
+For published numerical results, editable plotting CSVs, and exact local raw
+result paths, see the [results and plotting data map](../reports/main_results_20261123/DATA_MAP_ZH.md).
+For dated decisions, protocols and recovery history, see the
+[experiment notebook](../docs/experiment_records/README.md).
+
 Organize by research question; record the machine as run metadata. Machines can
 change after node failure, but a run's scientific identity must remain stable.
 

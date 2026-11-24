@@ -1,0 +1,260 @@
+{
+  "protocol": "native_c4_canonical_raster_v1",
+  "tolerances": {
+    "position": 0.001,
+    "velocity": 0.001,
+    "angle": 1e-05,
+    "coverage": 1e-05,
+    "pixel_mae": 1e-05,
+    "pixel_max": 0.003921668627450981
+  },
+  "maxima": {
+    "position": 4.888534022029489e-11,
+    "velocity": 5.2386539550752786e-11,
+    "angle": 2.2026824808563106e-13,
+    "coverage": 1.1993739335025566e-12,
+    "pixel_mae": 0.0,
+    "pixel_max": 0.0
+  },
+  "passed": true,
+  "full_validation_episodes": true,
+  "legacy_modes": [
+    false,
+    true
+  ],
+  "episodes": [
+    {
+      "episode": 122,
+      "legacy": false,
+      "steps": 119,
+      "maxima": {
+        "position": 4.888534022029489e-11,
+        "velocity": 5.2386539550752786e-11,
+        "angle": 2.2026824808563106e-13,
+        "coverage": 1.1993739335025566e-12,
+        "pixel_mae": 0.0,
+        "pixel_max": 0.0
+      },
+      "final_coverages": [
+        0.88588321590625,
+        0.8858832159062697,
+        0.8858832159063528,
+        0.8858832159063242
+      ]
+    },
+    {
+      "episode": 122,
+      "legacy": true,
+      "steps": 119,
+      "maxima": {
+        "position": 3.410605131648481e-13,
+        "velocity": 9.805489753489383e-13,
+        "angle": 6.217248937900877e-15,
+        "coverage": 0.0,
+        "pixel_mae": 0.0,
+        "pixel_max": 0.0
+      },
+      "final_coverages": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "episode": 5,
+      "legacy": false,
+      "steps": 157,
+      "maxima": {
+        "position": 8.242295734817162e-13,
+        "velocity": 5.293543381412746e-13,
+        "angle": 8.881784197001252e-15,
+        "coverage": 1.354472090042691e-14,
+        "pixel_mae": 0.0,
+        "pixel_max": 0.0
+      },
+      "final_coverages": [
+        0.918488084987657,
+        0.9184880849876514,
+        0.9184880849876593,
+        0.9184880849876558
+      ]
+    },
+    {
+      "episode": 5,
+      "legacy": true,
+      "steps": 157,
+      "maxima": {
+        "position": 1.7053025658242404e-13,
+        "velocity": 2.2026824808563106e-13,
+        "angle": 8.881784197001252e-16,
+        "coverage": 4.718447854656915e-16,
+        "pixel_mae": 0.0,
+        "pixel_max": 0.0
+      },
+      "final_coverages": [
+        0.08515998475597548,
+        0.08515998475597596,
+        0.08515998475597591,
+        0.08515998475597526
+      ]
+    },
+    {
+      "episode": 101,
+      "legacy": false,
+      "steps": 92,
+      "maxima": {
+        "position": 6.252776074688882e-13,
+        "velocity": 8.277822871605167e-13,
+        "angle": 5.329070518200751e-15,
+        "coverage": 1.1157741397482823e-14,
+        "pixel_mae": 0.0,
+        "pixel_max": 0.0
+      },
+      "final_coverages": [
+        0.9107850357471323,
+        0.910785035747134,
+        0.9107850357471323,
+        0.9107850357471334
+      ]
+    },
+    {
+      "episode": 101,
+      "legacy": true,
+      "steps": 92,
+      "maxima": {
+        "position": 1.4779288903810084e-12,
+        "velocity": 1.361577517400292e-12,
+        "angle": 1.4210854715202004e-14,
+        "coverage": 2.2370993946196904e-14,
+        "pixel_mae": 0.0,
+        "pixel_max": 0.0
+      },
+      "final_coverages": [
+        0.8989631474327293,
+        0.8989631474327244,
+        0.8989631474327285,
+        0.8989631474327316
+      ]
+    },
+    {
+      "episode": 165,
+      "legacy": false,
+      "steps": 193,
+      "maxima": {
+        "position": 7.389644451905042e-13,
+        "velocity": 5.542233338928781e-13,
+        "angle": 7.993605777301127e-15,
+        "coverage": 1.4099832412739488e-14,
+        "pixel_mae": 0.0,
+        "pixel_max": 0.0
+      },
+      "final_coverages": [
+        0.8927068806108551,
+        0.8927068806108576,
+        0.8927068806108581,
+        0.8927068806108558
+      ]
+    },
+    {
+      "episode": 165,
+      "legacy": true,
+      "steps": 193,
+      "maxima": {
+        "position": 8.526512829121202e-13,
+        "velocity": 7.275957614183426e-12,
+        "angle": 7.993605777301127e-15,
+        "coverage": 7.632783294297951e-16,
+        "pixel_mae": 0.0,
+        "pixel_max": 0.0
+      },
+      "final_coverages": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "episode": 27,
+      "legacy": false,
+      "steps": 112,
+      "maxima": {
+        "position": 3.979039320256561e-13,
+        "velocity": 5.400124791776761e-13,
+        "angle": 3.552713678800501e-15,
+        "coverage": 6.328271240363392e-15,
+        "pixel_mae": 0.0,
+        "pixel_max": 0.0
+      },
+      "final_coverages": [
+        0.9242668260280048,
+        0.9242668260280025,
+        0.924266826028006,
+        0.9242668260280064
+      ]
+    },
+    {
+      "episode": 27,
+      "legacy": true,
+      "steps": 112,
+      "maxima": {
+        "position": 2.8421709430404007e-13,
+        "velocity": 4.547473508864641e-13,
+        "angle": 3.552713678800501e-15,
+        "coverage": 8.391724815037804e-17,
+        "pixel_mae": 0.0,
+        "pixel_max": 0.0
+      },
+      "final_coverages": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "episode": 117,
+      "legacy": false,
+      "steps": 116,
+      "maxima": {
+        "position": 2.8421709430404007e-13,
+        "velocity": 5.258016244624741e-13,
+        "angle": 3.552713678800501e-15,
+        "coverage": 7.327471962526033e-15,
+        "pixel_mae": 0.0,
+        "pixel_max": 0.0
+      },
+      "final_coverages": [
+        0.8768396527251855,
+        0.8768396527251845,
+        0.8768396527251876,
+        0.8768396527251868
+      ]
+    },
+    {
+      "episode": 117,
+      "legacy": true,
+      "steps": 116,
+      "maxima": {
+        "position": 6.110667527536862e-13,
+        "velocity": 3.481659405224491e-13,
+        "angle": 1.5543122344752192e-15,
+        "coverage": 0.0,
+        "pixel_mae": 0.0,
+        "pixel_max": 0.0
+      },
+      "final_coverages": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "seconds": 9.67875536181964,
+  "source_sha256": "1fcdc3ecc7d828a37de61c7b115811a119f00eeef6e31bbc691296481e64064d",
+  "scope": "Held-out demo action replay across native orientations; not reproduction of recorded trajectories",
+  "goal_convention": "Rotate original (256,256) position and angle about (255.5,255.5)",
+  "renderer": "Inverse-transform physical state, use original rasterizer, rotate pixels"
+}

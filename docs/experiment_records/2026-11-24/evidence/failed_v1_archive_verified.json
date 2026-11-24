@@ -1,0 +1,27 @@
+{
+  "time": 1795509076.3066244,
+  "result_hashes": {
+    "results/equidiff_s0/suite.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/equidiff_s0/status.json": "384ebc38b6ca44cd8afb7919237624534be8af4081e12cfa7923fd59085c5318",
+    "results/reset_preflight/d1_12345/audit.json": "fa681d3faf8cf5d28b732522a57fd3beeb6e783a36e9532cfc7c9bea72ed2f0e",
+    "results/reset_preflight/d1_12345/scenes/200000.json": "92d3cecb3d4533bd0139b8c8b22aa582c00105599dd341b4892a0b1b3fd2c8cd",
+    "results/reset_preflight/d1_12345/scenes/200001.json": "1eb34f46f1885b63b1b53d4bb6bdb2c91659e2425f1a0e592f971d25ad597121",
+    "results/reset_preflight/d1_12345/scenes/200002.json": "ce7a095ae7d3db03cf23687c9f029ef1d1b8fcdcd311d0cfb79b658b9162d563",
+    "results/equidiff_s0/smoke_d1/run.log": "946188ae9b203d590c5b94010fb2d8d620ac6e0c39ccd567a8434ebafc3cb674",
+    "results/equidiff_s0/audit_d1_0/run.log": "ccc55469ad088d87ce414ec402846ed29a780a15bb37ab9e47f91d8806c6c066",
+    "results/equidiff_s0/audit_d1_0/audit.json": "d4c4a8344b990c9feab4a7b60c7ccdfc0d3ab83abd01e271f60d9d5481842ac2",
+    "results/equidiff_s0/audit_d1_1/run.log": "ccc55469ad088d87ce414ec402846ed29a780a15bb37ab9e47f91d8806c6c066",
+    "results/equidiff_s0/audit_d1_1/audit.json": "708be5d38f4943c68a2f54cc54ff6d4caad321c55987740daf97d24e4c178af4",
+    "results/equidiff_s0/audit_d1_0/scenes/200000.json": "92d3cecb3d4533bd0139b8c8b22aa582c00105599dd341b4892a0b1b3fd2c8cd",
+    "results/equidiff_s0/audit_d1_0/scenes/200001.json": "1eb34f46f1885b63b1b53d4bb6bdb2c91659e2425f1a0e592f971d25ad597121",
+    "results/equidiff_s0/audit_d1_0/scenes/200002.json": "ce7a095ae7d3db03cf23687c9f029ef1d1b8fcdcd311d0cfb79b658b9162d563",
+    "results/equidiff_s0/audit_d1_1/scenes/200000.json": "92d3cecb3d4533bd0139b8c8b22aa582c00105599dd341b4892a0b1b3fd2c8cd",
+    "results/equidiff_s0/audit_d1_1/scenes/200001.json": "1eb34f46f1885b63b1b53d4bb6bdb2c91659e2425f1a0e592f971d25ad597121",
+    "results/equidiff_s0/audit_d1_1/scenes/200002.json": "ce7a095ae7d3db03cf23687c9f029ef1d1b8fcdcd311d0cfb79b658b9162d563",
+    "logs/reset_29923.out": "60280f794b2cb633fa698939501d2ac2944e22b1fbc31fb5d59e71a08853b7cf",
+    "logs/slurm_29929.out": "48555f65810311d76ad3ced7c4caf930bc9508f38ea4b65a518d87d8edcd774f"
+  },
+  "weights_backup": "${WORKSPACE}/development/proposal_v2/operations/e4_corrected_eval_20261124/inputs/equidiff_s0/final_ema.pt",
+  "weights_sha256": "a798eb704a33c2b8a88c761ed3934ed8c774311f8f6944785dee7699ea500da8",
+  "remote": "${SICC_PROJECT}/releases/e4_corrected_eval_20261124_v1/inputs/equidiff_s0/final_ema.pt"
+}

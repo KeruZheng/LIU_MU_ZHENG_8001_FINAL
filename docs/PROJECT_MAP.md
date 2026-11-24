@@ -10,6 +10,8 @@ GitHub 仓库：<https://github.com/KeruZheng/LIU_MU_ZHENG_8001_FINAL>。
 |---|---|
 | 背景、research gap、三个问题与结论 | [主实验完整报告](../reports/main_results_20261123/REPORT_ZH.md) |
 | 中英文 LaTeX 和 PDF | [LaTeX 使用说明](../reports/main_results_20261123/latex/README.md) |
+| 原图、画图 CSV、逐 episode 数据与本地原始结果路径 | [实验结果与画图数据地图](../reports/main_results_20261123/DATA_MAP_ZH.md) |
+| 实验过程、决策、排障、协议与来源哈希 | [实验记录](experiment_records/README.md) |
 | 三个研究任务如何分工 | [任务总览](../tasks/README.md) |
 | RQ1 数据效率与迁移 | [rq1_transfer](../tasks/rq1_transfer/README.md) |
 | RQ2 精确增强与 C8 | [rq2_exact_aug](../tasks/rq2_exact_aug/README.md) |
@@ -32,6 +34,7 @@ wangdian/                           本地完整工作区；不是这个 Git 仓
     README.md                       GitHub 首页
     docs/PROJECT_MAP.md             当前这份目录说明
     docs/notes/                     部分早期笔记的公开快照
+    docs/experiment_records/        按日期发布的实验笔记、协议、轻量证据与来源清单
     reports/                        可提交的报告、LaTeX、图表和冻结数据摘要
     tasks/                          按 RQ1 / RQ2 / RQ3 组织的入口
     experiments/releases/           纳入版本管理的冻结科学代码快照
@@ -55,6 +58,10 @@ git -C codes status --short
 外层 `notes/` 保存了持续运行期间的历史记录和工具；里面有按日期命名的部署、迁移、归档及恢复事件。
 `codes/docs/notes/` 则是早期发布过的少量文档快照，不是对外层 notes 的自动镜像。
 两者中的历史状态不能当作当前实时状态。
+
+从 2026-11-24 起，外层 notes 的全部 Markdown 和 development 中精选实验协议/证据
+通过 `docs/experiment_records/<日期>/` 发布；账号及内部连接参数使用占位符，源文件哈希保留。
+它是可追溯的日期快照，不是实时后台镜像。主报告的 `plot_data/` 提供可直接重绘的 CSV。
 
 以后推荐这样分工：提交用的论文内容进入 `reports/`；科学问题与实验来源进入 `tasks/`；
 运行工具进入 `operations/`；本地事件日志继续在外层 `notes/` 并由其 README 索引。

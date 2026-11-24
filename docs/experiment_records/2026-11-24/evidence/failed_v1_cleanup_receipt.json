@@ -1,0 +1,6 @@
+{
+  "time": 1795509076.7635264,
+  "state": "remote_ema_duplicate_removed",
+  "remote": "${SICC_PROJECT}/releases/e4_corrected_eval_20261124_v1/inputs/equidiff_s0/final_ema.pt",
+  "sha256": "a798eb704a33c2b8a88c761ed3934ed8c774311f8f6944785dee7699ea500da8"
+}

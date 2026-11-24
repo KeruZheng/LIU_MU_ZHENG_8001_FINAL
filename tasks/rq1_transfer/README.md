@@ -10,6 +10,15 @@ on the local 5090 and assigns seeds 1/2 to independent SICC lanes. Full-size
 both-model GPU checks gate formal training on each device. See
 `results/e4_monitor/status.html` for the combined live queue and domain scores.
 
+**November 24 evaluation audit:** the old Square_D1/D2 runner soft-resets
+dynamic state but retains peg geometry within each worker. Those domain scores
+are provisional, including seed-0's reported zeros; pipeline completion does
+not establish full-distribution evaluation validity. A separate
+[corrected evaluator](../../operations/e4_corrected_eval_20261124/README.md)
+now rechecks final EMA policies with seeded complete scene resets. Its status
+is `results/e4_corrected_eval_20261124/STATUS.md`. Main Push-T results are
+unaffected, and the frozen main report excludes E4.
+
 Question: does the EquiDiff adaptation transfer to planar Push-T, especially at
 small demonstration counts? Compare DP and EquiDiff-C4 across 25/50/100/200 demos,
 with three training seeds. The main matrix also includes DP + exact C4 augmentation

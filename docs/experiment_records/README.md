@@ -70,3 +70,9 @@ python3 scripts/publish_experiment_records.py --snapshot 2026-11-24 --verify
 
 导出需要原本地工作区，校验只需要仓库中的公开快照。
 各发布文件的哈希与源文件哈希分别记录，因为隐私占位符、历史标记及链接适配会改变字节。
+
+## Latest Recovery Record
+
+[2026-11-26: E4 continuation and independent evaluator recovery](2026-11-26/README.md)
+records passed checkpoint/D2 regression checks, automatic submission deferral,
+and the new full-scene evaluation protocol. It does not claim E4 is complete.

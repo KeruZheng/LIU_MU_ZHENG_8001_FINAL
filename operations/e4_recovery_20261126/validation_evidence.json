@@ -1,0 +1,101 @@
+{
+  "date": "2026-11-26",
+  "remote_validation_job": "30414",
+  "scheduler_state": "COMPLETED",
+  "exit_code": "0:0",
+  "checkpoint_checks": {
+    "local_equidiff_s0": {
+      "state": "passed",
+      "sha256": "4cc8a9ec678d60ef5a7d153fb5618aaf04565e2ef13137fbd11cf8ff35d61a49",
+      "saved_epoch": 490,
+      "saved_step": 109983,
+      "next_epoch": 491,
+      "completed_updates": 109984,
+      "optimizer_steps": [
+        109984
+      ],
+      "all_loaded_tensors_equal": true,
+      "ema_optimization_step": 109984,
+      "lr_before": [
+        8.064070221519005e-08
+      ],
+      "lr_after": [
+        8.064070221519005e-08
+      ],
+      "ema_decay": 0.9998344219105311,
+      "rng_state": "Not saved by original checkpoint; seeded restart, not bitwise continuation",
+      "scheduler": "Original 500-epoch cosine horizon, last_epoch=completed_updates-1"
+    },
+    "remote_equidiff_s1": {
+      "state": "passed",
+      "sha256": "9c758d99953c835f6349a25f8fdb1eded0893e05cc7c368ae76562da33719e7a",
+      "saved_epoch": 440,
+      "saved_step": 98783,
+      "next_epoch": 441,
+      "completed_updates": 98784,
+      "optimizer_steps": [
+        98784
+      ],
+      "all_loaded_tensors_equal": true,
+      "ema_optimization_step": 98784,
+      "lr_before": [
+        3.4266204950720637e-06
+      ],
+      "lr_after": [
+        3.4266204950720637e-06
+      ],
+      "ema_decay": 0.9998205328177562,
+      "rng_state": "Not saved by original checkpoint; seeded restart, not bitwise continuation",
+      "scheduler": "Original 500-epoch cosine horizon, last_epoch=completed_updates-1"
+    },
+    "remote_equidiff_s2": {
+      "state": "passed",
+      "sha256": "1175f4e257adf15bf1cdf67569c9bcefa858d414d2d1580480a8b0862c5972c4",
+      "saved_epoch": 430,
+      "saved_step": 96543,
+      "next_epoch": 431,
+      "completed_updates": 96544,
+      "optimizer_steps": [
+        96544
+      ],
+      "all_loaded_tensors_equal": true,
+      "ema_optimization_step": 96544,
+      "lr_before": [
+        4.666699445834289e-06
+      ],
+      "lr_after": [
+        4.666699445834289e-06
+      ],
+      "ema_decay": 0.9998174188098743,
+      "rng_state": "Not saved by original checkpoint; seeded restart, not bitwise continuation",
+      "scheduler": "Original 500-epoch cosine horizon, last_epoch=completed_updates-1"
+    }
+  },
+  "d2_regression": {
+    "domain": "d2",
+    "max_steps": 400,
+    "episode_seeds": [
+      "200012",
+      "200013",
+      "200014",
+      "200015"
+    ],
+    "gpu": "NVIDIA GeForce RTX 2080 Ti",
+    "seconds": 135.06508016586304,
+    "note": "Engineering regression including final reset; not counted as formal scientific evidence"
+  },
+  "unit_tests": {
+    "deterministic_training_and_ema_continuation": "passed",
+    "partial_epoch_rejected": "passed"
+  },
+  "original_failure_cause": "Not uniquely reproduced; old second scene was not saved. v3 removes reset-history reuse and adds strict all-seed checks and bounded failure handling.",
+  "source_sha256": {
+    "evaluate.py": "b019d74d929632075fe25feeae17a1bdf7cb0f764a6ac117d83386f4fbf45981",
+    "resume_support.py": "5d7b31b60752c3bf447462a5de1e80c2902fd165bead292a768e94da552a41b9",
+    "train.py": "397dfa80fb6cb83781be32c30e389ca2f8b3443326445075dcd88b7b300e5eb6",
+    "continue_lane.py": "9d854e935c0bce2f599d16a40c3d3b236ad43cb49cbac583c43d2ca54ae47927",
+    "check_resume.py": "90aadc9a6f8e0da8fff9afdbd42c58a96fd0b5785afa88d7091436c0b6a150f6",
+    "run_pair.py": "e02aac937fd51ee913699786ac4708c296eddbff62ed94d88d7767fd01791bb3",
+    "test_resume.py": "7d2d2a47a8824645fc473a7c71222a4225a7627177c1b4cc960856acd2bdcc2b"
+  }
+}
